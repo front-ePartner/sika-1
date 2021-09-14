@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.currencyContainer {
+  color: #565656;
+  font-size: 25px!important;
+  text-align: left;
+  position: relative;
+  top: 17px;
+  margin-left: 0;
+}
+.price_sellingPrice {
+  font-family: 'Comfortaa';
+}
+.currencyDecimal,
+.currencyFraction {
+  display: none;
+}
+.productBrand {
+  color: #505050 !important;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.productNameContainer {
+  min-height: 40px;
+  text-align: left;
+}
+.container {
+  padding: 10px 4px;
+}
+.c-on-action-primary {
+  background: #00ff99;
+}
+.buttonDataContainer {
+  background: #00ff99;
+  display: none;
+}
+.containerNormal:global(.vtex-button) {
+  display: none;
+}
+.priceContainer--first,
+.priceContainer--second {
+  min-height: 90px;
+}
+.priceContainer--first::before {
+  content: 'Precio x Caja';
+  font-size: 9px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.priceContainer--first::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.priceContainer--second::before {
+  content: 'Precio x Unidad';
+  font-size: 9px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.priceContainer--second::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.priceContainer--first,
+.priceContainer--second {
+  border: 1px solid #ebe8e8;
+  border-radius: 11px;
+  min-height: 118px;
+}
+.priceContainer--first:hover,
+.priceContainer--second:hover {
+  border: 1px solid black;
+  border-radius: 11px;
+  min-height: 118px;
+}
+.priceContainer--first:hover::after,
+.priceContainer--second:hover::after {
+  background: black;
+}
+.listPrice--first .currencyContainer--first,
+.listPrice--second .currencyContainer--second {
+  color: red;
+}
+.listPrice--first,
+.listPrice--second {
+  color: red;
+}
+.priceContainer--first,
+.priceContainer--second {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  background: transparent;
+}
+@media only screen and (min-width: 1500px) {
+  .containerNormal {
+    max-width: 85% !important;
+  }
+}
+.vtex-store-components-3-x-skuSelectorOptionsList.w-100.inline-flex.flex-wrap.ml2.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.vtex-product-summary-2-x-skuSelectorItem.vtex-store-components-3-x-skuSelectorItem {
+  width: 50% !important;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 7px;
+  color: #dddada;
+  min-height: 74px;
+}
+
+.valueWrapper {
+  font-size: 0;
+  border: none !important;
+}
+
+.valueWrapper::before {
+  display: none;
+}
+.valueWrapper::after {
+  display: none !important;
+}
+
+.skuSelectorItem {
+  width: 50% !important;
+  border: 1px solid rgb(235 234 234);
+  border-radius: 5px;
+  min-height: 80px;
+}
+
+.vtex-product-summary-2-x-skuSelectorItem .skuSelectorInternalBox::before {
+  font-size: 10px;
+}
+
+.skuSelectorItem--caja .frameAround::before {
+  content: 'Precio unidad x caja';
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+  padding: 11px 0;
+  display: block;
+}
+
+.skuSelectorItem--unidad .frameAround::before {
+  content: 'Precio x unidad';
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  display: block;
+  padding: 11px 0;
+}
+.skuSelectorItem--unidad .frameAround::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 18px auto;
+}
+
+.skuSelectorItem--caja .frameAround::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 18px auto;
+}
+
+.skuSelectorItem--selected .frameAround::after {
+  background: black;
+}
+.skuSelectorSubcontainer {
+  margin: 0;
+}
+.element:hover .priceContainer {
+  background-color: transparent;
+  transition: 0.5s;
+  opacity: 1;
+}
+.element:hover .nameContainer {
+  background-color: transparent;
+  transition: 0.5s;
+  opacity: 1;
+}
+.element:hover :global(.vtex-button) {
+  transition: 0.5s;
+  opacity: 1;
+}
+.flexColChild--buyc {
+  display: none;
+}
+.priceContainer {
+  padding: 0;
+  opacity: 1;
+  height: 40px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 1px;
+  background-color: transparent;
+}
+.nameContainer {
+  padding: 25px 20px 0 0;
+  margin: 0 1px;
+  justify-content: flex-start;
+  border-radius: 0;
+  margin-top: -8px;
+  min-height: 81px;
+  background-color: transparent;
+}
+.element:hover .imageNormal {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  transform: scale(1.2);
+}
+.imageContainer {
+  background: white;
+  width: 100%;
+}
+.imageNormal {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 13rem;
+  padding: 35px 0;
+  transition: 0.5s;
+  transform: scale(1);
+}
+.element {
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+.price_sellingPrice--newprice {
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+}
+.imageContainer {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.element--vitrina2 :global(.vtex-button) {
+  opacity: 1;
+}
+/*
+.element--vitrina2 .priceContainer{
+  display: none;
+}*/
+.element--vitrina2:hover .priceContainer {
+  display: block;
+}
+.SKUSelectorContainer {
+  display: none;
+}
+.vtex-product-summary-2-x-currencyContainer {
+  font-family: 'KLAVIKA';
+}
+
+.brandName {
+  font-family: 'KLAVIKA';
+}
+.currencyInteger--newprice {
+  font-family: 'KLAVIKA';
+}
+
+.currencyCode--newprice {
+  font-family: 'KLAVIKA';
+}
+
+@media (max-width: 600px) {
+  .priceContainer {
+    opacity: 1 !important;
+    display: block !important;
+    top: 5px;
+  }
+  .nameContainer,
+  .priceContainer {
+    background-color: transparent;
+  }
+  .productNameContainer {
+    min-height: 59px;
+    text-align: left;
+  }
+  .container {
+    padding: 5px 5px;
+  }
+  .container .containerNormal {
+    padding: 0px 0px;
+  }
+
+  .imageNormal {
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 113px;
+    padding: 14px;
+  }
+  .nameContainer {
+    margin: -10px 0px 0 0;
+  }
+  .productNameContainer {
+    max-height: 60px;
+  }
+  .currencyContainer {
+    font-size: 17px !important;
+  }
+  .productBrand {
+    font-size: 15px;
+}
+}
+
+@media (min-width: 1050px) {
+  .productBrand {
+    padding-bottom: 10px;
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.dotsContainer{
+    display: none;
+}
+.slide--Cmarca--visible:hover{
+    background-color: black;
+}
+/* // productos 2.3 en vitrina
+@media (max-width: 600px) {
+    .sliderFrame {
+        width: 637% !important;
+    }  
+}*/

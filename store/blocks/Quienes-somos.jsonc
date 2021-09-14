@@ -1,0 +1,287 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "info-card#bannerQuinesSomos",
+        "info-card#QuienesSomosM",
+        "flex-layout.row#about-us1",
+        "flex-layout.col#contenido-general"
+      ]
+    },
+    "info-card#QuienesSomosM":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-priM.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    "info-card#bannerQuinesSomos":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-pri.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "flex-layout.row#about-us1": {
+      "children": [
+        
+        "flex-layout.col#contenido-general"
+      ],
+      "props":{
+        "blockClass": "quienessomosColumn"
+      }
+    },
+
+
+    "info-card#bannerQuinesSomos2":{
+      "props":{
+        "id":"texting",
+        "callToActionText": "IR A COMPRAR",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "RIGHT",
+        "textAlignment": "RIGHT",
+        "headline": "QUIENES SOMOS",
+        "subhead": "Siempre Salud es una tienda médica virtual la cual nace de la necesidad de asesoramiento de los dispositivos médicos, accesorios y ayudas técnicas. \n En Siempre Salud nos mueven las personas y el bienestar de ellas. por ello  siempre trabajamos en pro de asesorar el producto que cada persona realmente requiera y al precio justo. \n 1. La asesoría personalizada: \n Sabemos que hay momentos en los que no sabes exactamente lo que buscas. Por eso, en siempre salud estamos en todo momento para que encuentre el producto ideal. De nuestra tienda a la puerta de su hogar. \n Envío gratis a todo el país: \n En siempre salud llegamos desde grandes ciudades como Bogotá hasta pueblos mágicos como Ciénaga y lo mejor, con envío gratis. \n Soluciones garantizadas: \n Sabemos que a veces las cosas no son como esperamos, por eso, al momento de recibir sus productos obtén una llamada de acompañamiento para ayudar con dudas del producto y evaluar si es lo que buscaba, tranquilo. Si no recibe el producto que esperaba, puede devolverlo y con gusto le enviaremos el que realmente se ajuste a su solicitud.",
+        "callToActionMode": "link",
+        "blockClass":"QuienesSomos"
+      }
+    },
+    //-------------------------------------------------------------------------------------------CONTENT
+    "flex-layout.col#contenido-general" : {
+      "children": [
+        "rich-text#Titulo-quienesSomos",
+        "rich-text#parrafo-quienessomos1",
+        "flex-layout.row#contenido-genera2",
+        "rich-text#sec2-4",
+        "rich-text#parrafo-quienessomos2",
+        "flex-layout.row#contenido-generaSEC3",
+        "rich-text#parrafo-quienessomos3",
+        "flex-layout.row#quienessomosMosaico",
+        "flex-layout.row#contenido-generaSECREDES",
+        "rich-text#parrafo-quienessomos4"
+        
+      ],
+      "props":{
+        "blockClass": "quienessomos-content",
+        "width": "65%"
+      }
+    },
+    
+//-------------------------------------------------------------------------------------------
+    "rich-text#Titulo-quienesSomos": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "QUIENES SOMOS",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somostitulo"
+      }
+    },
+    "flex-layout.row#contenido-genera2" : {
+      "children": [
+        "rich-text#sec2-1",
+        "rich-text#sec2-2",
+        "rich-text#sec2-3"
+      ],
+      "props":{
+        "blockClass": "quie",
+        "width": "80%"
+      }
+    },
+
+    "rich-text#sec2-1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "100 años",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosSEC2"
+      }
+    },
+    "rich-text#sec2-2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "101 paises",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosSEC2"
+      }
+    },
+    "rich-text#sec2-3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "106 plantas",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosSEC2"
+      }
+    },
+    "rich-text#sec2-4": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Más de 20 Mil empleados",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosSEC2"
+      }
+    },
+    "rich-text#parrafo-quienessomos1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Sika es una compañía multinacional suiza de especialidades químicas con una posición de liderazgo en el desarrollo y fabricación de productos y sistemas para concreto, impermeabilización, cubiertas, pisos, remodelación y acabados, sellado y pegado, rehabilitación, industria, recubrimientos industriales, tanto en el sector de la construcción como en la industria automotriz, proporcionando productos y soluciones de alta calidad.",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosPARRFO"
+      }
+    },
+    "rich-text#parrafo-quienessomos2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Llevamos más de 70 años en Colombia, contamos con 7 regionales aportando nuestra tecnología y profesionalismo para construir país, con soluciones integrales para construir, mantener y reparar todo tipo de estructuras.",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosPARRFO"
+      }
+    },
+    "rich-text#parrafo-quienessomos3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Probablemente el edificio en el que usted se encuentra tenga una solución Sika en algún lugar de su estructura. O tal vez el vehículo que conduce, ha sido fabricado más ligero y de forma más segura y eficiente gracias a un producto de Sika. O tal vez la energía que está utilizando ha sido obtenida a través de un parque eólico protegido con materiales de Sika.        ",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosPARRFO"
+      }
+    },
+    "rich-text#parrafo-quienessomos4": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[IR A COMPRAR](/CONSTRUCCIÓN)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-1",
+        "blockClass": "quienes-somosBOTONCOMPRAR"
+      }
+    },
+    "flex-layout.row#contenido-generaSEC3" : {
+      "children": [
+        "image#QUIENESSOMOIMG1",
+        "image#QUIENESSOMOIMG2",
+        "image#QUIENESSOMOIMG3"
+      ],
+      "props":{
+        "blockClass": "quieNESSOMOS-IMG",
+        "width": "120%"
+      }
+    },
+    "image#QUIENESSOMOIMG1": {
+      "props": {
+        "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-sec-1.png",
+        "blockClass": "quieNESSOMOS-IMG1"
+      }
+    },
+    "image#QUIENESSOMOIMG2": {
+      "props": {
+        "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-sec-2.png",
+        "blockClass": "quieNESSOMOS-IMG2"
+      }
+    },
+    "image#QUIENESSOMOIMG3": {
+      "props": {
+        "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-sec-3.png",
+        "blockClass": "quieNESSOMOS-IMG3"
+      }
+    },
+    
+
+          "flex-layout.row#quienessomosMosaico":{
+            "children": [
+              "info-card#quienessomosMosaico1",
+              "info-card#quienessomosMosaico2"
+            ],
+            "props":{
+              "blockClass": "quienessomosMosaico"
+            }
+          },
+          "info-card#quienessomosMosaico1":{
+            "props":{
+              "id":"texting",
+              "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-ter-1.png",
+              "callToActionText": "Ofertas Laborales",
+              "isFullModeStyle": true,
+              "callToActionUrl": "#",
+              "textPosition": "center",
+              "textAlignment": "center",
+              "callToActionMode": "link",
+              "blockClass":"mosaicoquienesSomos"
+            }
+          },
+          "info-card#quienessomosMosaico2":{
+            "props":{
+              "id":"texting",
+              "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-ter-2.png",
+              "callToActionText": "Ir a la web oficial",
+              "isFullModeStyle": true,
+              "callToActionUrl": "#",
+              "textPosition": "center",
+              "textAlignment": "center",
+              "callToActionMode": "link",
+              "blockClass":"mosaicoquienesSomos"
+            }
+          },
+          "info-card#bannerQuinesSomos3":{
+            "props":{
+              "id":"texting",
+              "callToActionText": "IR A COMPRAR",
+              "callToActionUrl": "/construccion",
+              "textPosition": "center",
+              "textAlignment": "center",
+              "callToActionMode": "link",
+              "blockClass":"QuienesSomosComprar"
+            }
+          },
+          "flex-layout.row#contenido-generaSECREDES" : {
+            "children": [
+              "image#QUIENESSOMOIMG-REDES1",
+              "image#QUIENESSOMOIMG-REDES2",
+              "image#QUIENESSOMOIMG-REDES3"
+            ],
+            "props":{
+              "blockClass": "quieNESSOMOS-IMG-Redes",
+              "width": "120%"
+            }
+          },
+          "image#QUIENESSOMOIMG-REDES1": {
+            "props": {
+              "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-cua-youtube.png",
+              "blockClass": "quieNESSOMOS-redes-IMG1"
+            }
+          },
+          "image#QUIENESSOMOIMG-REDES2": {
+            "props": {
+              "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-cua-insta.png",
+              "blockClass": "quieNESSOMOS-redes-IMG1"
+            
+            }
+          },
+          "image#QUIENESSOMOIMG-REDES3": {
+            "props": {
+              "src": "https://sikaco.vteximg.com.br/arquivos/banner-estaticas-cua-face.png",
+              "blockClass": "quieNESSOMOS-redes-IMG1"
+            
+            }
+          }
+  }

@@ -1,0 +1,24 @@
+.changeLocationSubmitContainer :global(.vtex-button__label) {
+    background-color: #f5b325;
+    font-size: 0;
+    border-radius: 5px;
+    font-family: 'KLAVIKA';
+}
+.changeLocationSubmitContainer :global(.vtex-button__label)::after {
+    content: "Guardar";
+    font-size: 18px;
+    font-family: 'KLAVIKA';
+    padding: 10px;
+}
+.changeLocationGeoContainer :global(.vtex-button__label) {
+    background-color: #f5b325;
+    border-radius: 5px;
+    font-family: 'KLAVIKA';
+    padding: 30px;
+}
+.changeLocationGeoContainer {
+    display: none;
+}
+.changeLocationMapContainer {
+    border: 1px solid;
+}

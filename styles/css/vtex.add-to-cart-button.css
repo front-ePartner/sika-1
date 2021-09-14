@@ -1,0 +1,120 @@
+.buttonDataContainer {
+  background: #ffc100;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 17px 0;
+  width: 70px;
+  color: #140d2e;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.buttonDataContainer--onpage {
+  height: 62px;
+  margin: 0;
+  background: white;
+  border: 2px solid black;
+  color: #3c3c3c;
+}
+.buttonDataContainer--BOTONVITRINA {
+  background-color: #d7d7d7 !important;
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/carrito.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.buttonDataContainer--BOTONVITRINA:hover {
+  background-color: #ffc100 !important;
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/carrito.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.buttonDataContainer--productcheckout {
+  background-color: #ffc100;
+  margin-top: 10px;
+  color: #3c3c3c;
+  border-radius: 5px;
+  height: 62px;
+  transition: 0.5s;
+  font-size: 25px;
+  line-height: 30px;
+}
+.buttonDataContainer--productcheckout:hover {
+  background: #ededed;
+}
+.buttonText--productcheckout:hover {
+  color: black;
+}
+.buttonText--onpage {
+  color: #3c3c3c;
+  /* font-size: 15px !important; */
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400 !important;
+}
+.buttonText:hover {
+  text-decoration: none;
+}
+/*
+.buttonDataContainer:hover{
+  background: #ffc100;
+}*/
+
+.vtex-button__label {
+  padding: 0 !important;
+}
+.buttonText {
+  text-transform: initial;
+  min-width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-button__label {
+  display: none !important;
+}
+.buttonText {
+  font-weight: 600 !important;
+  width: 100%;
+  margin: -2px 0 0 0;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+/* .buttonText--productcheckout::before {
+  font-size: 16px;
+  content: 'COMPRAR AHORA';
+  color: #483d3d;
+} */
+/* .buttonText--productcheckout {
+  font-size: 0;
+  font-weight: 400;
+} */
+.buttonDataContainer--BOTONVITRINA {
+  background-size: 50%;
+}
+.buttonText--BOTONVITRINA {
+  opacity: 0;
+}
+.buttonDataContainer--productcheckout {
+  width: 100%;
+}
+.buttonDataContainer--onpage {
+  width: 100%;
+}
+.buttonText--onpage {
+  font-family: 'KLAVIKA';
+}
+.buttonText--productcheckout {
+  font-family: 'KLAVIKA';
+}
+
+@media (min-width: 1050px) {
+  .buttonDataContainer--productcheckout {
+    font-size: 20px;
+  }
+
+  .buttonText--onpage {
+    font-size: 15px;
+  }
+}

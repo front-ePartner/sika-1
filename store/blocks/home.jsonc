@@ -1,0 +1,1116 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#text-test",
+      "slider-layout#text-testMobile",
+      "slider-layout#bannermarcas",
+      "rich-text#title1",
+      "shelf#demo1",
+      "flex-layout.row#columsx4",
+      "slider-layout#columsx4M",
+      /* "rich-text#title2", */
+      /* "shelf#demo2", */
+      "tab-layout#home",
+      "flex-layout.row#home1",
+      "slider-layout#home1M",
+      /* "flex-layout.row#home2",*/
+      /* "flex-layout.row#home2Mobile",*/
+      /*  "tab-layout#chat"*/
+      "rich-text#title2",
+      "shelf#demo2",
+      "rich-text#title3",
+      "shelf#demo3",
+      "flex-layout.row#Secci"
+      //  "location-context"
+      /*"flex-layout.row#form"*/
+    ]
+  },
+  //Slider Principal
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      /* "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }, */
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "showPaginationDots": "never"
+    },
+    "children": ["info-card#banner1", "info-card#banner2", "info-card#banner3", "info-card#banner4"]
+  },
+  "info-card#banner1": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/02-es_CO-construccion-pisos-canchasdeportivas-3x2%201.png",
+      "callToActionText": "Ver todos los productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/02-es_CO-construccion-pisos-canchasdeportivas-3x2%201.png",
+      "callToActionText": "Ver todos los productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner3": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/02-es_CO-construccion-pisos-canchasdeportivas-3x2%201.png",
+      "callToActionText": "Ver todos los productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner4": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/02-es_CO-construccion-pisos-canchasdeportivas-3x2%201.png",
+      "callToActionText": "Ver todos los productos",
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "headline": "SIKA COLOMBIA",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+
+  //Slider Marcas
+  "slider-layout#bannermarcas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 5,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "Cmarca",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#marca1",
+      "info-card#marca2",
+      "info-card#marca3",
+      "info-card#marca4",
+      "info-card#marca5",
+      "info-card#marca6",
+      "info-card#marca7",
+      "info-card#marca8",
+      "info-card#marca9",
+      "info-card#marca10",
+      "info-card#marca11",
+      "info-card#marca12",
+      "info-card#marca1-2",
+      "info-card#marca2-2",
+      "info-card#marca3-2",
+      "info-card#marca4-2",
+      "info-card#marca5-2",
+      "info-card#marca6-2",
+      "info-card#marca7-2",
+      "info-card#marca8-2",
+      "info-card#marca9-2",
+      "info-card#marca10-2",
+      "info-card#marca11-2",
+      "info-card#marca12-2"
+    ]
+  },
+  "info-card#marca1": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/adhesivos.png",
+      "callToActionUrl": "/terapia-respiratoria",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Adhesivos",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon1"
+    }
+  },
+  "info-card#marca2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/concreto.png",
+      "callToActionUrl": "/independencia-y-cuidado-en-el-hogar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Concreto",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon2"
+    }
+  },
+  "info-card#marca3": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/fachadas.png",
+      "callToActionUrl": "/proteccion-e-higiene",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Fachadas",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon3"
+    }
+  },
+  "info-card#marca4": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/impermeabilización.png",
+      "callToActionUrl": "/movilidad",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Impermeabilización",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon4"
+    }
+  },
+  "info-card#marca5": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/pisos.png",
+      "callToActionUrl": "/Pisos",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Pisos",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon5"
+    }
+  },
+  "info-card#marca6": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/1.png",
+      "callToActionUrl": "/Industriales",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Industriales",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon6"
+    }
+  },
+  "info-card#marca7": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/6.png",
+      "callToActionUrl": "/Rehabilitación",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Rehabilitación",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon7"
+    }
+  },
+  "info-card#marca8": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/9.png",
+      "callToActionUrl": "/Piscina",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Piscina",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon8"
+    }
+  },
+  "info-card#marca9": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/11.png",
+      "callToActionUrl": "/Cubiertas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Cubiertas",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon9"
+    }
+  },
+  "info-card#marca10": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/7.png",
+      "callToActionUrl": "/Cocina",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Cocina",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon10"
+    }
+  },
+  "info-card#marca11": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/10.png",
+      "callToActionUrl": "/Acabados",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Acabados",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon11"
+    }
+  },
+  "info-card#marca12": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/12.png",
+      "callToActionUrl": "/Hogar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Hogar",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon12"
+    }
+  },
+  "info-card#marca1-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/adhesivos.png",
+      "callToActionUrl": "/terapia-respiratoria",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Adhesivos",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon1"
+    }
+  },
+  "info-card#marca2-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/concreto.png",
+      "callToActionUrl": "/independencia-y-cuidado-en-el-hogar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Concreto",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon2"
+    }
+  },
+  "info-card#marca3-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/fachadas.png",
+      "callToActionUrl": "/proteccion-e-higiene",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Fachadas",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon3"
+    }
+  },
+  "info-card#marca4-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/impermeabilización.png",
+      "callToActionUrl": "/movilidad",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Impermeabilización",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon4"
+    }
+  },
+  "info-card#marca5-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/pisos.png",
+      "callToActionUrl": "/Pisos",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Pisos",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon5"
+    }
+  },
+  "info-card#marca6-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/1.png",
+      "callToActionUrl": "/Industriales",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Industriales",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon6"
+    }
+  },
+  "info-card#marca7-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/6.png",
+      "callToActionUrl": "/Rehabilitación",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Rehabilitación",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon7"
+    }
+  },
+  "info-card#marca8-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/9.png",
+      "callToActionUrl": "/Piscina",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Piscina",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon8"
+    }
+  },
+  "info-card#marca9-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/11.png",
+      "callToActionUrl": "/Cubiertas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Cubiertas",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon9"
+    }
+  },
+  "info-card#marca10-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/7.png",
+      "callToActionUrl": "/Cocina",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Cocina",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon10"
+    }
+  },
+  "info-card#marca11-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/10.png",
+      "callToActionUrl": "/Acabados",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Acabados",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon11"
+    }
+  },
+  "info-card#marca12-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/12.png",
+      "callToActionUrl": "/Hogar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionText": "Hogar",
+      "callToActionMode": "link",
+      "blockClass": "marcas-icon12"
+    }
+  },
+
+  //Titulo1
+  "rich-text#title1": {
+    "props": {
+      "text": "# Para reparaciones de exteriores #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "rich-text#title2": {
+    "props": {
+      "text": "# Productos más buscados #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "rich-text#title3": {
+    "props": {
+      "text": "# Productos más vendidos #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc2"
+    }
+  },
+  //vitrinas productos
+  "shelf#demo1": {
+    "props": {
+      "productList": {
+        "titleText": "Nuestras Marcas",
+        "itemsPerPage": 4,
+        "maxItems": 10,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "shelf#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      /*"collection": 142,*/
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      }
+    }
+  },
+  "shelf#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      /*"collection": 143,*/
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      }
+    }
+  },
+  "shelf#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      /* "collection": 139,*/
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      }
+    }
+  },
+  "shelf#demo5": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      /*  "collection": 140,*/
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      }
+    }
+  },
+  "shelf#demo6": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      /*  "collection": 141,*/
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      }
+    }
+  },
+  //Banner Dos
+  "flex-layout.row#home1": {
+    "children": ["info-card#bannerDos1", "info-card#bannerDOS2"],
+    "props": {
+      "blockClass": "BannerDosMosaico"
+    }
+  },
+  "info-card#bannerDos1": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2029.png",
+      "callToActionText": "Compra y mejora tu casa",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "headline": "Productos para construcción en casa",
+      "callToActionMode": "link",
+      "blockClass": ["BannerDos", "BannerDosUno"]
+    }
+  },
+  "info-card#bannerDOS2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2030.png",
+      "callToActionText": "Compralos para tu oficina",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "headline": "Productos para terminaciones de oficina",
+      "callToActionMode": "link",
+      "blockClass": "BannerDos"
+    }
+  },
+
+  //Tap producto
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home2"
+    }
+  },
+  "tab-list#home": {
+    "children": ["tab-list.item#home2", "tab-list.item#home3", "tab-list.item#home4"],
+    "props": {
+      "blockClass": "tabbersHome"
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Construcción"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Estandar"
+    }
+  },
+  "tab-list.item#home4": {
+    "props": {
+      "tabId": "home4",
+      "label": "Industria"
+    }
+  },
+  "tab-content#home": {
+    "children": ["tab-content.item#home2", "tab-content.item#home3", "tab-content.item#home4"]
+  },
+  "tab-content.item#home2": {
+    "children": ["info-card#tap2", "shelf#demo4"],
+    "props": {
+      "tabId": "home2",
+      "blockClass": "tabbersVitrina"
+    }
+  },
+  "tab-content.item#home3": {
+    "children": ["info-card#tap3", "shelf#demo5"],
+    "props": {
+      "tabId": "home3",
+      "blockClass": "tabbersVitrina"
+    }
+  },
+  "tab-content.item#home4": {
+    "children": ["info-card#tap4", "shelf#demo6"],
+    "props": {
+      "tabId": "home4",
+      "blockClass": "tabbersVitrina"
+    }
+  },
+  "info-card#tap2": {
+    "props": {
+      "id": "tap",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2033.png",
+      "headline": "CONSTRUCCIÓN",
+      "isFullModeStyle": false,
+      "callToActionUrl": "/hogar",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": "segundo",
+      "subhead": "Sika desarrolla soluciones  que hacen posible construcciones de primera categoria orientadas hacia el futuro, optimizando los procesos y costos de los clientes. Con productos innovadores estamos construyendo el futuro."
+    }
+  },
+  "info-card#tap3": {
+    "props": {
+      "id": "tap",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/estandar.png",
+      "headline": "ESTANDAR",
+      "isFullModeStyle": false,
+      "callToActionUrl": "/hogar",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": "segundo",
+      "subhead": "Sika desarrolla soluciones  que hacen posible construcciones de primera categoria orientadas hacia el futuro, optimizando los procesos y costos de los clientes. Con productos innovadores estamos construyendo el futuro."
+    }
+  },
+  "info-card#tap4": {
+    "props": {
+      "id": "tap",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/indutria.png",
+      "headline": "INDUSTRIA",
+      "isFullModeStyle": false,
+      "callToActionUrl": "/hogar",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": "segundo",
+      "subhead": "Sika desarrolla soluciones  que hacen posible construcciones de primera categoria orientadas hacia el futuro, optimizando los procesos y costos de los clientes. Con productos innovadores estamos construyendo el futuro."
+    }
+  },
+  //Banner Dos
+  "flex-layout.row#home2": {
+    "children": ["flex-layout.col#mosaico1", "flex-layout.col#mosaico2"],
+    "props": {
+      "blockClass": "mosaico"
+    }
+  },
+  "flex-layout.col#mosaico1": {
+    "children": ["flex-layout.row#superior", "flex-layout.row#inferior"],
+    "props": {
+      "blockClass": "imagedob"
+    }
+  },
+  "flex-layout.row#superior": {
+    "children": ["flex-layout.col#derecha", "flex-layout.col#izquierda"],
+    "props": {
+      "blockClass": "imageC"
+    }
+  },
+  "flex-layout.row#inferior": {
+    "children": ["flex-layout.col#derecha2", "flex-layout.col#izquierda1"],
+    "props": {
+      "blockClass": "imageCi"
+    }
+  },
+  "flex-layout.col#derecha": {
+    "children": ["image#mosaicoCom1"]
+  },
+  "flex-layout.col#izquierda": {
+    "children": ["image#mosaicoCom2"]
+  },
+  "flex-layout.col#derecha2": {
+    "children": ["image#mosaicoCom3"]
+  },
+  "flex-layout.col#izquierda1": {
+    "children": ["image#mosaicoCom4"]
+  },
+  "image#mosaicoCom1": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/BannerMovilidad.png",
+      "link": {
+        "url": "/balanza%20monitoreo%20arterial?_q=balanza%20monitoreo%20arterial&map=ft"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": ["imagecomplG", "imagenMosaico1"]
+    }
+  },
+  "image#mosaicoCom2": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/bannersec2.png",
+      "link": {
+        "url": "/lapicero%20cuadernos%20accesorios?_q=lapicero%20cuadernos%20accesorios&map=ft"
+      },
+      "blockClass": ["imagecomplP", "imagenMosaico2"]
+    }
+  },
+  "image#mosaicoCom3": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/bannersec3.png",
+      "link": {
+        "url": "/aspirador%20compresor%20reguladores%20cilindros?_q=aspirador%20compresor%20reguladores%20cilindros&map=ft"
+      },
+      "blockClass": ["imagecomplP", "imagenMosaico3"]
+    }
+  },
+  "image#mosaicoCom4": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/Bannerterapia.png",
+      "link": {
+        "url": "/sistema%20diseccion%20torniquete?_q=Sistema%20diseccion%20torniquete&map=ft"
+      },
+      "blockClass": ["imagecomplG", "imagenMosaico4"]
+    }
+  },
+  "flex-layout.col#mosaico2": {
+    "children": ["image#mosaicoCom"],
+    "props": {
+      "blockClass": "imagesim"
+    }
+  },
+  "image#mosaicoCom": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/bannersec5.png",
+      "link": {
+        "url": "/movilidad"
+      },
+      "blockClass": ["imagecompl", "bannerLateralDerecho"]
+    }
+  },
+
+  //Elementos en mobile
+  //Slider Principal
+  "slider-layout#text-testMobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselMobile",
+      "showPaginationDots": "false"
+    },
+    "children": ["info-card#banner1Mobile", "info-card#banner2Mobile", "info-card#banner3Mobile", "info-card#banner4Mobile"]
+  },
+  "info-card#banner1Mobile": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/bannerprincipalmobile.png",
+      "callToActionText": "Ver más productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner2Mobile": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/bannerprincipalmobile.png",
+      "callToActionText": "Ver más productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner3Mobile": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/bannerprincipalmobile.png",
+      "callToActionText": "Ver más productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  "info-card#banner4Mobile": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/bannerprincipalmobile.png",
+      "callToActionText": "Ver más productos",
+      "callToActionUrl": "#",
+      "headline": "SIKA COLOMBIA",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Mio",
+      "subhead": "construyendo confianza desde 1951"
+    }
+  },
+  /*CHAT*/
+  "tab-layout#chat": {
+    "children": ["tab-content#chat", "tab-list#chat"],
+    "props": {
+      "blockClass": "chats",
+      "defaultActiveTabId": "chat1"
+    }
+  },
+  "tab-list#chat": {
+    "children": ["tab-list.item#chat1"]
+  },
+  "tab-list.item#chat1": {
+    "props": {
+      "tabId": "chat1",
+      "label": "TE AYUDAMOS CON TU COMPRA",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content#chat": {
+    "children": ["tab-content.item#chat1"]
+  },
+  "tab-content.item#chat1": {
+    "children": ["rich-text#llamanos", "rich-text#whatsapp", "rich-text#chatea"],
+    "props": {
+      "tabId": "chat1",
+      "blockClass": "contenidoDeChat"
+    }
+  },
+  "rich-text#llamanos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Llámanos](tel:+573014779931)",
+      "blockClass": "tabChat1"
+    }
+  },
+  "rich-text#whatsapp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Comunicate por Whatsapp](https://wa.link/u6l71l)",
+      "blockClass": "tabChat2"
+    }
+  },
+  "rich-text#chatea": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Chatea con nosotros](#)",
+      "blockClass": "tabChat3"
+    }
+  },
+  //banner mosaico Mobile
+  "flex-layout.row#home2Mobile": {
+    "children": ["flex-layout.col#mosaico1Mobile", "flex-layout.col#mosaico2"],
+    "props": {
+      "blockClass": "mosaicoMobile"
+    }
+  },
+  "flex-layout.col#mosaico1Mobile": {
+    "children": ["image#mosaicoComMobile1", "image#mosaicoComMobile2"],
+    "props": {
+      "blockClass": ["imagedob"]
+    }
+  },
+  "image#mosaicoComMobile1": {
+    "props": {
+      "src": "https://impormedical.vtexassets.com/arquivos/bannersec2.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": ["imagecompl", "imagencomp1primera"]
+    }
+  },
+  "image#mosaicoComMobile2": {
+    "props": {
+      "src": "https://impormedical.vtexassets.com/arquivos/bannersec3.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": ["imagecompl", "imagencomp1segunda"]
+    }
+  },
+
+  /**/
+
+  "flex-layout.row#columsx4": {
+    "children": ["info-card#columsx4-1", "info-card#columsx4-2", "info-card#columsx4-3", "info-card#columsx4-4", "info-card#columsx4-5"],
+    "props": {
+      "blockClass": "BannerDosMosaicox4"
+    }
+  },
+  "info-card#columsx4-1": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2024.png",
+      "headline": "¿Necesitas personal?",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo"
+    }
+  },
+  "info-card#columsx4-2": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2026.png",
+      "headline": "Preguntas frecuentes",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo2"
+    }
+  },
+  "info-card#columsx4-3": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2025.png",
+      "headline": "¿Buscar donde comprar?",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo3"
+    }
+  },
+  "info-card#columsx4-4": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2023.png",
+      "headline": "¿Requieres ayuda?",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo4"
+    }
+  },
+  "info-card#columsx4-5": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2027.png",
+      "headline": "Acceda a los manuales",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo5"
+    }
+  },
+
+  /*NEWSLETTER SECCION*/
+
+  "flex-layout.row#Secci": {
+    "children": ["info-card#NewletterBaner", "modal-trigger#activadornews"],
+    "props": {
+      "blockClass": "seccionNewletter"
+    }
+  },
+
+  "info-card#NewletterBaner": {
+    "props": {
+      "id": "texting",
+     "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png",
+      "headline": "SUSCRIBETE A NUESTRO NEWSLETTER",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannernewws"
+    }
+  },
+
+  /*BANNERS */
+
+  "slider-layout#columsx4M": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselx4M",
+      "showPaginationDots": "always"
+    },
+    "children": ["info-card#columsx4-1", "info-card#columsx4-2", "info-card#columsx4-3", "info-card#columsx4-4", "info-card#columsx4-5"]
+  },
+  "slider-layout#home1M": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselhome1M",
+      "showPaginationDots": "always"
+    },
+    "children": ["info-card#bannerDos1", "info-card#bannerDOS2"]
+  },
+
+  /*----------------------------------------------------------------------------POPUP REGISTRO*/
+
+  "modal-trigger#activadornews": {
+    "children": ["rich-text#BOTONMODALNEW", "modal-layout#newletter"],
+    "props": {
+      "blockClass": "triggerModalNews"
+    }
+  },
+  "rich-text#BOTONMODALNEW": {
+    "props": {
+      "text": "ME QUIERO SUSCRIBIR",
+      "blockClass": "triggerModalNewsTExto"
+    }
+  },
+  "modal-layout#newletter": {
+    "children": ["modal-header#blanco", "info-card#NewletterBanerModal", "flex-layout.row#form"],
+    "props": {
+      "blockClass": "contenidoModalNews"
+    }
+  },
+  "modal-header#blanco": {
+    "props": {
+      "blockClass": "x-de-cerrado"
+    }
+  },
+  "info-card#NewletterBanerModal": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.myvtex.com/arquivos/Rectangle%2073.png",
+      "headline": "SUSCRIBETE A NUESTRO NEWSLETTER",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannernewwsMdola"
+    }
+  }
+}

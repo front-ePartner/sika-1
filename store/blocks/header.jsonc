@@ -1,0 +1,3247 @@
+{
+  //Bloques del header
+
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop", "flex-layout.row#desktopPre"]
+  },
+
+  //Preheader
+
+  "flex-layout.row#desktopPre": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "Pre-header"
+    },
+    "children": ["vtex.menu@2.x:menu#websites", "flex-layout.row#header1", "flex-layout.col#spacer", "flex-layout.col#skip-desktop"]
+  },
+  "flex-layout.col#skip-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#headerc"]
+  },
+  "rich-text#headerc": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "help-message"
+    }
+  },
+  //header
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerC"
+    },
+    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#headerbuscador", "rich-text#misPedidos", "login", "minicart.v2"]
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "maxWidth": "100%",
+      "placeholder": "¿Qué estás buscando? Escríbelo aquí"
+    }
+  },
+  "rich-text#misPedidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Distribuidor](/login)",
+      "blockClass": "Pedidos"
+    }
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Iniciar Sesión",
+      "blockClass": "quicklogin",
+      "accessCodeTitle": "Recíbe código de acceso"
+    }
+  },
+  "vtex.menu@2.x:menu#websites": {
+    "children": ["menu-item#categorys"]
+  },
+  //Menu Categorys
+  "menu-item#categorys": {
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ingresa"
+      },
+      "blockClass": "burguerIcon"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category"]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "children": ["vtex.menu@2.x:menu#Category1"],
+    "props": {
+      "id": "menusecunario"
+    }
+  },
+  //Columnas Categorys
+  "vtex.menu@2.x:menu#Category1": {
+    "children": [
+      /*   "menu-item#Category1",
+      "menu-item#Category2",
+      "menu-item#Category4",*/
+      "menu-item#Category5",
+      "rich-text#titles-botonMenu1",
+      "rich-text#titles-botonMenu2"
+    ],
+    "props": {
+      "blockClass": "menuCategory"
+    }
+  },
+  //botone del menu
+  "rich-text#titles-botonMenu1": {
+    "props": {
+      "text": "[LO NUEVO](/lo-nuevo)",
+      "blockClass": "botones1Menu"
+    }
+  },
+  "rich-text#titles-botonMenu2": {
+    "props": {
+      "text": "[OFERTAS](/promociones)",
+      "blockClass": "botones2Menu"
+    }
+  },
+  //Links productos
+  "menu-item#Category1": {
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "CONSTRUCCIÓN"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop1"]
+  },
+  "menu-item#Category2": {
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/independencia-y-cuidado-en-el-hogar",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "CUIDADO EN EL HOGAR"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop2"]
+  },
+  "menu-item#Category3": {
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terapia%20en%20el%20hogar?_q=terapia%20en%20el%20hogar&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "TERAPIA EN EL HOGAR"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop3"]
+  },
+  "menu-item#Category4": {
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "Categoría",
+        "text": "TAPABOCAS Y DESINFECCIÓN"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop4"]
+  },
+  "menu-item#Category5": {
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/CONSTRUCCIÓN",
+        "noFollow": true,
+        "tagTitle": "Categoría",
+        "text": "CONSTRUCCIÓN"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"]
+  },
+  //submenu Movilidad
+  "vtex.menu@2.x:submenu#shop1": {
+    "children": ["vtex.menu@2.x:menu#submenushop1"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu1"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop1": {
+    "children": ["flex-layout.col#submenuMovilidad"],
+    "props": {
+      "blockclass": ["SubMenus", "submenusMovilidad"]
+    }
+  },
+  "flex-layout.col#submenuMovilidad": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenu7"]
+  },
+  "flex-layout.row#submenu7": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenusMovilidad"]
+    },
+    "children": ["flex-layout.col#submenu8", "flex-layout.col#submenu9"]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenu8": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenu37", "rich-text#titles-submenu38", "rich-text#titles-submenu39", "rich-text#titles-submenu40"]
+  },
+  //columna dos submenu
+  "flex-layout.col#submenu9": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenu42", "rich-text#titles-submenu43", "rich-text#titles-submenu44", "rich-text#titles-submenu45", "rich-text#titles-submenu46"]
+  },
+  //sub items
+  //columna 1
+  "rich-text#titles-submenu37": {
+    "props": {
+      "text": "[AYUDAS PARA LA MARCHA](/movilidad/ayudas-para-la-marcha?initialMap=c&initialQuery=movilidad&map=category-1,category-2)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu38": {
+    "props": {
+      "text": "[Caminador](/caminador)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu39": {
+    "props": {
+      "text": "[Muletas](/muletas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu40": {
+    "props": {
+      "text": "[Bastones](/Bastones)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS
+  "rich-text#titles-submenu42": {
+    "props": {
+      "text": "[SILLA DE RUEDAS](/silla%20dde%20ruedas?_q=silla%20dde%20ruedas&map=ft)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu43": {
+    "props": {
+      "text": "[Sillas de ruedas](/silla%20dde%20ruedas?_q=silla%20dde%20ruedas&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu44": {
+    "props": {
+      "text": "[Cojines](/cojines?_q=cojines&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu45": {
+    "props": {
+      "text": "[Respaldos](/respaldos?_q=respaldos&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46": {
+    "props": {
+      "text": "[Soportes](/soportes%20laterales%20cefalicos?_q=Soportes%20laterales%20cefalicos&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //submenu profesionales de la salud
+  "vtex.menu@2.x:submenu#shop": {
+    "children": ["vtex.menu@2.x:menu#submenushop"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu5"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": ["flex-layout.col#submenu11"],
+    "props": {
+      "blockclass": "Submenus"
+    }
+  },
+  "flex-layout.col#submenu11": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenu1", "flex-layout.row#submenu22"]
+  },
+  "flex-layout.row#submenu1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["flex-layout.col#submenu1", "flex-layout.col#submenu2", "flex-layout.col#submenu4"]
+  },
+  "flex-layout.row#submenu22": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["flex-layout.col#submenu3", "flex-layout.col#submenu5", "flex-layout.col#submenu5-6"]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenu1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": ["rich-text#titles-submenu1", "rich-text#titles-submenu2", "rich-text#titles-submenu3", "rich-text#titles-submenu4", "rich-text#titles-submenu5"]
+  },
+  //columna dos submenu
+  "flex-layout.col#submenu2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": ["rich-text#titles-submenu6", "rich-text#titles-submenu7", "rich-text#titles-submenu8", "rich-text#titles-submenu9"]
+  },
+  "flex-layout.col#submenu3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": ["rich-text#titles-submenu11", "rich-text#titles-submenu12", "rich-text#titles-submenu13", "rich-text#titles-submenu14"]
+  },
+  "flex-layout.col#submenu4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": ["rich-text#titles-submenu17", "rich-text#titles-submenu18", "rich-text#titles-submenu19", "rich-text#titles-submenu20"]
+  },
+  "flex-layout.col#submenu5": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": ["rich-text#titles-submenu21", "rich-text#titles-submenu22", "rich-text#titles-submenu23", "rich-text#titles-submenu24", "rich-text#titles-submenu25"]
+  },
+  "flex-layout.col#submenu5-6": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu21-6",
+      "rich-text#titles-submenu22-6",
+      "rich-text#titles-submenu23-6",
+      "rich-text#titles-submenu24-6",
+      "rich-text#titles-submenu25-6",
+      "rich-text#titles-submenu25-7"
+    ]
+  },
+  //sub items
+  //columna 1
+  //-------------------------------------------------------------CATEGORIAS Y SUB MENU PRINCIPAL
+  "rich-text#titles-submenu1": {
+    "props": {
+      "text": "[Aditivos y curadores](/construcción/Aditivos-y-curadores)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu2": {
+    "props": {
+      "text": "[Aditivos para cementos](/construcción/Aditivos-para-cementos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu3": {
+    "props": {
+      "text": "[Aditivos para morteros](/construcción/Aditivos-para-morteros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu4": {
+    "props": {
+      "text": "[ Aditivos y adiciones para concreto](/construcción/Aditivos-y-adiciones-para-concreto)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu5": {
+    "props": {
+      "text": "[ Curadores y desencofrantes](/construcción/Curadores-y-desencofrantes)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //COLUMNA DOS
+  "rich-text#titles-submenu6": {
+    "props": {
+      "text": "[Mamposteria](/construcción/Mamposteria)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu7": {
+    "props": {
+      "text": "[Pega de mampostería](/construcción/Pega-de-mampostería)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu8": {
+    "props": {
+      "text": "[Grout de mampostería](/construcción/Grout-de-mampostería)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu9": {
+    "props": {
+      "text": "[Pañete de Mampostería](/construcción/Pañete-de-Mampostería)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //columna tres
+  "rich-text#titles-submenu11": {
+    "props": {
+      "text": "[Proteccion y acabados para fachadas](/construcción/Proteccion-y-acabados-para-fachadas)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu12": {
+    "props": {
+      "text": "[Repelentes para fachadas de ladrillo](/construcción/Repelentes-para-fachadas-de-ladrillo)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu13": {
+    "props": {
+      "text": "[Limpieza](/construcción/Limpieza)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu14": {
+    "props": {
+      "text": "[Sistemas especiales para fachadas](/construcción/Sistemas-especiales-para-fachadas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //COLUMNA CUATRO
+  "rich-text#titles-submenu17": {
+    "props": {
+      "text": "[Adhesivos de enchape](/construcción/Adhesivos-de-en-chape)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu18": {
+    "props": {
+      "text": "[Adhesivos para enchape](/construcción/Adhesivos-para-enchape)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu19": {
+    "props": {
+      "text": "[Boquillas/fraguas](/construcción/Boquillas-fraguas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu20": {
+    "props": {
+      "text": "[Boquillas epoxicas](/construcción/Boquillas-epoxicas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //columna cinco
+  "rich-text#titles-submenu21": {
+    "props": {
+      "text": "[Morteros y grouts de Reparación](/construcción/Morteros-y-grouts-de-Reparación)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu22": {
+    "props": {
+      "text": "[Grouts](/construcción/Grouts)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu23": {
+    "props": {
+      "text": "[Morteros Estructurales](/construcción/Morteros-Estructurales)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu24": {
+    "props": {
+      "text": "[Morteros de nivelación de Pisos](/construcción/Morteros-de-nivelación-de-Pisos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu25": {
+    "props": {
+      "text": "[Inhibidores de corrosión](/construcción/Inhibidores-de-corrosión)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //columna seis
+  "rich-text#titles-submenu21-6": {
+    "props": {
+      "text": "[Recubrimientos especializados para muros y pisos](/construcción/Recubrimientos-especializados-para-muros-y-pisos)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu22-6": {
+    "props": {
+      "text": "[Recubrimientos epoxicos y Poliuretano](/construcción/Recubrimientos-epoxicos-y-Poliuretano)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu23-6": {
+    "props": {
+      "text": "[Recubrimientos para metal](/construcción/Recubrimientos-para-metal)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu24-6": {
+    "props": {
+      "text": "[Sistemas de pisos para canchas deportivas (sport line)](/construcción/Sistemas-de-pisos-para-canchas-deportivas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu25-6": {
+    "props": {
+      "text": "[Demarcación Valida](/construcción/Demarcación-Valida)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu25-7": {
+    "props": {
+      "text": "[ Pinturas antibacteriales](/construcción/Pinturas-antibacteriales)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //submenu Cuidado en el hogar
+  "vtex.menu@2.x:submenu#shop2": {
+    "children": ["vtex.menu@2.x:menu#submenushop2"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu2"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop2": {
+    "children": ["flex-layout.col#submenuindependencia"],
+    "props": {
+      "blockclass": ["SubMenus", "submenu2"]
+    }
+  },
+  "flex-layout.col#submenuindependencia": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenu4", "flex-layout.row#submenuIndependencia"]
+  },
+  "flex-layout.row#submenu4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu2"]
+    },
+    "children": ["flex-layout.col#submenu6", "flex-layout.col#submenu7", "flex-layout.col#submenuTerapia1"]
+  },
+  "flex-layout.row#submenuIndependencia": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu2"]
+    },
+    "children": ["flex-layout.col#submenu2", "flex-layout.col#submenuIndependencia8"]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenu6": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu35",
+      "rich-text#titles-submenu26",
+      "rich-text#titles-submenu27",
+      "rich-text#titles-submenu28",
+      "rich-text#titles-submenu29",
+      "rich-text#titles-submenuIndeoendencia30"
+    ]
+  },
+  //columna dos submenu
+  "flex-layout.col#submenu7": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu30",
+      "rich-text#titles-submenu31",
+      "rich-text#titles-submenu32",
+      "rich-text#titles-submenu33",
+      "rich-text#titles-submenu34",
+      "rich-text#titles-submenuIndependdencia35"
+    ]
+  },
+  "flex-layout.col#submenuIndependencia8": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuIndependencia1",
+      "rich-text#titles-submenuIndependencia2",
+      "rich-text#titles-submenuIndependencia3",
+      "rich-text#titles-submenuIndependencia4",
+      "rich-text#titles-submenuIndependencia5"
+    ]
+  },
+  //sub items
+  //columna 1
+  "rich-text#titles-submenu35": {
+    "props": {
+      "text": "[SEGURIDAD EN EL BAÑO](/seguridad%20en%20el%20baño?_q=seguridad%20en%20el%20baño&map=ft)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu26": {
+    "props": {
+      "text": "[Jabón](/Jabon)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu27": {
+    "props": {
+      "text": "[Silla para ducha](/silla%20para%20ducha?_q=silla%20para%20ducha&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu28": {
+    "props": {
+      "text": "[Comodos Sanitarios](/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu29": {
+    "props": {
+      "text": "[Eleva Sanitarios](/eleva%20sanitarios?_q=eleva%20sanitarios&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndeoendencia30": {
+    "props": {
+      "text": "[Barras de seguridas](/barras%20de%20seguridad?_q=barras%20de%20seguridad&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //COLUMNA DOS
+  "rich-text#titles-submenu30": {
+    "props": {
+      "text": "[COMODIDAD Y PREVENCIÓN EN LA HABITACIÓN](/Comodidad-y-prevencion-en-la-habitacion)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu31": {
+    "props": {
+      "text": "[Cómodos Sanitarios](/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu32": {
+    "props": {
+      "text": "[Camas](/camas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu33": {
+    "props": {
+      "text": "[Almohadas](/#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu34": {
+    "props": {
+      "text": "[Superficies especiales para el manejo de la presión](/superficies%20especiales%20para%20el%20manejo%20de%20la%20presion?_q=superficies%20especiales%20para%20el%20manejo%20de%20la%20presion&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependdencia35": {
+    "props": {
+      "text": "[Grúas](/gruas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //columna tres
+  "rich-text#titles-submenuIndependencia1": {
+    "props": {
+      "text": "[MONITOREO ARTERIAL, DE TEMPERATURA Y PESO](/monitoreo%20arterial%20y%20peso?_q=monitoreo%20arterial%20y%20peso&map=ft)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia2": {
+    "props": {
+      "text": "[Termómetros](/termometros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia3": {
+    "props": {
+      "text": "[Tensiómetros](/tensiometros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia4": {
+    "props": {
+      "text": "[Balanza digital](/balanza%20digital?_q=Balanza%20digital&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia5": {
+    "props": {
+      "text": "[Pulsoximetros](/pulsoximetros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  // Sub menu terapia en el hogar
+  "vtex.menu@2.x:submenu#shop3": {
+    "children": ["vtex.menu@2.x:menu#submenushop3"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu3"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop3": {
+    "children": ["flex-layout.col#submenuTerapia"],
+    "props": {
+      "blockclass": ["SubMenus", "submenusMovilidad"]
+    }
+  },
+  "flex-layout.col#submenuTerapia": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenuTerapia1"]
+  },
+  "flex-layout.row#submenuTerapia1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenusMovilidad"]
+    },
+    "children": ["flex-layout.col#submenuTerapia1", "flex-layout.col#submenuTerapia2"]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenuTerapia1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTerapia1",
+      "rich-text#titles-submenuTerapia2",
+      "rich-text#titles-submenuTerapia3",
+      "rich-text#titles-submenuTerapia4",
+      "rich-text#titles-submenuTerapia5",
+      "rich-text#titles-submenuTerapia6",
+      "rich-text#titles-submenuTerapia7",
+      "rich-text#titles-submenuTerapia8"
+    ]
+  },
+  //columna dos submenu
+  "flex-layout.col#submenuTerapia2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenu42", "rich-text#titles-submenu43", "rich-text#titles-submenu44", "rich-text#titles-submenu45", "rich-text#titles-submenu46"]
+  },
+  //sub items
+  //columna 1
+  "rich-text#titles-submenuTerapia1": {
+    "props": {
+      "text": "[LESIONES MUSCULARES Y ÓSEOS](/lesiones%20musculares%20y%20oseas?_q=Lesiones%20Musculares%20y%20oseas&map=ft)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia2": {
+    "props": {
+      "text": "[Tens](/tens)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia3": {
+    "props": {
+      "text": "[Cintas kinesiológicas](/cintas%20kinesiologicas?_q=cintas%20kinesiologicas&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia4": {
+    "props": {
+      "text": "[Fajas](/fajas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia5": {
+    "props": {
+      "text": "[Cuellos](/cuellos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia6": {
+    "props": {
+      "text": "[Rodilleras](/rodilleras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia7": {
+    "props": {
+      "text": "[Cabestrillos](/cabestrillos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia8": {
+    "props": {
+      "text": "[Compresas](/compresas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS
+  "rich-text#titles-submenuTerapia9": {
+    "props": {
+      "text": "[RESPIRATORIA](/respiratoria)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenuTerapia10": {
+    "props": {
+      "text": "[Aspirador de secreciones](/aspirador-de-secreciones)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia11": {
+    "props": {
+      "text": "[Compresor Nebulizador](/compresor-nebulizador)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia12": {
+    "props": {
+      "text": "[Reguladores de Oxígeno](/reguladores-de-oxigeno)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia13": {
+    "props": {
+      "text": "[Cilindros de oxígeno](/cilindros-de-oxigeno)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //submenu profesionales de la salud
+  "vtex.menu@2.x:submenu#shop4": {
+    "children": ["vtex.menu@2.x:menu#submenushop4"],
+    "props": {
+      "blockClass": ["SubMenus", "submenu4"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop4": {
+    "children": ["flex-layout.col#submenuTapabocas"],
+    "props": {
+      "blockclass": "Submenus"
+    }
+  },
+  "flex-layout.col#submenuTapabocas": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": ["flex-layout.row#submenuTapabocas1", "flex-layout.row#submenuTapabocas2"]
+  },
+  "flex-layout.row#submenuTapabocas1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["flex-layout.col#submenuTapabocas1", "flex-layout.col#submenuTapabocas2", "flex-layout.col#submenuTapabocas3"]
+  },
+  "flex-layout.row#submenuTapabocas2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["flex-layout.col#submenuTapabocas4"]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenuTapabocas1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenuTapabocas1"]
+  },
+  //columna dos submenu
+  "flex-layout.col#submenuTapabocas2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenuTapabocas2"]
+  },
+  "flex-layout.col#submenuTapabocas3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenuTapabocas3"]
+  },
+  "flex-layout.col#submenuTapabocas4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenuTapabocas4"]
+  },
+  "flex-layout.col#submenuTapabocas5": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": ["rich-text#titles-submenu5"]
+  },
+  //sub items
+  //columna 1
+  "rich-text#titles-submenuTapabocas1": {
+    "props": {
+      "text": "[TAPABOCAS](/tapabocas)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+
+  //COLUMNA DOS
+  "rich-text#titles-submenuTapabocas2": {
+    "props": {
+      "text": "[CARETAS](/caretas)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //columna tres
+  "rich-text#titles-submenuTapabocas3": {
+    "props": {
+      "text": "[GEL ANTIBACTERIAL](/gel%20antibacterial?_q=Gel%20Antibacterial&map=ft)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //COLUMNA CUATRO
+  "rich-text#titles-submenuTapabocas4": {
+    "props": {
+      "text": "[ALCOHOL](/alcohol)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //pre header
+  "flex-layout.row#header1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerCate"
+    },
+    "children": ["rich-text#Category1", "rich-text#Category2", "rich-text#Category3", "rich-text#Category4"]
+  },
+  "rich-text#Category1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Construcción](/Construcción)",
+      "blockClass": "CategoriaPrin1"
+    }
+  },
+  "rich-text#Category2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Hogar](/Hogar)",
+      "blockClass": "CategoriaPrin2"
+    }
+  },
+  "rich-text#Category3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Industria](/Industria)",
+      "blockClass": "CategoriaPrin3"
+    }
+  },
+  "rich-text#Category4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Cementos](/Cementos)",
+      "blockClass": "CategoriaPrin4"
+    }
+  },
+
+  //demas del header
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "espacio"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://sikaco.myvtex.com/arquivos/logosikaclaimhorizontal.png",
+      "width": "350",
+      "blockClass": "logoImg"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": [/*"flex-layout.row#contactoM",*/ "flex-layout.row#mobile", "flex-layout.row#PreMobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": ["logo", "login", "rich-text#misPedidos", "minicart.v2"],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "closeOnOutsideClick" : true,
+      "updateOnFilterSelectionOnMobile" : true
+    }
+  },
+  //menu mobile
+  "drawer": {
+    "children": ["flex-layout.row#menu-header"],
+    "props": {
+      "blockClass": "menuDrawer",
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#menu-header": {
+    "props": {
+      "blockClass": "menuHeader"
+    },
+    "children": ["flex-layout.col#menu-header"]
+  },
+  "flex-layout.col#menu-header": {
+    "children": ["menu#drawer"],
+    "props": {
+      "blockClass": "drawerInnerCol"
+    }
+  },
+  "menu#drawer": {
+    "props": {
+      "blockClass": "menuDrawer"
+    },
+    "children": ["menu-item#CONSTRUCCION", "rich-text#titles-botonMenu1", "rich-text#titles-botonMenu2"]
+  },
+  //menu Mobile
+  "menu-item#movilidad": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Movilidad"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more"]
+  },
+  "menu-item#independencia": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Cuidado en el hogar"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more2"]
+  },
+  "menu-item#terapia": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Terapia en el hogar"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more3"]
+  },
+  "menu-item#tapabocas": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Tapabocas y desinfección"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more4"]
+  },
+
+  //<Sub menus Mobile Movilidad
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more"]
+  },
+  "flex-layout.row#menu-more": {
+    "children": ["flex-layout.col#menu-more-1"],
+    "props": {
+      "blockclass": "categoryCont"
+    }
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": ["vtex.menu@2.x:menu#more"],
+    "props": {
+      "blockclass": "categoryCont"
+    }
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["disclosure-layout#subMenu1", "disclosure-layout#subMenu2", "menu-item#VerTodo1"]
+  },
+  // Menu movilidad
+  //sub items menu
+  "disclosure-layout#subMenu1": {
+    "children": ["disclosure-trigger#SubMenu1", "disclosure-content#Submenu1"]
+  },
+  "disclosure-trigger#SubMenu1": {
+    "children": ["menu-item#ayudas-Marcha"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#Submenu1": {
+    "children": ["menu-item#subCaminador", "menu-item#subItemMuletas", "menu-item#subItemBastones", "menu-item#subItemVerTodosMovilidad"]
+  },
+  "menu-item#ayudas-Marcha": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Ayudas para la marcha"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItemMuletas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Muletas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Muletas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subCaminador": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/caminador",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Caminador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemBastones": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Muletas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Muletas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemVerTodosMovilidad": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ayudas-para-la-marcha",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Vert todo"
+      },
+      "blockClass": ["SubCategory", "verTodo"]
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenu2": {
+    "children": ["disclosure-trigger#SubMenu2", "disclosure-content#Submenu2"]
+  },
+  "disclosure-trigger#SubMenu2": {
+    "children": ["menu-item#Item1"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#Submenu2": {
+    "children": ["menu-item#subItem1item1", "menu-item#subItem1item2", "menu-item#subItem1item3", "menu-item#subItem1item4"]
+  },
+  "menu-item#Item1": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Silla de ruedas"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItem1item1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sillas%20de%20ruedas?_q=sillas%20de%20ruedas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sillas de ruedas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cojines?_q=cojines&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cojines"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/respaldos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Respaldos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/soportes",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Soportes"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo1": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  // sub items independencia y cuidado en el hogar
+  "vtex.menu@2.x:submenu#more2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more2"]
+  },
+  "flex-layout.row#menu-more2": {
+    "children": ["flex-layout.col#menu-more-2"]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": ["vtex.menu@2.x:menu#more2"]
+  },
+  "vtex.menu@2.x:menu#more2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenuIndependencia",
+      "disclosure-layout#SubMenuIndependecia2",
+      "disclosure-layout#SubMenuIndependecia3",
+      "disclosure-layout#subMenuProf2",
+      "disclosure-layout#subMenuTerapia",
+      "menu-item#VerTodo2"
+    ]
+  },
+  "disclosure-layout#subMenuIndependencia": {
+    "children": ["disclosure-trigger#SubMenuIndependencia1", "disclosure-content#SubmenuIndependencia1"]
+  },
+  "disclosure-trigger#SubMenuIndependencia1": {
+    "children": ["menu-item#SubMenuIndependecia1"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#SubmenuIndependencia1": {
+    "children": [
+      "menu-item#subItemIndependcia1",
+      "menu-item#subItemIndependcia2",
+      "menu-item#subItemIndependcia3",
+      "menu-item#subItemIndependcia4",
+      "menu-item#subItemIndependcia5"
+    ]
+  },
+  "menu-item#SubMenuIndependecia1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Seguridad en el Baño"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItemIndependcia1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jabon",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Jabón"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/silla%20para%20la%20ducha?_q=silla%20para%20la%20ducha&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Silla para la ducha"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cómodos sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eleva%20sanitarios?_q=eleva%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Eleva sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barras%20de%20seguridad?_q=barras%20de%20seguridad&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Barras de seguridad"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#SubMenuIndependecia2": {
+    "children": ["disclosure-trigger#SubMenuIndependecia2", "disclosure-content#SubMenuIndependecia2"]
+  },
+  "disclosure-trigger#SubMenuIndependecia2": {
+    "children": ["menu-item#SubMenuIndependecia2"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#SubMenuIndependecia2": {
+    "children": [
+      "menu-item#SubMenuIndependeciaItem2",
+      "menu-item#SubMenuIndependeciaItem3",
+      "menu-item#SubMenuIndependeciaItem4",
+      "menu-item#SubMenuIndependeciaItem5",
+      "menu-item#SubMenuIndependeciaItem6"
+    ]
+  },
+  "menu-item#SubMenuIndependecia2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Comodidad y prevención en la habitación"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cómodos Sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/camas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Camas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/almohadas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Almohadas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/superficies%20especiales%20para%20el%20manejo%20de%20la%20presión?_q=Superficies%20especiales%20para%20el%20manejo%20de%20la%20presión&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Superficies especiales para el manejo de la presión"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gruas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Gruas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 3
+  "disclosure-layout#SubMenuIndependecia3": {
+    "children": ["disclosure-trigger#SubMenuIndependecia3", "disclosure-content#SubMenuIndependecia3"]
+  },
+  "disclosure-trigger#SubMenuIndependecia3": {
+    "children": ["menu-item#SubMenuIndependecia3"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#SubMenuIndependecia3": {
+    "children": ["menu-item#SubMenuIndependeciaItem8", "menu-item#SubMenuIndependeciaItem9", "menu-item#SubMenuIndependeciaItem10", "menu-item#SubMenuIndependeciaItem11"]
+  },
+  "menu-item#SubMenuIndependecia3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Monitoreo arterial, de temperatura y de peso"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem8": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/termometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Termómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem9": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tensiometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tensiómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem10": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balanza%20digital?_q=balanza%20digital&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Balanza Digital"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem11": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pulsoximetros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pulsoximetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/independencia-y-cuidado-en-el-hogar",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //menus terapie en el hogar
+  "vtex.menu@2.x:submenu#more3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more3"]
+  },
+  "flex-layout.row#menu-more3": {
+    "children": ["flex-layout.col#menu-more-3"]
+  },
+  "flex-layout.col#menu-more-3": {
+    "children": ["vtex.menu@2.x:menu#more3"]
+  },
+  "vtex.menu@2.x:menu#more3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["disclosure-layout#subMenuTerapia", "disclosure-layout#subMenuTerapia2", "menu-item#VerTodo3"]
+  },
+  //sub items menu
+  "disclosure-layout#subMenuTerapia": {
+    "children": ["disclosure-trigger#subMenuTerapia", "disclosure-content#subMenuTerapia"]
+  },
+  "disclosure-trigger#subMenuTerapia": {
+    "children": ["menu-item#subMenuTerapia"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuTerapia": {
+    "children": [
+      "menu-item#subMenuTerapiaSubItem",
+      "menu-item#subMenuTerapiaSubItem6",
+      "menu-item#subMenuTerapiaSubItem7",
+      "menu-item#subMenuTerapiaSubItem8",
+      "menu-item#subMenuTerapiaSubItem9",
+      "menu-item#subMenuTerapiaSubItem10",
+      "menu-item#subMenuTerapiaSubItem11"
+    ]
+  },
+  "menu-item#subMenuTerapia": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aditivos y curadores"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tens",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "TENS"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cintas%20kinesiologicas?_q=Cintas%20kinesiológicas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas kinesiológicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem8": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fajas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fajas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem9": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "cuellos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem10": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rodilleras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Rodilleras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem11": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabestrillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabestrillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenuTerapia2": {
+    "children": ["disclosure-trigger#subMenuTerapia2", "disclosure-content#subMenuTerapia2"]
+  },
+  "disclosure-trigger#subMenuTerapia2": {
+    "children": ["menu-item#subMenuTerapia2"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuTerapia2": {
+    "children": ["menu-item#subMenuTerapiaSubItem2", "menu-item#subMenuTerapiaSubItem3", "menu-item#subMenuTerapiaSubItem4", "menu-item#subMenuTerapiaSubItem5"]
+  },
+  "menu-item#subMenuTerapia2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Mamposteria"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aspirador%20de%20secreciones?_q=aspirador%20de%20secreciones&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aspirador de secreciones"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresor%20nebulizador?_q=compresor%20nebulizador&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresor nebulizador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reguladores%20de%20oxigeno?_q=reguladores%20de%20oxigeno&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Reguladores de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cilindros%20de%20oxigeno?_q=cilindros%20de%20oxigeno&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cilindros de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terapia%20en%20el%20hogar?_q=terapia%20en%20el%20hogar&map=ft",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //menus terapie en el hogar
+  "vtex.menu@2.x:submenu#more4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more4"]
+  },
+  "flex-layout.row#menu-more4": {
+    "children": ["flex-layout.col#menu-more-4"]
+  },
+  "flex-layout.col#menu-more-4": {
+    "children": ["vtex.menu@2.x:menu#more4"]
+  },
+  "vtex.menu@2.x:menu#more4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#Tapabocas", "menu-item#SubItemTapabocas2", "menu-item#SubItemTapabocas3", "menu-item#SubItemTapabocas4", "menu-item#VerTodo4"]
+  },
+  //sub items menu
+  "menu-item#Tapabocas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "/tapabocas-y-desinfeccion/tapabocas",
+        "tagTitle": "About us",
+        "text": "Tapabocas"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas-y-desinfeccion/caretas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Caretas"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gel%20antibacterial?_q=gel%20antibacterial&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Gel Antibacterial"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas-y-desinfeccion/Alcohol",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Alcohol"
+      }
+    }
+  },
+  "menu-item#VerTodo4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //menus Profesionales de la salud
+  "vtex.menu@2.x:submenu#more5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-more5"]
+  },
+  "flex-layout.row#menu-more5": {
+    "children": ["flex-layout.col#menu-more-5"]
+  },
+  "flex-layout.col#menu-more-5": {
+    "children": ["vtex.menu@2.x:menu#more5"]
+  },
+  "vtex.menu@2.x:menu#more5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenuProf",
+      "disclosure-layout#subMenuProf2",
+      "disclosure-layout#subMenuProf3",
+      "disclosure-layout#subMenuProf4",
+      "disclosure-layout#subMenuProf5",
+      "menu-item#VerTodo5"
+    ]
+  },
+  //sub items menu
+
+  "menu-item#VerTodo5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //sub items menu
+  "disclosure-layout#subMenuProf": {
+    "children": ["disclosure-trigger#subMenuLesionesMus", "disclosure-content#subMenuLesionesMus"]
+  },
+  "disclosure-trigger#subMenuLesionesMus": {
+    "children": ["menu-item#subMenuLesionesMus"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuLesionesMus": {
+    "children": [
+      "menu-item#subMenuLesionesMus1",
+      "menu-item#subMenuLesionesMus2",
+      "menu-item#subMenuLesionesMus3",
+      "menu-item#subMenuLesionesMus4",
+      "menu-item#subMenuLesionesMus5",
+      "menu-item#subMenuLesionesMus6",
+      "menu-item#subMenuLesionesMus7"
+    ]
+  },
+  "menu-item#subMenuLesionesMus": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aditivos y curadores"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuLesionesMus1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tens",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "TENS"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cintas-kinesiologicas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas kinesiológicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fajas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fajas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuellos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "cuellos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rodilleras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Rodilleras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabestrillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabestrillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenuProf2": {
+    "children": ["disclosure-trigger#subMenuRespiratoria", "disclosure-content#subMenuRespiratoria"]
+  },
+  "disclosure-trigger#subMenuRespiratoria": {
+    "children": ["menu-item#subMenuRespiratoria"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuRespiratoria": {
+    "children": ["menu-item#subMenuTerapiaSubItem2", "menu-item#subMenuTerapiaSubItem3", "menu-item#subMenuTerapiaSubItem4", "menu-item#subMenuTerapiaSubItem5"]
+  },
+  "menu-item#subMenuRespiratoria": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Mamposteria"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuRespiratoria1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aspirador-de-secreciones",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aspirador de secreciones"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Compresor-nebulizador",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresor nebulizador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Reguladores-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Reguladores de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cilindros-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cilindros de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 3
+  "disclosure-layout#subMenuProf3": {
+    "children": ["disclosure-trigger#subMenuCuadernos", "disclosure-content#subMenuCuadernos"]
+  },
+  "disclosure-trigger#subMenuCuadernos": {
+    "children": ["menu-item#subMenuCuadernos"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuCuadernos": {
+    "children": ["menu-item#subMenuCuadernos1", "menu-item#subMenuCuadernos2", "menu-item#subMenuCuadernos3", "menu-item#subMenuCuadernos4", "menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuCuadernos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Cuadernos, lapiceros y otros accesorios"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuCuadernos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lapiceros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lapiceros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cuadernos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cuadernos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pines",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pines"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cintas%20metricas?_q=cintas%20metricas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas métricas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/RCP",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "RCP"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 4
+  "disclosure-layout#subMenuProf4": {
+    "children": ["disclosure-trigger#subMenuEvaluacion", "disclosure-content#subMenuEvaluacion"]
+  },
+  "disclosure-trigger#subMenuEvaluacion": {
+    "children": ["menu-item#subMenuEvaluacion"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuEvaluacion": {
+    "children": ["menu-item#subMenuCuadernos1", "menu-item#subMenuCuadernos2", "menu-item#subMenuCuadernos3", "menu-item#subMenuCuadernos4", "menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuEvaluacion": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Evaluación de órganos y sentidos"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuEvaluacion1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Fonendoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fonendoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kits",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tensiometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tensiómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Otoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Otoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Martillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Martillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kits%20de%20organos?_q=kits%20de%20organos&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits de órganos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linternas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Linternas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 5
+  "disclosure-layout#subMenuProf5": {
+    "children": ["disclosure-trigger#subMenuInstrumentos", "disclosure-content#subMenuInstrumentos"]
+  },
+  "disclosure-trigger#subMenuInstrumentos": {
+    "children": ["menu-item#subMenuInstrumentos"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#subMenuInstrumentos": {
+    "children": ["menu-item#subMenuInstrumentos1", "menu-item#subMenuInstrumentos2", "menu-item#subMenuInstrumentos3"]
+  },
+  "menu-item#subMenuInstrumentos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Instrumentos para pequeñas cirugías"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuInstrumentos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tijeras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tijeras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Torniquetes",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Torniquetes"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sistemas%20de%20diseccion?_q=sistemas%20de%20diseccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sistemas de disección"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //header
+  "flex-layout.row#PreMobile": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": "Pre-header"
+    },
+    "children": ["drawer", "flex-layout.col#search-barMo"]
+  },
+  "flex-layout.col#search-barMo": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar#Mo"]
+  },
+  "search-bar#Mo": {
+    "props": {
+      "width": "100%",
+      "placeholder": "¿Qué estás buscando? Escríbelo aquí"
+    }
+  },
+
+  /**/
+
+  "flex-layout.col#headerbuscador": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow",
+      "blockClass": "headerseccionbuscador"
+    },
+    "children": ["flex-layout.row#contacto", "modal-trigger#1localizador", "flex-layout.col#search-bar"]
+  },
+
+  "flex-layout.row#contactoM": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow",
+      "blockClass": "headerseccionbuscadorContactoM"
+    },
+    "children": ["rich-text#contacto1", "rich-text#contacto2"]
+  },
+
+  "flex-layout.row#contacto": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow",
+      "blockClass": "headerseccionbuscadorContacto"
+    },
+    "children": ["rich-text#contacto1", "rich-text#contacto2"]
+  },
+
+  "rich-text#contacto1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Whatsapp +57 300 123 45 67](https://wa.link/5doazt)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "numerodecontacto-whatsapp"
+    }
+  },
+  "rich-text#contacto2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PBX 01 8000 123 45 67](#)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "numerodecontacto-pbx"
+    }
+  },
+  "rich-text#localizador": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[SIKA COLOMBIA](#)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "localizador"
+    }
+  },
+  "modal-trigger#1localizador": {
+    "children": [/*"rich-text#localizador", "modal-layout#1localizador",*/ "location-context"]
+  },
+
+  "modal-layout#1localizador": {
+    "children": [
+      "modal-header",
+      "location-context"
+      // "rich-text#modal-content"
+    ]
+  },
+  // "rich-text#modal-content": {
+  //   "props": {
+  //     "text": "Hello"
+  //   }
+  // },
+  //******************* prueba location avalinsjns *******************
+  "location-context": {
+    "children": ["modal-trigger#location-availability"/*, "flex-layout.row#location-availability"*/],
+    "props": {
+      "blockClass": "localizador-header--modal"
+    }
+  },
+  "flex-layout.row#location-availability": {
+    "children": ["product-location-pickup-options", "product-location-shipping-options"]
+  },
+  "modal-trigger#location-availability": {
+    "children": ["product-location-availability-header", "modal-layout#address"],
+    "props": {
+      "blockClass": "localizador-header--modal"
+    }
+  },
+  "product-location-availability-header": {
+    "props": {
+      "styleAsLink": true,
+      "blockClass": "localizador-header--modal"
+    }
+  },
+  "shopper-location": {
+    "children": ["modal-trigger#address"],
+    "props": {
+      "autofill": ["city", "country", "neighborhood", "number", "postalCode", "state", "street"]
+    }
+  },
+  "modal-trigger#address": {
+    "children": ["user-address", "modal-layout#address"]
+  },
+  "user-address": {
+    "props": {
+      "variation": "bar",
+      "showStreet": false,
+      "showCityAndState": true,
+      "showPostalCode": true,
+      "showPrefix": false,
+      "showIfEmpty": true
+    }
+  },
+  "modal-layout#address": {
+    "children": ["modal-header#address", "modal-content#address"]
+  },
+  "modal-header#address": {
+    "children": ["flex-layout.col#address-header"]
+  },
+  "flex-layout.col#address-header": {
+    "children": ["rich-text#address-header"],
+    "props": {
+      "paddingLeft": 5,
+      "blockClass": "titulo-localizador-header--modal"
+    }
+  },
+  "rich-text#address-header": {
+    "props": {
+      "text": "### Selecciona tu ubicación"
+    }
+  },
+  "modal-content#address": {
+    "children": ["change-location"]
+  },
+  "change-location": {
+    "props": {
+      "postalCode": "first",
+      "autocomplete": true,
+      "notRequired": ["street", "number", "city", "state"],
+      "hideFields": ["complement", "neighborhood", "receiverName", "reference"]
+    }
+  },
+
+  // **********************shopper location***************************************
+
+  //*******************************************************************MENU CONSTRUCCIÓN
+  "menu-item#CONSTRUCCION": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Construcción"
+      },
+      "blockClass": "department"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#DEPTO1"]
+  },
+
+  "vtex.menu@2.x:submenu#DEPTO1": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu-CAT1"]
+  },
+  "flex-layout.row#menu-CAT1": {
+    "children": ["flex-layout.col#menu-CAT1"]
+  },
+  "flex-layout.col#menu-CAT1": {
+    "children": ["vtex.menu@2.x:menu#CAT1"]
+  },
+  "vtex.menu@2.x:menu#CAT1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["disclosure-layout#depto1-cat1", "disclosure-layout#depto1-cat2", "disclosure-layout#depto1-cat3", "menu-item#VerTodo5"]
+  },
+
+  //--------------------------------------------------------- CATEGORIA 1
+
+  "disclosure-layout#depto1-cat1": {
+    "children": ["disclosure-trigger#depto1-cat1", "disclosure-content#depto1-cat1"]
+  },
+  "disclosure-trigger#depto1-cat1": {
+    "children": ["menu-item#depto1-cat1"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#depto1-cat1": {
+    "children": ["menu-item#depto1-cat1-sub1", "menu-item#depto1-cat1-sub2", "menu-item#depto1-cat1-sub3", "menu-item#depto1-cat1-sub4"]
+  },
+  "menu-item#depto1-cat1": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Aditivos y curadores"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#depto1-cat1-sub1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aditivos-para-cementos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aditivos para cementos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat1-sub2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aditivos-para-morteros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aditivos para morteros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat1-sub3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aditivos-y-adiciones-para-concreto",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aditivos y adiciones para concreto"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat1-sub4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Curadores-y-desencofrantes",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Curadores y desencofrantes"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+
+  //--------------------------------------------------------- CATEGORIA 2
+
+  "disclosure-layout#depto1-cat2": {
+    "children": ["disclosure-trigger#depto1-cat2", "disclosure-content#depto1-cat2"]
+  },
+  "disclosure-trigger#depto1-cat2": {
+    "children": ["menu-item#depto1-cat2"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#depto1-cat2": {
+    "children": ["menu-item#depto1-cat2-sub1", "menu-item#depto1-cat2-sub2", "menu-item#depto1-cat2-sub3"]
+  },
+  "menu-item#depto1-cat2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Aditivos y curadores"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#depto1-cat2-sub1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pega de mampostería",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pega de mampostería"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat2-sub2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Grout de mampostería",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Grout de mampostería"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat2-sub3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pañete de Mampostería",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pañete de Mampostería"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+
+  //--------------------------------------------------------- CATEGORIA 3
+
+  "disclosure-layout#depto1-cat3": {
+    "children": ["disclosure-trigger#depto1-cat2", "disclosure-content#depto1-cat3"]
+  },
+  "disclosure-trigger#depto1-cat3": {
+    "children": ["menu-item#depto1-cat2"],
+    "props": {
+      "blockClass": "SubMenuMovilidad"
+    }
+  },
+  "disclosure-content#depto1-cat3": {
+    "children": ["menu-item#depto1-cat3-sub1", "menu-item#depto1-cat3-sub2", "menu-item#depto1-cat3-sub3"]
+  },
+  "menu-item#depto1-cat3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Proteccion y acabados para fachadas"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#depto1-cat3-sub1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pinturas-acrílicas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pinturas acrílicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat3-sub2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Repelentes-para-fachadas-de-ladrillo",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Repelentes para fachadas de ladrillo"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#depto1-cat3-sub3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Limpieza-Sistemas-especiales-para-fachadas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Limpieza Sistemas especiales para fachadas"
+      },
+      "blockClass": "SubCategory"
+    }
+  }
+}

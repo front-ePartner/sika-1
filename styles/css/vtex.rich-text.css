@@ -1,0 +1,1204 @@
+.link--help-message {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.paragraph {
+  padding: 0;
+  margin: 0;
+}
+.heading--textosPrinc {
+  font-size: 32px;
+  margin: 0px 0 -3px 0;
+  color: black;
+}
+.heading--textosPrinc2 {
+  font-size: 32px;
+  margin: 0px 0 -3px 0;
+  color: black;
+}
+.headingLevel1 {
+  font-family: 'Roboto', sans-serif;
+}
+.container--tituloNewsletter {
+  justify-content: center;
+}
+.paragraph--textoquien {
+  font-family: 'Roboto', sans-serif;
+}
+.headingLevel3--textosPrinc {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.headingLevel3--textosPrinc2 {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.paragraph--reviews {
+  margin: 0 0px 20px 20px;
+}
+.wrapper--textosPrinc {
+  margin: -36px 0 0 0;
+}
+.wrapper--textosPrin2 {
+  margin: -36px 0 0 0;
+}
+.paragraph--textoscentro {
+  font-size: 12px;
+}
+.paragraph--textoscentro {
+  margin: 0 16px 0 0;
+  min-width: 130px;
+}
+.paragraph--titleF {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0 14px 0;
+}
+.paragraph--textFoo1 {
+  color: white;
+  font-size: 12px;
+}
+.link--textFoo,
+.paragraph--textFoo {
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 20px;
+  text-decoration: none;
+}
+.paragraph--textfool {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+.container--textfool {
+  position: absolute;
+  right: -49px;
+  top: -12px;
+}
+.wrapper--about {
+  margin: 0 100px 100px 100px;
+}
+
+.wrapper--textoquien {
+  justify-content: center !important;
+  display: block;
+}
+
+.container--textoquien {
+  justify-content: flex-start;
+}
+
+.headingLevel2 {
+  font-size: 21px;
+}
+.container--textostilo {
+  margin: 0;
+}
+.headingLevel1--textoquien {
+  font-size: 25px;
+  margin: 10px 0;
+  display: none;
+}
+.list--textostilo {
+  margin: 0;
+  line-height: 22px;
+  color: black;
+  font-size: 15px;
+}
+.listItem--about,
+.paragraph--about {
+  line-height: 25px;
+  font-size: 14px;
+}
+.link--Pedidos {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+.wrapper--categoriaPrinci::before {
+  content: '';
+  background-image: url('https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png');
+}
+.wrapper--categoriaPrinci {
+  display: flex;
+}
+.link--CategoriaPrin1,
+.link--CategoriaPrin2,
+.link--CategoriaPrin3,
+.link--CategoriaPrin4 {
+  margin: 0 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+/*
+.container--CategoriaPrin2::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png) no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 21px;
+    height: 28px;
+    margin-top: 0px;
+}
+*/
+/*
+.container--CategoriaPrin3::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_profesion.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 23px;
+  height: 27px;
+  margin-top: 0px;
+}
+*/
+.paragraph--titleF:last-child {
+  justify-content: center;
+}
+/*
+.container--CategoriaPrin4::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_promociones.png) no-repeat;
+    background-size: 101%;
+    font-size: 10px;
+    display: block;
+    width: 32px;
+    height: 30px;
+    margin-top: 0px;
+}
+*/
+/*
+.container--CategoriaPrin1::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_paracuidado.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 24px;
+  height: 26px;
+  margin-top: 0px;
+}
+*/
+.container--CategoriaPrin1,
+.container--CategoriaPrin2,
+.container--CategoriaPrin3,
+.container--CategoriaPrin1 {
+  margin-right: 30px;
+}
+.headingLevel1--tituloProduct {
+  margin: 12px 0;
+  font-size: 25px;
+  color: black;
+}
+.container--textosPrinc2 {
+  height: auto;
+  display: block;
+  margin-top: 0;
+}
+.container--textosPrinc {
+  height: auto;
+  display: block;
+  margin-top: 8rem;
+}
+.link--tituloEstaticos {
+  text-decoration: none;
+  font-weight: 600;
+  color: #191531;
+  font-size: 15px;
+}
+.link--contenidoEstaticas {
+  text-decoration: none;
+  color: #191531;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.link--tituloSubemnu {
+  text-decoration: none;
+  color: #483d3d;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link--tituoSubmenu {
+  text-decoration: none;
+  color: #483d3d;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link--botones1Menu {
+  padding: 10px 75px;
+  text-decoration: none;
+  margin: 25% auto;
+  justify-content: center;
+  align-items: center;
+  color: #191531;
+  font-weight: 700;
+  border: 2px solid #191531;
+  background: white;
+  transition: all 400ms;
+  width: 100%;
+  display: block;
+}
+.link--botones1Menu:hover {
+  background: white;
+}
+.link--botones2Menu:hover {
+  background: white;
+}
+.container--botones1Menu {
+  justify-content: flex-start;
+  padding-top: 10px;
+  margin-top: 8px;
+  padding-right: 0px;
+  /*border-top: 1px solid #0f0095;*/
+  margin-left: 5px;
+  width: 100%;
+}
+.link--textFoo:hover {
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+.link--tituloSubemnu:hover {
+  text-decoration-color: #f5b325;
+  text-decoration: underline;
+}
+.link--Pedidos:hover {
+  text-decoration-color: black;
+  text-decoration: none;
+}
+.link--tituoSubmenu:hover {
+  text-decoration-color: #0f0095;
+  text-decoration: underline;
+}
+.container--botones2Menu {
+  height: 58px;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+.link--botones2Menu {
+  padding: 10px 78px;
+  text-decoration: none;
+  margin: 25% auto;
+  justify-content: center;
+  align-items: center;
+  color: #191531;
+  font-weight: 700;
+  border: 2px solid #f5b325;
+  background: #f5b325;
+  transition: all 400ms;
+  width: 100%;
+  display: block;
+}
+/* .link--CategoriaPrin1:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin2:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin3:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin4:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+} */
+.link--contenidoSubemnu {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.container--contenidoSubemnu {
+  padding: 4px 0;
+}
+.link--contenidoSubemnu {
+  transition: all 400ms;
+}
+.link--contenidoSubemnu:hover {
+  border-left: 10px solid #ffc100;
+  font-weight: 700;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+.paragraph--textFooM {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+.headingLevel1--textoquienM {
+  margin: 20px 0px 0 0px;
+  font-size: 35px;
+}
+.link--numerodecontacto-whatsapp,
+.link--numerodecontacto-pbx {
+  font-size: 12px;
+  text-decoration: none;
+  color: #a46903;
+  font-weight: lighter;
+  line-height: 14.4px;
+}
+.container--numerodecontacto-whatsapp {
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+.container--numerodecontacto-pbx {
+  justify-content: flex-start;
+}
+.container--localizador {
+  justify-content: end;
+  margin-left: 6px;
+}
+.link--localizador::before {
+  content: '';
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/localizador.png);
+  position: relative;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 26px;
+  top: 1px;
+  display: flex;
+  
+}
+.link--localizador {
+  display: flex;
+  color: #3c3c3c;
+  text-decoration: none;
+  font-size: 13px;
+  position: absolute;
+  top: -0.3rem;
+  height: 16px;
+  z-index: 999;
+  margin: -3px auto 0px;
+  left: 0;
+}
+.link--Pedidos {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f19f11;
+  transition: 0.5s;
+}
+.link--Pedidos:hover {
+  border-color: #616161;
+}
+.link--botones1Menu:hover {
+  background: #f5b325;
+}
+.wrapper--Pedidos {
+  text-decoration: none;
+}
+.container--Pedidos {
+  text-decoration: none;
+}
+.paragraph--Pedidos {
+  text-decoration: none;
+}
+.paragraph--CategoriaPrin1:hover .link--CategoriaPrin1,
+.paragraph--CategoriaPrin2:hover .link--CategoriaPrin2,
+.paragraph--CategoriaPrin3:hover .link--CategoriaPrin3,
+.paragraph--CategoriaPrin4:hover .link--CategoriaPrin4 {
+  font-family: 'KLAVIKA';
+}
+.paragraph--CategoriaPrin1 {
+  /* border: 1px solid; */
+  padding: 5px;
+  border-radius: 6px;
+}
+.paragraph--CategoriaPrin1:hover {
+  background: #e3e3e3;
+  font-weight: 900;
+}
+.paragraph--CategoriaPrin2 {
+  /* border: 1px solid; */
+  padding: 5px;
+  border-radius: 6px;
+}
+.paragraph--CategoriaPrin2:hover {
+  background: #e3e3e3;
+  font-weight: 900;
+}
+.paragraph--CategoriaPrin3 {
+  /* border: 1px solid; */
+  padding: 5px;
+  border-radius: 6px;
+}
+.paragraph--CategoriaPrin3:hover {
+  background: #e3e3e3;
+  font-weight: 900;
+}
+.paragraph--CategoriaPrin4 {
+  /* border: 1px solid; */
+  padding: 5px;
+  border-radius: 6px;
+}
+.paragraph--CategoriaPrin4:hover {
+  background: #e3e3e3;
+  font-weight: 900;
+}
+.heading--textosPrinc::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-izquierda.png);
+  width: 190px;
+  background-size: 75%;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+.heading--textosPrinc2::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-izquierda.png);
+  width: 190px;
+  background-size: 75%;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+.heading--textosPrinc::after {
+  content: ''; /* content: ""; */
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha.png);
+  width: 190px;
+  background-size: 75%;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative; /* margin: 7px; */
+  background-position: center;
+}
+.heading--textosPrinc2::after {
+  content: ''; /* content: ""; */
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha.png);
+  width: 190px;
+  background-size: 75%;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative; /* margin: 7px; */
+  background-position: center;
+}
+
+.headingLevel1--textosPrinc {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.headingLevel1--textosPrinc2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.link--textFooDIrec {
+  font-size: 13px;
+  color: white;
+  font-weight: 100;
+  text-decoration: none;
+}
+.container--textFooDIrec {
+  height: 20px;
+}
+.paragraph--NOMBRE-RAZON-SOCIAL {
+  color: white;
+  margin: 0 0 -18px 0;
+  font-size: 25px;
+}
+.link--footerMenuItemSigueme {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  align-items: center;
+  margin: auto;
+}
+.wrapper--footerMenuItemSigueme {
+  margin: auto;
+  margin-left: 0;
+  font-family: 'Klavika-light';
+}
+.container--footerMenuItem {
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  margin: -10px auto 0;
+}
+.link--footerMenuItem {
+  font-size: 11px;
+  margin: auto auto;
+  color: #616161;
+  text-decoration: none;
+  align-items: center;
+}
+.paragraph--footerMenuItem {
+  margin: auto;
+  align-items: center;
+}
+.link--footerMenuItem {
+  padding: 0 10px;
+  border-right: 1px solid;
+}
+.link--footercopyright {
+  color: white;
+  font-size: 11px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.container--footercopyright {
+  justify-content: center;
+  padding: 1.5rem 0;
+  font-family: 'Klavika-light';
+  font-size: 15px;
+}
+.wrapper--botones1Menu {
+  width: 100%;
+  height: 169px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  /* background-size: 152%; */
+  border-radius: 9px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/Rectangle%2055.png);
+}
+.wrapper--botones2Menu {
+  width: 100%;
+  height: 169px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 9px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/Rectangle%2056.png);
+}
+.paragraph--quienes-somosPARRFO {
+  color: black;
+  font-size: 14px;
+  font-family: 'Klavika-light';
+}
+.paragraph--quienes-somostitulo {
+  color: black;
+}
+.paragraph--quienes-somosSEC2 {
+  color: #f5b325;
+  background: #f6f6f6;
+  font-size: 26px;
+  padding: 11px 24px;
+  border-radius: 6px;
+  margin: -3px 5% 0px;
+}
+.container--quienes-somosSEC2 {
+  margin-bottom: 21px;
+}
+.wrapper--quienes-somosSEC2 {
+  width: 100%;
+}
+.wrapper--quienes-somosBOTONCOMPRAR {
+  background: #f5b325;
+  border-radius: 8px;
+}
+.container--quienes-somosBOTONCOMPRAR {
+  position: relative;
+  bottom: -72px;
+}
+.paragraph--quienes-somosBOTONCOMPRAR {
+  font-size: 35px;
+  padding: 5px 30px;
+  color: #483d3d;
+}
+.paragraph--quienes-somostitulo::after {
+  content: '';
+  width: 255px;
+  height: 4px;
+  background: #f5b325;
+  border-radius: 30px;
+  display: block;
+  position: relative;
+  margin: 0 auto 29px;
+}
+
+.wrapper--lateral-derecha-desk-titulo {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  /* background: rebeccapurple; */
+}
+.container--lateral-derecha-desk-titulo {
+  width: 100% !important;
+  padding: 9px;
+  border-radius: 10px 10px 0 0;
+  background: white !important;
+  font-weight: 700;
+}
+.wrapper--lateral-derecha-desk-titulo::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/flechas-estaticas.png);
+  display: block;
+  background-size: 100%;
+}
+.wrapper--lateral-derecha-desk-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+.headingLevel1--textoquienM {
+  color: #f5b325;
+}
+.paragraph--textostilo {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  margin: 0 20px;
+}
+.wrapper--title-localizador {
+  padding: 0 100px;
+  color: #f5b325;
+}
+.headingLevel2--title-localizador {
+  font-size: 35px;
+  width: 80%;
+}
+.container--Detalles-de-la-tienda {
+  padding: 0 100px;
+}
+.wrapper--Detalles-de-la-tienda {
+  font-size: 30px;
+}
+.wrapper--Detalles-de-la-tienda .headingLevel2 {
+  font-size: 40px;
+  width: 80%;
+  color: #f5b325;
+}
+
+.link--tituoSubmenu {
+  font-family: 'KLAVIKA';
+}
+.link--tituloSubemnu {
+  font-family: 'KLAVIKA';
+}
+.link--contenidoSubemnu {
+  font-family: 'Klavika-light';
+}
+.link--CategoriaPrin1 {
+  font-family: 'Klavika-light';
+}
+.link--CategoriaPrin2 {
+  font-family: 'Klavika-light';
+}
+.link--CategoriaPrin3 {
+  font-family: 'Klavika-light';
+}
+.link--CategoriaPrin4 {
+  font-family: 'Klavika-light';
+}
+.link--botones1Menu {
+  font-family: 'KLAVIKA';
+}
+.link--botones2Menu {
+  font-family: 'KLAVIKA';
+}
+.link--localizador {
+  font-family: 'KLAVIKA';
+}
+.link--numerodecontacto-whatsapp {
+  font-family: 'Klavika-light';
+}
+.link--numerodecontacto-pbx {
+  font-family: 'Klavika-light';
+}
+.link--Pedidos {
+  font-family: 'KLAVIKA';
+}
+.headingLevel1--textosPrinc {
+  font-family: 'KLAVIKA';
+}
+.headingLevel1--textosPrinc2 {
+  font-family: 'KLAVIKA';
+}
+.wrapper--titleLast {
+  font-family: 'KLAVIKA';
+}
+.paragraph--titleF {
+  font-family: 'KLAVIKA';
+}
+.paragraph--NOMBRE-RAZON-SOCIAL {
+  font-family: 'Klavika-light';
+  font-size: 30px;
+  line-height: 25px;
+}
+.link--textFoo {
+  font-family: 'Klavika-light';
+}
+.link--textFooM {
+  font-family: 'KLAVIKA';
+}
+.link--textFooDIrec {
+  font-family: 'Klavika-light';
+}
+.link--footerMenuItem {
+  font-family: 'KLAVIKA';
+}
+.link--footerMenuItem:hover {
+  text-decoration: underline;
+}
+.wrapper--triggerModalNewsTExto {
+  margin: 15% auto 0 14%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  background: #f5b325;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.paragraph--quienes-somosPARRFO {
+  text-align: justify;
+  font-family: 'Klavika-light';
+}
+.link--quienes-somosBOTONCOMPRAR {
+  color: #483d3d;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .container--textFooM {
+    justify-content: center;
+  }
+  .wrapper--Pedidos {
+    padding-right: 9px;
+  }
+  .paragraph {
+    line-height: 15px;
+  }
+  .container--textfool {
+    position: relative;
+    right: 0;
+    top: -4px;
+    justify-content: center;
+  }
+  .paragraph--contenidoEstaticas {
+    display: none;
+  }
+  .container--tituloEstaticos {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .headingLevel1--textoquienM {
+    display: block !important;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .headingLevel1--textoquien {
+    display: none;
+  }
+  .headingLevel1--textoquienM {
+    display: block !important;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .paragraph--tituloEstaticos {
+    position: relative;
+  }
+  .container--titleF {
+    justify-content: center;
+  }
+  .container--textoquien {
+    justify-content: center;
+    margin: 40px 0 0 0;
+  }
+  .paragraph--textoquien {
+    font-size: 30px;
+    font-weight: 700;
+    color: #191531;
+    letter-spacing: 1px;
+  }
+  .paragraph--aboutM {
+    text-align: justify;
+    margin: 0 10px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin: 0 20px;
+  }
+  .container--titleLast {
+    justify-content: flex-start !important;
+  }
+  .paragraph--TituloMobile {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .paragraph--reviews {
+    margin: 0 25px 20px 25px;
+  }
+  .wrapper--botones2Menu .link--botones1Menu {
+    padding: 10px 14px;
+  }
+  .link--textFoo,
+  .paragraph--textFoo {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .link--textFooM {
+    font-weight: 300;
+  }
+  .container--textFooM:first-child {
+    display: none;
+  }
+  .paragraph--textostilo {
+    line-height: 20px;
+    text-align: justify;
+  }
+  .link--Pedidos {
+    font-size: 11px;
+  }
+  .headingLevel1--textosPrinc {
+    font-size: 20px;
+  }
+  .headingLevel1--textosPrinc2 {
+    font-size: 20px;
+  }
+  .paragraph--textFooDIrecM {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  .container--NOMBRE-RAZON-SOCIAL {
+    width: 100%;
+    margin: 25px auto;
+    justify-content: center;
+  }
+  .link--textFooDIrecM {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .container--textFooDIrecM {
+    justify-content: center;
+  }
+  .paragraph--quienes-somostitulo {
+    line-height: 1;
+    font-size: 26px;
+  }
+  .paragraph--quienes-somostitulo::after {
+    width: 133px;
+    margin: 10px auto;
+  }
+  .paragraph--quienes-somosSEC2 {
+    line-height: 1;
+  }
+  .paragraph--quienes-somosBOTONCOMPRAR {
+    line-height: 1;
+  }
+  .paragraph--textostilo {
+    width: 92%;
+    margin: 0 auto 0 0;
+    overflow: scroll;
+  }
+  .container--Detalles-de-la-tienda {
+    padding: 0 28px;
+  }
+  .wrapper--title-localizador {
+    padding: 0 10px;
+  }
+  .wrapper--triggerModalNewsTExto {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 27px auto;
+    color: white;
+    background: #483d3d;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .wrapper--botones1Menu {
+    width: 96%;
+    padding: 0 22px;
+    height: auto;
+  }
+  .wrapper--botones2Menu {
+    width: 96%;
+    padding: 0 22px;
+    height: auto;
+  }
+  .wrapper--numerodecontacto {
+    color: white;
+  }
+  .link--numerodecontacto {
+    color: white;
+    font-family: 'KLAVIKA';
+  }
+  .link--numerodecontacto-whatsapp {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.link--numerodecontacto-pbx {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+  .container--numerodecontacto-pbx {
+    justify-content: center;
+}
+.container--textosPrinc {
+  margin-top: 80px;
+}
+.container--productMOBILE1 {
+  text-align: center;
+  justify-content: center;
+}
+.paragraph--productMOBILE1 {
+  text-align: center;
+}
+.container--productMOBILE1 {
+  width: 100%;
+}
+.paragraph--productMOBILE1 {
+  font-family: 'KLAVIKA';
+  font-size: 19px;
+}
+.container--footerMobilePart2 {
+  width: 100%;
+  padding: 0 22px;
+  font-family: 'KLAVIKA';
+  text-transform: uppercase;
+  display: flex;
+}
+.wrapper--footerMobilePart2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+}
+.link--quienes-somosBOTONCOMPRAR {
+  font-size: 17px;
+}
+.paragraph--filtroseleccionado {
+  font-family: 'KLAVIKA';
+  text-transform: uppercase;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.link--textFooM {
+  color: white;
+  text-decoration: none;
+}
+.paragraph--tabChat1 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat2 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat3 {
+  font-size: 13px;
+  margin: 2px 0;
+  text-align: left;
+  text-decoration: none;
+}
+.link--tabChat3 {
+  text-decoration: none;
+}
+.link--tabChat2 {
+  text-decoration: none;
+}
+.link--tabChat1 {
+  text-decoration: none;
+}
+.link--tabChat3::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background: url();
+}
+
+.container--tabChat1 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat2 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat3 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.link--tabChat1 {
+  text-align: left;
+  color: black;
+}
+
+.wrapper--tabChat1 {
+  width: 100%;
+}
+.wrapper--tabChat2 {
+  width: 100%;
+}
+.link--tabChat2 {
+  text-align: left;
+  color: black;
+}
+.wrapper--tabChat3 {
+  width: 100%;
+}
+.link--tabChat3 {
+  text-align: left;
+  color: black;
+}
+.paragraph--tabChat2 {
+  text-align: left;
+}
+.wrapper--tabChat1::before {
+  content: '';
+  background: url(https://impormedical.vteximg.com.br/arquivos/icono_tel_nohover.png);
+  width: 24px;
+  height: 24px;
+  background-size: 82%;
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+}
+.wrapper--tabChat3::before {
+  content: '';
+  background: url(https://impormedical.vteximg.com.br/arquivos/icono_chat_nohover.png);
+  width: 24px;
+  height: 24px;
+  background-size: 82%;
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+}
+.wrapper--tabChat2::before {
+  content: '';
+  background: url(https://impormedical.vteximg.com.br/arquivos/icono_wp_nohover.png);
+  width: 24px;
+  height: 24px;
+  background-size: 82%;
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+}
+
+.wrapper--tabChat1 {
+  display: flex;
+}
+.wrapper--tabChat2 {
+  display: flex;
+}
+.wrapper--tabChat3 {
+  display: flex;
+}
+
+@media (min-width: 1735px) {
+  .container--textosPrinc {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 1050px) {
+  .link--botones1Menu {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .container--botones1Menu {
+    margin-left: 0;
+  }
+}
+
+.paragraph--quienes-somosSEC2 {
+  padding: 1rem 0;
+}
+
+.paragraph--quienes-somosBOTONCOMPRAR {
+  padding: 0.5rem 5rem;
+  font-family: 'KLAVIKA';
+}
+
+.link--Pedidos {
+  border: 1px solid transparent;
+  font-family: 'Klavika-light';
+}
+
+.link--Pedidos:hover {
+  border: 1px solid #f19f11;
+  background-color: white;
+  font-family: 'KLAVIKA';
+}
+
+.headingLevel1--textosPrinc {
+  color: #3c3c3c;
+}

@@ -1,0 +1,75 @@
+.emailInputContainer{
+    width: 500px;
+}
+.formSubmitContainer{
+    /* background: #ffc100; */
+    border-radius: 5px;
+    height: auto;
+    margin: 9px 0 0 0px;
+}
+.formSubmitContainer :global(.vtex-button__label) {
+    color: white ;
+    padding:10px !important;
+}
+.confirmationCheckboxContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.confirmationCheckboxContainer :global(.vtex-checkbox__label){
+    color: rgb(28, 26, 26);
+    font-size: 13px;
+    font-weight: 300;
+}
+.formSubmitContainer :global(.vtex-button__label) {
+    BACKGROUND: #3C3C3C;
+    width: 500px;
+    border-radius: 4px;
+}
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+}
+/*
+:global(.vtex-checkbox__inner-container){
+    color: #7a9037;
+    background-color: black !important;
+    z-index: 99;
+    margin: 3px;
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+}*/
+.newsletterForm::before {content: "Regístrate y recíbe todos los beneficios 25% 50% DESCUENTO";width: 100%;text-align: center;font-family: 'ROBOTO';margin: 25px auto 6px;display: block;}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .emailInputContainer {
+        width: 100%;
+    }
+    .formSubmitContainer {
+        margin: 2px 0 0 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .confirmationCheckboxContainer {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .formSubmitContainer :global(.vtex-button__label) {
+        width: 260px;
+        margin: 2px auto;
+    }
+    .newsletterForm::before {
+        width: 76%;
+    }
+}

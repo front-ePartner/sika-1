@@ -1,0 +1,102 @@
+.quantitySelectorTitle {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.quantitySelectorTitle {
+  margin-bottom: 10px;
+  color: #3c3c3c;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Klavika';
+}
+.availableQuantityContainer {
+  color: transparent;
+}
+.quantitySelectorContainer {
+  margin-bottom: 0;
+  display: block;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+  flex-direction: initial;
+  align-items: center;
+}
+.quantitySelectorStepper {
+  padding: 0 7px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {
+  margin: -5px 0 0 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding-left: 8px;
+  margin-left: 10px;
+  background: #f5b325;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container) {
+  margin: -5px 0 0 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding-left: 8px;
+  margin-right: 10px;
+  margin-left: -7px;
+  background: #f5b325;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+  border-radius: 50%;
+  max-width: 30px;
+  height: 30px;
+  margin-top: -5px;
+  /*   border: 1px solid;*/
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) {
+  height: 20px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+  color: black;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+  color: black;
+}
+.quantitySelectorStepper {
+  width: 33%;
+  height: 25px;
+  margin-top: 13px;
+}
+.availableQuantityContainer {
+  margin: 0 19px;
+}
+.quantitySelectorTitle {
+  font-family: 'KLAVIKA';
+}
+
+@media (max-width: 600px) {
+  .quantitySelectorStepper {
+    height: auto;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper-container) {
+    height: auto;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {
+    width: 50px;
+    height: 50px;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container) {
+    width: 50px;
+    height: 50px;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+    max-width: 50px;
+    height: 45px !important;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+    margin: 7px !important;
+    font-size: 20px;
+  }
+  .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+    margin: 7px !important;
+    font-size: 20px;
+  }
+}

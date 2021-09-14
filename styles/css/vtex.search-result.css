@@ -1,0 +1,692 @@
+.searchResultContainer {
+  padding: 0;
+  margin: 0;
+}
+.galleryTitle--layout {
+  margin: 7px 100px 10px 100px;
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 21px;
+  padding-top: 9px;
+}
+.gallery {
+  padding: 0;
+  margin-left: 25px !important;
+  margin-right: 0;
+}
+.filterPopupTitle {
+  font-size: 12px;
+}
+.orderByText {
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  height: 30px;
+  padding: 5px;
+  color: #333;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 30px;
+}
+.orderByText::after {
+  content: ':';
+}
+.filterPopupArrowIcon .caretIcon {
+  border: none;
+  color: black;
+} /* 
+.galleryItem--normal :global(.vtex-product-summary-2-x-imageNormal){
+    max-height: 16.56rem!important;
+} */
+.showingProducts {
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  height: 30px;
+  padding: 5px;
+  color: #333;
+  font-size: 13px;
+  line-height: 30px;
+}
+.filterMessage {
+  font-size: 14px;
+  font-weight: 700;
+}
+.filterAvailable {
+  padding: 14px 0;
+}
+.filterTitle {
+  color: rgba(58, 58, 58, 0.867);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.filterTitle :global(.vtex-tag) {
+  color: silver;
+  font-size: 10px;
+  background: #f6f6f6 !important;
+  margin: 0;
+  padding: 0 11px !important;
+}
+.filterTitle {
+  position: relative;
+}
+.filter__container {
+  border-bottom: 1px solid rgba(58, 58, 58, 0.867);
+}
+.categoryItemName {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 3px;
+  color: black;
+}
+
+.categoryItemChildren {
+  font-size: 14px;
+  color: black;
+}
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+  font-size: 13px;
+  color: rgba(58, 58, 58, 0.867);
+  font-weight: 500;
+  border: 1px solid #eee;
+  padding: 3px;
+  text-transform: uppercase;
+}
+:focus {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.categoryItemChildrenContainer :global(.vtex__icon-close) {
+  padding: 0 28px 0 0;
+  color: black;
+}
+.filterItem :global(.vtex-checkbox__inner-container) {
+  border: 1px solid rgba(58, 58, 58, 0.867);
+}
+.selectedCategoryName {
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.filterItem :global(.vtex__icon-check) {
+  color: black;
+  width: 10px;
+  height: 10px;
+}
+
+.filterItem :global(.vtex-checkbox__box-wrapper) {
+  width: 10px;
+  height: 10px;
+  box-shadow: -2px 3px 15px -3px rgba(0, 0, 0, 0.38);
+}
+.filterItem :global(.vtex-checkbox__container) {
+  width: 10px;
+  margin: 4px 6px 0 0;
+  height: 10px;
+}
+.filterItem :global(.vtex-checkbox__inner-container) {
+  width: 10px;
+  height: 10px;
+}
+.filterItem :global(.vtex-checkbox__line-container) {
+  padding: 0 5px;
+}
+.filter__container .caretIcon {
+  position: absolute;
+}
+.caretIcon {
+  color: rgb(245 179 37);
+  width: 15px;
+  height: 15px;
+  padding: 0 0px 0 0;
+}
+.filter__container {
+  padding: 0 10px;
+  margin: 0 0 0px 0;
+  border-top: 1px solid;
+  border-bottom: 0;
+}
+.filter__container--title {
+  border: none;
+}
+.showingProducts {
+  text-align: end;
+}
+.buttonShowMore :global(.vtex-button__label) {
+  background: #f5b325;
+  padding: 1rem 2rem !important;
+  border: 0.1rem solid #ededed;
+  transition: 0.5s;
+  color: black;
+  font-weight: 300;
+  border-radius: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.buttonShowMore :global(.vtex-button__label):hover {
+  background: #616161;
+  color: #ededed;
+}
+.buttonShowMore--layout {
+  margin: 40px 0 50px 0;
+}
+.searchResultContainer {
+  max-width: 100%;
+}
+.galleryItem--normal {
+  height: auto;
+  padding: 0;
+  /*  min-height: 454px;*/
+}
+.filter__container--title {
+  display: none;
+}
+.orderByOptionItem {
+  /* min-width: 242px; */
+  width: 100% !important;
+  text-align: center;
+  padding: 0.7rem 0 !important;
+  font-family: 'Klavika';
+}
+.orderByOptionsContainer {
+  /* margin-top: 31px; */
+  margin-top: 3.8rem;
+  border-radius: 10px;
+  border: 0;
+}
+.filterSelected .filterTitle {
+  font-size: 0;
+  color: #000000;
+}
+.filterSelected .filterTitle::before {
+  content: 'FILTROS SELECCIONADOS: ';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.filter__container--selectedFilters {
+  background-color: white;
+  border: 0;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+/* .filter__container--selectedFilters :global(.vtex-checkbox__line-container) {
+  padding: 0 34px 0 2px;
+} */
+.filter__container--selectedFilters :global(.vtex-checkbox__line-container)::before {
+  content: 'X';
+  position: absolute;
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  background: #f5b325;
+  top: 1px;
+  right: 5%;
+  z-index: 9;
+  padding: 2px 8px 2px 8px;
+  border-radius: 5px;
+}
+.filterItem--selected {
+  margin-bottom: 5px;
+}
+.filterItem--selected :global(.vtex-checkbox__container) {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 9999;
+  opacity: 0;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+  font-size: 14px;
+}
+.filterContent :global(.vtex-checkbox__container) {
+  content: '';
+  background: white;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  top: 3px;
+  left: 0px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  transition: all 40ms;
+  margin-right: 5px;
+}
+.filterContent :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+.filter__container--priceRange .filterTitle {
+  font-size: 0;
+}
+.filter__container--priceRange .filterTitle::before {
+  content: 'FILTRO POR PRECIO';
+  font-size: 15px;
+  color: #000000;
+  font-weight: 300;
+}
+.filter__container--priceRange :global(.vtex-slider__base) {
+  background-color: #191531 !important;
+}
+.filter__container--priceRange :global(.vtex-slider__selector-container) {
+  background-color: #0e0291 !important;
+  border-radius: 50%;
+}
+.filter__container--priceRange :global(.vtex-slider__values-container) {
+  justify-content: center;
+}
+.filter__container {
+  background: white;
+  margin: 10px;
+  border-color: snow;
+  border-radius: 10px;
+}
+.filterItem--selected {
+  font-weight: 700;
+}
+.filterItem--selected :global(.vtex-checkbox__label)::after {
+  content: '';
+  background: #f5b325;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-radius: 10px;
+  top: 5px;
+  margin: 0 6px;
+}
+.filterContent :global(.vtex-checkbox__container) {
+  display: flex;
+  opacity: 0;
+}
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+  background: #f5b325;
+  border-radius: 6px;
+}
+.filterTemplateOverflow {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+/*  margin-left: -31px;*/
+}
+.filterItem--selected {
+  width: auto;
+  padding: 0;
+  border: none;
+}
+.filter__container--selectedFilters :global(.vtex-checkbox__line-container) {
+  width: 100% !important;
+  margin: 0 45px 0 0px;
+}
+.caretIcon {
+  border: 0.5px solid #00000052;
+  padding: 3px;
+  margin: 0 0 0 -6px;
+  border-radius: 50%;
+}
+.filterIsOpen {
+  border-bottom: 2px solid #00000014;
+  margin: 0 0 15px 0;
+}
+.filterContent .filterItem--selected {
+  padding-left: 15px;
+}
+.galleryTitle--layout {
+  font-family: 'KLAVIKA';
+}
+.filterItem :global(.vtex-checkbox__label) {
+  font-family: 'klavika';
+  color: black;
+}
+.filter_container--selectedFilters .filterItem :global(.vtex-checkbox_label) {
+  font-family: 'KLAVIKA';
+}
+.filterTitle {
+  font-family: 'KLAVIKA';
+}
+.orderByText {
+  font-family: 'KLAVIKA';
+}
+.filterPopupTitle {
+  font-family: 'KLAVIKA';
+}
+.buttonShowMore :global(.vtex-button__label) {
+  font-family: 'Klavika-Light';
+}
+.filterTitle :global(.vtex-tag) {
+  font-family: 'ROBOTO';
+}
+.orderByButton {
+  margin: 0.5rem 11.5rem;
+  width: 55% !important;
+  border: 1px solid !important;
+  border-radius: 5px;
+  font-weight: 100;
+}
+.filter__container--priceRange .filterTemplateOverflow {
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .galleryItem--normal {
+    height: auto !important;
+    max-width: 50% !important;
+  }
+  .showingProducts {
+    display: none;
+  }
+  .filtersWrapperMobile {
+    justify-content: flex-start;
+  }
+  .galleryTitle--layout {
+    margin: 7px 23px 0 22px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: unset;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 21px;
+    padding-top: 9px;
+  }
+  .orderByText {
+    display: none;
+  }
+  .filterPopupArrowIcon {
+    position: absolute;
+    right: 0;
+  }
+  .orderByDropdown {
+    background: white;
+    padding: 11px 14px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+   /* margin: 6px auto 0 1%;*/
+  }
+  .filterPopupTitle {
+    font-size: 0;
+  }
+  .orderByButton .filterPopupTitle::before {
+    font-size: 12px;
+    content: 'ORDENAR POR: ';
+    color: #000000;
+    font-weight: 700;
+  }
+  .filtersWrapperMobile .filterPopupTitle::before {
+    font-size: 13px;
+    content: 'FILTRAR POR: ';
+    color: #000000;
+    font-weight: 700;
+  }
+  .filtersWrapperMobile {
+    border-bottom: none;
+    padding: 0px 18px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  .filterIcon {
+    display: none;
+  }
+  /*
+    .caretIcon{
+        display: none;
+    }*/
+  .container--selectedFilters {
+    display: block;
+  }
+  .filtersWrapperMobile .filterPopupArrowIcon::before {
+    content: '';
+    background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha-filtro.png) no-repeat;
+    background-size: 60%;
+    font-size: 10px;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-top: 0px;
+    top: -10px;
+    right: 22px;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 5px;
+    background-position: center;
+    border: 1px solid #c1c6cd;
+    border-radius: 50%;
+  }
+  /*
+    .filterPopupArrowIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 80%;
+        font-size: 10px;
+        display: block;
+        width: 23px;
+        height: 23px;
+        margin-top: 0px;
+        top: -9px;
+        right: 9px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+    }*/
+  .filterAccordionBreadcrumbs {
+    background: transparent;
+  }
+  /*
+    .accordionFilterItemIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin-top: 0px;
+        top: 0px;
+        right: 0;
+        transition: all 40ms;
+        margin-right: 5px;
+    }*/
+  .orderBy--layout .filterPopupTitle {
+    font-size: 12px;
+  }
+  .orderByButton {
+    margin: 0 37px 0 auto;
+  }
+  .accordionFilterItemTitle {
+    font-size: 14px;
+    font-family: 'KLAVIKA';
+    text-transform: uppercase;
+  }
+  .filterBreadcrumbsItemName {
+    font-size: 15px;
+  }
+  .sidebar {
+    width: 85%;
+    background-color: #f6f6f6;
+  }
+  .filterClearButtonWrapper :global(.vtex-button__label) {
+    color: #191531;
+    font-family: 'KLAVIKA';
+  }
+  .filterApplyButtonWrapper :global(.vtex-button__label) {
+    color: #191531;
+  }
+  .orderByOptionItem {
+    padding: 1rem 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .orderByOptionsContainer {
+    position: relative;
+    margin-top: 6px;
+    padding: 10px;
+    width: 20rem;
+    border-radius: 20px;
+    background: transparent;
+  }
+  .accordionFilterContent {
+    padding: 0;
+  }
+  .filterAccordionItemBox {
+    min-height: 45px;
+    /* border-top: 1px solid rgba(58,58,58,0.867); */
+    padding: 10px 10px;
+    margin: 5px 10px 5px 0;
+    background: white;
+    border-radius: 8px;
+  }
+  .accordionFilterItemOptions .filterAccordionItemBox {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    margin: 0 0 0 0px;
+    font-size: 13px;
+    font-family: 'Klavika-light';
+  }
+
+  .accordionFilterItemOptions {
+    margin-left: -12%;
+    width: 108%;
+    margin-top: -8px;
+    border-radius: 0px 0 10px 10px;
+    background: white;
+    border-top: 1px solid #d6d6d6;
+  }
+  .accordionFilterContainer {
+    padding-left: 15px;
+  }
+  .accordionSelectedFilters {
+    font-weight: 600;
+    padding-left: 0;
+    font-size: 13px;
+    display: flex;
+    font-family: 'KLAVIKA';
+  }
+  .accordionSelectedFilters::after {
+    content: '';
+    width: 6px;
+    background: #f5b325;
+    height: 6px;
+    display: block;
+    border-radius: 50%;
+    margin: auto 6px;
+  }
+
+  .accordionFilterItemOptions :global(.vtex-checkbox__container) {
+    display: flex;
+    order: 2;
+  }
+  .accordionFilterItemOptions :global(.vtex-checkbox__inner-container) {
+    border-radius: 50%;
+    margin: 0px auto 0 0px;
+  }
+  /*.filterBreadcrumbsText::before {
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/59173.png)no-repeat;
+        background-size: 79%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        transition: all 40ms;
+        margin-right: 5px;
+        position: absolute;
+        top: 48px;
+        left: 16px;
+    }*/
+  .orderByButton {
+    border: none !important;
+  }
+  .filterApplyButtonWrapper :global(.vtex-button) {
+    background: #f5b325 !important;
+  }
+  .filterClearButtonWrapper :global(.vtex-button) {
+    background: #c1c6cd !important;
+  }
+  .filterApplyButtonWrapper {
+    text-align: center;
+  }
+  .filterClearButtonWrapper {
+    text-align: center;
+  }
+  .filterApplyButtonWrapper :global(.vtex-button__label) {
+    font-size: 0;
+    font-family: 'KLAVIKA';
+  }
+
+  .filterApplyButtonWrapper :global(.vtex-button__label)::after {
+    content: 'Aplicar Filtros';
+    font-size: 15px;
+  }
+  .gallery {
+    margin: 0 auto !important;
+}
+ .filterPopupButton .filterPopupTitle:first-child {
+  padding-right: 195px;
+}
+}
+
+@media (min-width: 1050px) {
+  .orderByButton {
+    margin-left: -32px;
+    width: 110% !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .orderByButton {
+    margin-left: 30px;
+    width: 85% !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .orderByButton {
+    margin-left: 90px;
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  .orderByButton {
+    margin-left: 150px;
+    width: 60% !important;
+  }
+}
+
+.filter__container--selectedFilters,
+.filter__container--acabado,
+.filter__container--ancho,
+.filter__container--cantidad,
+.filter__container--category-2,
+.filter__container--clima,
+.filter__container--color,
+.filter__container--componentes,
+.filter__container--category-1,
+.filter__container--diametro,
+.filter__container--durabilidad,
+.filter__container--colores-disponibles,
+.filter__container--presentacion,
+.filter__container--brand,
+.filter__container--priceRange {
+  margin-left: 0;
+}

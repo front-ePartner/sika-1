@@ -1,0 +1,30 @@
+.product-identifier__label,
+.product-identifier__separator,
+.product-identifier__value {
+  color: black !important;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Century Gothic', 'Poppins';
+}
+.product-identifier__separator::before {
+  content: 'REF';
+  font-size: 15px;
+}
+.product-identifier--productReference {
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.product-identifier__label {
+  font-size: 0px;
+}
+.vtex-button__label {
+  display: none !important;
+}
+
+.product-identifier__value {
+  font-family: 'Klavika-light';
+}
+.product-identifier__separator {
+  font-family: 'Klavika-light';
+}

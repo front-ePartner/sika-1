@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.label {
+  display: grid;
+  color: #000000 !important;
+  text-transform: capitalize !important;
+  font-size: 15px;
+  margin-top: 0px;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.label:hover {
+  border-color: #505050;
+}
+
+/*
+.label::before{
+    content: "HOLA";
+    text-align: left;
+    text-decoration: none !important;
+    color: black;
+    font-size: 10px;
+}
+*/
+span {
+  background: transparent !important;
+}
+div {
+  text-transform: initial;
+  color: inherit;
+}
+.currencyContainer {
+  color: black;
+}
+button {
+  padding: 0 !important;
+}
+.vtex-button__label {
+  display: none !important;
+}
+button {
+  border: none !important;
+  min-height: 28px !important;
+  width: auto !important;
+  background: transparent !important;
+}
+.container--textoscentro {
+  width: 20%;
+}
+select {
+  border-radius: 5px;
+  border: 1px solid #191531;
+  opacity: 1 !important;
+  padding: 0 10px;
+  font-size: 12px !important;
+}
+.profile {
+  color: #191531;
+  font-family: 'Klavika-light';
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.content--emailAndPassword {
+  max-width: 100% !important;
+  padding: 0 10px 30px 10px;
+  background: #ddd;
+  color: #191531;
+}
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  border-radius: 5px;
+  border: 1px solid;
+  height: 44px;
+  margin: 0 10px;
+  background-color: #ffc100;
+}
+.sendButton :global(.vtex-button__label) {
+  border: 1px solid #191531;
+  border-radius: 5px;
+  height: 34px;
+  color: #191531;
+  margin-bottom: 10px;
+  background-color: #ffc100;
+  text-transform: uppercase;
+}
+.options {
+  min-width: 50%;
+  text-align: center;
+}
+.container :global(.vtex-button__label) {
+  border: none;
+  /* padding-top: 5px !important; */
+  padding-bottom: 1px !important;
+}
+.contentFormVisible {
+  min-width: 50%;
+  padding: 0 42px;
+  text-align: start;
+}
+.formTitle {
+  text-align: inherit;
+}
+.forgotPasswordLink {
+  color: #191531;
+}
+.content--emailVerification {
+  max-width: 100% !important;
+  padding: 0 100px 100px 100px;
+  background: #ddd;
+  color: black;
+  padding-top: 160px;
+}
+.contentAlwaysWithOptions {
+  max-width: 100% !important;
+  padding: 0 100px 100px 100px;
+  background: #f6f6f6;
+  color: #191531;
+  padding-top: 30px;
+}
+h3 {
+  font-weight: initial;
+}
+.portalWrapper .content--emailVerification {
+  padding: 0;
+}
+.label {
+  font-family: 'Klavika-light';
+}
+
+@media (max-width: 600px) {
+  .buttonLink :global(.vtex-button__label) {
+    padding: 0 5px 0 0px;
+  }
+  .container :global(.vtex-button__label) {
+    padding: 0 5px 0 0px;
+  }
+  .label {
+    line-height: 15px;
+    font-size: 11px;
+  }
+  .label::before {
+    text-align: center !important;
+  }
+  .contentAlwaysWithOptions {
+    max-width: 100% !important;
+    padding: 0 0px 0px 0px;
+  }
+  .profile {
+    display: block;
+    width: 68%;
+    font-weight: 600;
+    margin-top: 3px;
+  }
+  .container {
+    width: 112px;
+    justify-content: center;
+  }
+}
+
+.arrowUp {
+  display: none;
+}
+
+.box {
+  right: -13rem !important;
+  top: 10px;
+}
+
+.contentContainer {
+  box-shadow: none;
+}
+
+.content--emailVerification {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.options {
+  width: 100%;
+}
+
+.formTitle {
+  font-family: 'Klavika-light';
+  border-bottom: 0.1px solid #ededed;
+  border-radius: 0;
+  text-align: left;
+  margin: 0;
+  padding: 1rem;
+  color: #3c3c3c;
+  justify-content: space-between;
+  display: flex;
+}
+.formTitle::after {
+  content: '';
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-size: contain;
+  margin-left: 15px;
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/Mail_icon_login.png);
+}
+
+.vtex-button__label.flex.items-center.justify-center.h-100.ph6 {
+  background: none;
+  border: none;
+  margin: 0;
+  /* padding: 1rem !important; */
+  font-family: 'Klavika-light';
+  text-align: left;
+  border-bottom: 1px solid #ededed;
+  color: #3c3c3c;
+  border-radius: 0;
+  justify-content: flex-start;
+}
+
+.label:hover {
+  border-color: #f19f11;
+  background-color: white !important;
+  font-family: 'KLAVIKA';
+}
+
+.contentContainer {
+  margin-top: 0;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label),
+.emailPasswordOptionBtn :global(.vtex-button) {
+  width: 100% !important;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label),
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 1rem !important;
+  font-family: 'Klavika-light';
+  text-align: left;
+  border-bottom: 1px solid #ededed;
+  color: #3c3c3c;
+  border-radius: 0;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label) span,
+.accessCodeOptionBtn :global(.vtex-button__label) span {
+  display: flex;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) span::after,
+.emailPasswordOptionBtn :global(.vtex-button) span::after {
+  content: '';
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-size: contain;
+  margin-left: 15px;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) span::after {
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/Codigo_icon_login.png);
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) span::after {
+  background-image: url(https://sikaco.vteximg.com.br/arquivos/Google_icon_login.png);
+}
+
+.optionsList {
+  margin: 0;
+}
+
+.optionsListItem {
+  margin: 0;
+}

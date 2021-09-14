@@ -1,0 +1,130 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"]
+  },
+
+  "store.login": {
+    "blocks": ["info-card#bannerC1", "login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "info-card#bannerC1":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/imagenprehome.jpg",
+      "headline":"Bienvenido!",
+      "subhead": "Ahora eres parte importante de este equipo y juntos haremos grandes cosas, exploraremos el mundo para poner a tu disposición grandes marcas, productos innovadores e increíbles oportunidades de negocio. !Estamos listos para crecer contigo!",
+      "textPosition": "right",
+      "textAlignment": "left",
+      "blockClass":"inicio"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+     
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+  },
+  "product-summary.shelf#vitrina2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never",
+      "blockClass": "vitrina2"
+    }
+  },
+  "product-summary-sku-selector": {
+   "props":{
+     "showVariationsLabels": ["false"]
+      }
+  },
+  "flex-layout.row#vitrina":{
+    "children": [
+ //     "flex-layout.col#cantidad",
+      "flex-layout.col#buybutton"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+// "flex-layout.col#cantidad":{
+//  "children": [
+//    "product-quantity#vitrine"
+//   ],
+//   "props":{y
+//    "width": "30%",
+//     "verticalAlign": "middle",
+//     "blockClass": "cantidadV",
+//     "paddingLeft": "0px",
+//     "paddingRight": "5px"
+//   }
+// },
+  "flex-layout.col#buybutton":{
+    "children": [
+      "add-to-cart-button#vitrine"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buyc",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "product-quantity#vitrine":{
+    "props":{
+      "size":"small"
+    }
+  },
+  "add-to-cart-button#vitrine":{
+      "props":{
+        "text": "O",
+        "blockClass": "BOTONVITRINA"
+      }
+  },
+  "flex-layout.row#pricing":{
+    "children": [
+      "product-summary-price#first"
+    ]
+  },
+  "product-summary-price#first":{
+    "props":{
+      "blockClass": "newprice"
+    }
+  },
+  // prueba location avannsns
+    "product-location-availability": {
+        "props": {
+          "maxItems": 3,
+          "orderBy": "cheaper",
+          "pickupFirst": false
+        }
+      }
+}

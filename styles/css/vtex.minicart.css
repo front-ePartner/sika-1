@@ -1,0 +1,97 @@
+.minicartIconContainer {
+    display: flex;
+    align-items: center;
+}
+.minicartIconContainer::before {
+    content: "";
+    background: url(https://sikaco.myvtex.com/arquivos/canasta.png)no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    top: 20%;
+    transition: all 40ms;
+    margin-right: 5px;
+}
+/*
+.minicartIconContainer::after {
+    content: "MI COMPRA";
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 0 9px 0 0;
+    color:black;
+}
+*/
+.openIconContainer {
+    padding: .75rem 0;
+}
+.cartIcon {
+    width: 41px;
+    color: #ffc100;
+    display: none;
+}
+.minicartQuantityBadge {
+    top: 4px;
+    font-size: 15px!important;
+    width: 20px;
+    height: 20px;
+    right: -26px;
+    background: #f5b325!important;
+    color: black!important;
+}
+.v-mid:hover {
+    background: none !important;
+    height: inherit;
+}
+.v-mid{
+   min-height: 20px;
+   max-height: 20px;
+}
+.vtex-button__label{
+    display: none !important;
+  }
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content: "FINALIZAR COMPRA";
+    font-size: 15px;
+}
+.minicartCheckoutButton :global(.vtex-button__label) {
+    font-size: 0;
+    background-color: #f5b325;
+    color: white;
+    border-radius: 5px;
+    height: 43px;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 0;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::before{
+    content: "su carrito está vacío";
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.minicartIconContainer{
+    padding-right: 0 !important;
+}
+@media (max-width: 600px) {
+    .minicartQuantityBadge {
+        right: -26px !important;
+    }
+    .minicartIconContainer::before {
+        width: 28px;
+        height: 29px;
+        margin-top: 1px;
+        margin-right: 0px;
+    }
+    .openIconContainer :global(.vtex-button__label){
+        padding: 0;
+    }
+    .openIconContainer {
+        margin-left: 10px;
+    }
+
+
+}

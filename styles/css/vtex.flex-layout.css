@@ -1,0 +1,971 @@
+.flexRow--Pre-header {
+  background: #fff;
+  height: auto;
+}
+.flexCol--espacio {
+  height: 50%;
+}
+.stretchChildrenWidth.flex {
+  margin: 20px 0 0 0;
+}
+.flexColChild--buyc {
+  max-height: 20px;
+}
+.flexRow--headerCate {
+  padding: 5px 0px;
+  position: absolute;
+  left: 32%;
+  width: fit-content;
+}
+.flexRow--quienessomosColumn {
+  margin-top: -5px;
+}
+.flexRow--categorys {
+  margin: 0;
+}
+.flexCol--textosIcno1,
+.flexCol--textosIcno2,
+.flexCol--textosIcno3 {
+  display: flex;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  flex-direction: initial;
+  justify-content: start;
+}
+.flexCol--submenu1Mayor {
+  transition: all 400ms;
+}
+
+.flexRowContent--medios {
+  width: auto;
+}
+.flexColChild--textosIcno1,
+.flexColChild--textosIcno2,
+.flexColChild--textosIcno3 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flexRowContent--medios {
+  margin: 100px 100px 100px 80px;
+}
+.flexCol--textosIcno3 {
+  max-width: 500px;
+}
+.flexRow--footercon {
+  margin: 0px 108px 40px;
+  padding-bottom: 10px;
+}
+.flexRow--footerimg {
+  filter: invert(1);
+  margin: 30px 80px 30px 80px;
+}
+.flexColChild--footerC {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  height: auto !important;
+  margin-bottom: 10px;
+}
+
+.flexRowContent--footercon .stretchChildrenWidth:first-child {
+  width: 38% !important;
+}
+.flexRow--lastF {
+  margin: 10px 35px 0px;
+  background: #140d2e;
+  justify-content: space-between;
+  padding: 30px 100px;
+  border-top: 1px solid #848484dd;
+}
+.flexRowContent--lastF {
+  align-items: center;
+  margin: 0 0 0 60px;
+}
+.stretchChildrenWidth {
+  position: relative;
+}
+.flexRow--contenedorC {
+  margin: 0 100px 0 100px;
+}
+.flexRow--headerC {
+  background-color: white;
+}
+.flexRow--product {
+  margin: 0 100px 0 100px;
+}
+.flexRowContent--product {
+  padding-top: 0px;
+}
+.flexCol--buyc {
+  padding: 0px 0 15px 0;
+}
+.flexColChild--productbuy:global(.vtex-button) {
+  height: 30px;
+}
+.flexColChild--productbuy:global(.vtex-button__label) {
+  height: 30px;
+  width: 300%;
+}
+.flexRowContent--productbuy {
+  border-radius: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.flexRow--productbuy {
+  display: flex;
+}
+.flexCol--buyc :global(.vtex-button) {
+  width: 100% !important;
+}
+.flexCol--buyc :global(.vtex-button__label) {
+  width: 100% !important;
+  padding: 0 !important;
+  min-height: 25px;
+}
+/*Inicio estilos*/
+.flexRowContent--productbuy :global(.vtex-button__label) {
+  max-height: 40px;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.flexRowContent--productbuy :global(.vtex-button) {
+  width: 100% !important;
+}
+.flexRowContent--productbuy .stretchChildrenWidth {
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.flexRow--mosaico {
+  padding: 70px 80px;
+  background: #eaeaeadd;
+}
+.flexColChild--imagedob {
+  margin: 0px 0 10px 0;
+}
+.flexRowContent--mosaico .stretchChildrenWidth:first-child {
+  width: 75% !important;
+  margin: 0 10px;
+}
+
+.flexRowContent--mosaico .stretchChildrenWidth:last-child {
+  width: 24% !important;
+  padding: 0px 0;
+}
+.flexRowContent--imageC .stretchChildrenWidth:first-child {
+  width: 67% !important;
+}
+
+.flexRowContent--imageC .stretchChildrenWidth:last-child {
+  width: 32.9% !important;
+}
+.flexRowContent--imageCi .stretchChildrenWidth:first-child {
+  width: 32.9% !important;
+}
+
+.flexRowContent--imageCi .stretchChildrenWidth:last-child {
+  width: 67% !important;
+}
+.flexRow--BannerDosMosaico {
+  padding: 3rem 9rem;
+  margin-bottom: 40px;
+}
+.flexRowContent--headerC {
+  padding: 0 100px 0 100px;
+  background-color: #f5b325;
+}
+.flexRowContent--Pre-header {
+  padding: 0 108px;
+  height: 42px;
+}
+.flexRow--cantidadC:hover .flexColChild--buyc {
+  display: block;
+  transition: all 0.5s;
+}
+.flexColChild--productC {
+  height: auto !important;
+}
+.flexColChild--productbuy :global(.vtex-button__label) {
+  padding: 20px 0;
+  width: 100%;
+  border-top: 0;
+}
+.flexCol--buyc :global(.vtex-button) {
+  opacity: 1;
+}
+.flexRow--barra-Ordenar {
+  background-color: white;
+  margin: 10px 10px 1.6% 35px;
+  border-radius: 10px;
+}
+.flexColChild--itemsC {
+  opacity: 0;
+}
+.flexRow--mosaicoMobile {
+  display: none;
+}
+.flexRow--FaqsColumn {
+  margin: 40px 100px;
+}
+.flexRowContent--FaqsColumn .stretchChildrenWidth:last-child {
+  padding-left: 10px;
+  overflow: scroll;
+  height: 700px;
+}
+.flexCol--submenu1Mayor {
+  align-items: flex-start;
+}
+.flexCol--submenu1 {
+  align-items: flex-start;
+}
+.flexRow--submenu1 .stretchChildrenWidth {
+  width: 43% !important;
+}
+.flexRowContent--submenu1 {
+  justify-content: flex-start;
+}
+.flexRow--submenu1 .stretchChildrenWidth {
+  border-left: 2px solid #f5b325;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 300px !important;
+}
+.flexColChild--reviewsContent {
+  display: block !important;
+  column-count: unset !important;
+}
+.flexColChild--submenu1Mayor {
+  width: 100%;
+}
+.flexCol--buyc {
+  width: 17% !important;
+  top: -140%;
+  position: relative;
+  right: -40%;
+}
+.flexRow--BannerDosMosaico {
+  display: block;
+  padding-top: 0;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.flexRow--BannerDosMosaicox4 {
+  display: block;
+}
+.flexRowContent--headerseccionbuscadorContacto {
+  width: 100%;
+  margin: 0 auto 12px 6rem;
+}
+.flexColChild--headerseccionbuscador {
+  position: relative;
+  top: -13px;
+}
+.flexCol--headerseccionbuscador {
+  width: 90%;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+.flexRow--BannerDosMosaicox4 {
+  margin: 0 104px 8rem;
+  height: 580px;
+}
+.flexRowContent--seccionNewletter {
+  margin: 0 auto;
+  width: 95%;
+  /* background: #f5b325; */
+}
+.flexCol--inputsNewsletter {
+  /*margin: 4% auto 0;*/
+  align-items: center;
+  justify-content: center;
+  /* background: #f5b325;*/
+  /* padding: 16px; */
+  border-radius: 0px 13px 13px 0;
+}
+/*
+.flexColChild--inputsNewsletter {
+  margin: 0 auto 0 25px;
+}
+.flexRowContent--seccionNewletter::after {
+  content: '';
+  background: #3c3c3c;
+  width: 8px;
+  height: 115px;
+  margin: auto;
+  border-radius: 2px;
+}*/
+.flexCol--footerCSub {
+  border-left: 3px solid;
+  padding: 15px;
+}
+.flexColChild--footerCSub {
+  padding: 5px 0;
+}
+.flexRowContent--footerredes {
+  width: 25%;
+  margin: 0 100px;
+}
+.link--footerMenuItemSigueme {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  align-items: center;
+  margin: auto;
+}
+.wrapper--footerMenuItemSigueme {
+  margin: auto;
+}
+.flexRowContent--footerconMenu {
+  margin: 0 100px;
+  background: white;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  height: 59px;
+}
+.flexRowContent--quienessomosColumn {
+  justify-content: center;
+  position: relative;
+}
+.flexCol--quienessomos-content {
+  position: relative;
+  background: white;
+  border-radius: 2%;
+  padding: 39px;
+  top: -22%;
+  margin-bottom: 0;
+}
+
+.flexRow--quieNESSOMOS-IMG {
+  width: 120%;
+  margin: 53px auto;
+  position: relative;
+  left: -9%;
+}
+.flexRow--quienessomosMosaico {
+  width: 120%;
+  position: relative;
+  left: -10%;
+  margin: 40px auto;
+}
+.flexRowContent--quie {
+  margin-top: 35px;
+}
+.flexRowContent--BannerDosMosaicox4-ESTATICA {
+  padding: 43px 100px 0;
+}
+.flexRowContent--contenido-detalles-tiendas {
+  width: 87%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.flexColChild--ratings-only:last-child {
+  display: none;
+}
+.flexColChild--reviews-only:last-child {
+  display: none;
+}
+.flexCol--productbuy {
+  /* padding-top: 16px; */
+  padding-left: 11px;
+}
+.vflexCol--productbuy {
+  padding-top: 25px;
+}
+.flexRowContent--identifierProduct .stretchChildrenWidth:first-child {
+  width: 80% !important;
+}
+.flexRow--reviews-and-ratings {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 0;
+  left: 0;
+}
+.flexRowContent--reviews-and-ratings {
+  justify-content: center;
+}
+.flexColChild--inputsNewsletter {
+  width: 500px;
+}
+.flexRowContent--inputsNewsletterx2 {
+  display: flex;
+  justify-content: space-around;
+}
+.flexRowContent--VerificacionParaNewsletter .stretchChildrenWidth:first-child {
+  width: 144% !important;
+}
+.flexRow--TAB-MOBILE {
+  display: none;
+}
+.flexRowContent--seccionNewletter {
+  background: url(https://sikaco.vteximg.com.br/arquivos/Group-113.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.flexRowContent--seccionNewletter {
+  background: url(https://sikaco.vteximg.com.br/arquivos/Group-113.png);
+  background-size: 97%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.flexRowContent--headerseccionbuscadorContacto {
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+.flexRowContent--seccionNewletter {
+  background: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .flexRow--contenedorC {
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+  }
+  .flexRow--BannerDosMosaico {
+    padding: 0 0px;
+  }
+  .flexRow--barra-Ordenar {
+    background-color: transparent!important;
+    margin: 0 auto;
+    width: 95%!important;
+  }
+  .flexRowContent--Pre-header {
+    padding: 0 0px !important;
+    display: flex;
+    height: 47px;
+    background: #f5b325;
+    justify-content: flex-start;
+  }
+  .searchBarContainer {
+    padding: 0;
+  }
+  .flexRowContent--main-header-mobile {
+    background-color: #f5b325;
+  }
+  .flexColChild--filters {
+    margin: 3px 10px;
+    border-radius: 2px;
+  }
+  .flexRow--mosaico {
+    display: none;
+  }
+  .flexCol--buyc :global(.vtex-button) {
+    opacity: 1;
+  }
+  .flexRow--mosaicoMobile {
+    display: block !important;
+    padding: 75px 0;
+    background: #eaeaeadd;
+  }
+  .flexRowContent--mosaicoMobile {
+    display: flex;
+    padding: 0px 15px;
+    margin-left: 2px;
+  }
+  .flexRowContent--mosaicoMobile .stretchChildrenWidth {
+    margin: 0 5px;
+  }
+  .flexRow--footercon {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  /*
+  .flexRowContent--footercon{
+    display: flex;
+  }*/
+  .flexRow--footercon .stretchChildrenWidth {
+    position: relative;
+    padding: 0px 0px 0 11px;
+  }
+  .flexRow--footercon .stretchChildrenWidth:last-child {
+    width: 100% !important;
+    padding: 11px;
+  }
+  .flexRowContent--BannerDosMosaico {
+    display: flex;
+  }
+  .flexRowContent--BannerDosMosaico .stretchChildrenWidth {
+    width: 50% !important;
+  }
+  .flexRowContent--lastF {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .flexRow--lastF {
+    margin: 0;
+    background: #140d2e;
+    justify-content: center;
+    padding: 0;
+    border-top: 1px solid #848484dd;
+  }
+  .flexRow--product {
+    padding: 0 25px;
+    margin: 0;
+  }
+  .flexColChild--imagenesD {
+    display: none;
+  }
+  .flexCol--imagenesM {
+    display: block !important;
+  }
+  .flexColChild--productbuy :global(.vtex-button) {
+    width: 100% !important;
+  }
+  .flexColChild--productbuy :global(.vtex-button__label) {
+    width: 100% !important;
+  }
+  .flexRow--product .stretchChildrenWidth {
+    padding: 0;
+  }
+  .flexRow--FaqsColumn {
+    margin: 10px 10px;
+  }
+  .flexRowContent--FaqsColumn .flexColChild {
+    position: relative;
+  }
+  /*
+  .flexRowContent--FaqsColumn .flexColChild::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 0px;
+    top: 0px;
+    right: 0;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 5px;
+  }*/
+  .flexRow--TituloInstitucionalM {
+    display: block !important;
+  }
+  .flexRowContent--quienessomosColumn2 {
+    display: none;
+  }
+  .flexRowContent--product {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  .flexCol--ratings-only {
+    margin-bottom: 20px;
+  }
+  .flexRowContent--lastF .stretchChildrenWidth:first-child {
+    margin: 3px 0 0 25px;
+  }
+  .flexRowContent--lastF .stretchChildrenWidth:last-child {
+    margin: 5px 0 0 -16px;
+  }
+  /*
+  .flexRow--FaqsColumn{
+    display: none;
+  }*/
+  /*
+  .flexRow--FaqsColumnM{
+    display: block !important;
+    margin: 0px !important;
+    padding: 10px !important;
+  }
+  */
+  .flexRowContent--FaqsColumnM .flexColChild {
+    position: relative;
+  }
+  .flexRowContent--FaqsColumnM .flexColChild::before {
+    content: '';
+    background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png) no-repeat;
+    background-size: 100%;
+    font-size: 5px;
+    width: 19px;
+    height: 23px;
+    margin-top: 0px;
+    top: 2px;
+    right: 0;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 10px;
+  }
+  .flexRow {
+    width: 100%;
+  }
+  .flexRow--BannerDosMosaico {
+    padding: 0 15px;
+  }
+  .flexColChild--reviews-only {
+    width: auto !important;
+  }
+  .flexColChild--InformacionDos {
+    display: block !important;
+    column-count: unset !important;
+  }
+/*  .flexRowContent--barra-Ordenar .flexCol--orderby {
+    margin-right: 8px;
+  }*/
+  .flexRowContent--inputsNewsletter {
+    display: block;
+  }
+  .flexRow--reviews-and-ratings {
+    margin-left: 0px !important;
+  }
+  .flexRow--cantidadC {
+    top: -43px;
+    position: relative;
+  }
+  .flexCol--buyc {
+    width: 24% !important;
+    right: -50px;
+  }
+  .flexRow--BannerDosMosaico {
+    display: none;
+  }
+  .flexRow--BannerDosMosaicox4 {
+    display: none;
+  }
+  .flexCol--inputsNewsletter {
+    background: #f5b325;
+    width: 91% !important;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    height: 152px;
+  }
+  .flexRowContent--seccionNewletter {
+    border-radius: 10px;
+    background-position: center;
+    margin: 10px auto;
+  }
+  .flexColChild--inputsNewsletter {
+    margin: 0 auto;
+  }
+  .flexCol--inputsNewsletter::after {
+    content: '';
+    background: #3c3c3c;
+    width: 211px;
+    height: 7px;
+    bottom: -7px;
+    position: absolute;
+    border-radius: 0 0 200px 200px;
+  }
+  .flexRowContent--footercon .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+  .flexCol--ultimaIlera {
+    height: 500px;
+  }
+  .flexCol--footerCSub {
+    display: flex;
+  }
+  .flexRowContent--footerContentTab {
+    display: flex;
+  }
+  .flexRowContent--footerconCol {
+    border-left: 2px solid white;
+    padding: 0 0px 0 9px;
+  }
+  .flexRow--footerContentTab {
+    padding: 17px 14px;
+  }
+  .flexRowContent--footerredes {
+    margin: 0 45px;
+    display: -webkit-box;
+    width: 25%;
+  }
+  .flexRowContent--footerconMenu {
+    margin: 0 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 149px;
+    padding: 21px;
+    border-radius: 3px;
+    align-items: center;
+  }
+  .flexRowContent--InformacionDos {
+    padding: 0 30px 30px !important;
+  }
+  .flexRowContent--InformacionDos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexRowContent--InformacionDos .stretchChildrenWidth:last-child {
+    display: flex;
+    order: 1;
+  }
+  .flexRowContent--InformacionDos .stretchChildrenWidth:first-child {
+    display: flex;
+    order: 2;
+  }
+  .flexRowContent--quieNESSOMOS-IMG {
+    display: flex;
+  }
+  .flexCol--quienessomos-content {
+    width: 90% !important;
+    border-radius: 16px;
+    margin-top: -26%;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 64px;
+  }
+  .flexRow--quieNESSOMOS-IMG {
+    margin: 58px auto;
+  }
+  .flexRowContent--quieNESSOMOS-IMG-Redes {
+    display: flex;
+  }
+  .flexRow--quieNESSOMOS-IMG {
+    left: 0;
+  }
+  .flexRow--quienessomosMosaico {
+    left: 0;
+  }
+  .flexRowContent--BannerDosMosaicox4-ESTATICA {
+    flex-wrap: revert;
+    padding: 15px;
+  }
+  .flexRow--FaqsColumnM {
+    display: none;
+  }
+  .flexCol--inputsNewsletter {
+    background: transparent;
+    height: auto;
+  }
+  .flexCol--inputsNewsletter {
+    width: 359px !important;
+  }
+  .flexColChild--inputsNewsletter {
+    width: auto;
+    margin: 0 39px;
+  }
+  .flexRow--inputsNewsletterx2 {
+    width: 270px;
+  }
+  .flexCol--inputsNewsletter::after {
+    display: none;
+  }
+  .flexRowContent--inputsNewsletterx2 {
+    flex-wrap: wrap;
+  }
+  .flexRowContent--inputsNewsletterx2 .stretchChildrenWidth {
+    width: 100% !important;
+  }
+  .flexRowContent--VerificacionParaNewsletter .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+  .flexRowContent--headerseccionbuscadorContactoM {
+    display: flex;
+    background: #afafaf;
+    padding: 8px 25px;
+  }
+  .flexCol--productbuy {
+    padding-left: 0;
+}
+.flexRow--TAB-MOBILE .stretchChildrenWidth {
+  flex-wrap: wrap;
+}
+.flexRow--TAB-MOBILE {
+  display: block;
+}
+.gallery {
+  margin: 0 auto;
+}
+.flexCol--buyc :global(.vtex-button__label) {
+  width: 100%!important;
+  padding: 0!important;
+  min-height: 25px;
+/*  margin: 0px 0 0 11px;*/
+}
+.flexRowContent--filtroseleccionado {
+  background: white;
+  margin: 5px auto;
+  width: 92%;
+  border-radius: 10px;
+  padding: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.flexRow--identifierProduct .stretchChildrenWidth {
+  padding: 0;
+}
+.stretchChildrenWidth .flexColChild--ultimaIlera .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRow--identifierProduct {
+  margin-top: 5px;
+}
+.flexRow--FaqsColumnM {
+  display: none;
+  margin: 10px 10px;
+}
+.flexRow--TituloInstitucionalM {
+  display: none;
+}
+.flexCol--imagenesM {
+  display: none;
+}
+.flexColChild--InformacionDos {
+  height: auto !important;
+}
+.flexRowContent--InformacionDos {
+  padding: 30px 115px 50px 115px;
+  background: #fcfcfc;
+  margin-bottom: 30px;
+}
+.flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-container) {
+  background-color: white;
+  border-radius: 4px;
+  padding: 32px 20px;
+  text-align: center;
+  border: 1px solid;
+}
+/* Reviews Only */
+
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer),
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) {
+  display: none;
+}
+
+/* Ratings Only */
+
+.flexRow--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexRow--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer),
+.flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) {
+  display: none;
+}
+.flexColChild--reviews-only {
+  width: 680px;
+}
+.flexColChild--InformacionDos {
+  display: table-cell;
+  column-count: 2;
+}
+.flexColChild--submenu0 :global(.vtex-rich-text-0-x-container--contenidoSubemnu) {
+  padding: 3px 0;
+}
+.flexColChild--submenu0 :global(.vtex-rich-text-0-x-link--tituoSubmenu) {
+  font-size: 15px;
+}
+.flexRow--mosaico :global(.vtex-store-components-3-x-imageElement):hover {
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+.flexRow--InformacionDOCUMENTOS {
+  background-color: white;
+  border-radius: 5px;
+}
+.flexRowContent--InformacionDOCUMENTOS {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/*
+.flexColChild--InformacionDOCUMENTOS{
+  display: table-cell;
+  column-count: 2;
+}*/
+
+.flexRowContent--FaqsColumn .stretchChildrenWidth:last-child {
+  overflow-x: hidden;
+}
+
+.flexColChild--reviews-only :global(.vtex-reviews-and-ratings-2-x-graphContent) {
+  display: none;
+}
+
+@media (min-width: 1480px) {
+  .flexRow--BannerDosMosaico {
+    padding-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 1299px) {
+  .flexRowContent--headerseccionbuscadorContacto {
+    width: 100%;
+  }
+  .flexRowContent--footerredes {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1185px) {
+  .stretchChildrenWidth {
+    width: 20%;
+  }
+  .flexRowContent--footercon .stretchChildrenWidth:first-child {
+    width: 40% !important;
+  }
+
+  .flexRow--footercon {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .flexRow--barra-Ordenar {
+    margin: 10px 20px 20px 45px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .flexRow--product {
+    margin: 0 108px;
+  }
+  .flexCol--productbuy {
+    padding-left: 0;
+  }
+}
+
+.flexColChild--productbuy :global(.vtex-button) {
+  width: 100% !important;
+}

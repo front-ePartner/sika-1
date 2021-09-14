@@ -1,0 +1,15 @@
+.quantitySelectorStepper .vtex-numeric-stepper__plus-button-container{
+    display: none;
+}
+.quantitySelectorStepper :global(vtex-numeric-stepper__plus-button-container){
+    margin: -6px 0 0 0;
+}
+.quantitySelectorStepper :global(vtex-numeric-stepper-container){
+    height: 20px;
+}
+.quantitySelectorStepper :global(vtex-numeric-stepper__minus-button-container){
+    margin: -6px 0 0 0;
+}
+.quantitySelectorStepper{
+    height: 20px;
+}

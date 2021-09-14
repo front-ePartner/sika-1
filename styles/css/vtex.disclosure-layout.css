@@ -1,0 +1,186 @@
+
+.trigger--SubMenuMovilidad :global(.vtex-menu-2-x-styledLinkContent){
+    justify-content: flex-start;
+}
+.content {
+    background: white;
+    width: 95%;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+.content::before {
+    content: "";
+    width: 180px;
+    height: 2px;
+    display: block;
+    margin: -15px auto 13px;
+    background: #e8e7e7;
+}
+.trigger--hidden {
+    background: white !important;
+    width: 95% !important;
+    border-radius: 10px 10px;
+    margin: 12px 0 0 0;
+    padding: 0 10px !important;
+}
+.trigger--visible {
+    background: rebeccapurple;
+    width: 95% !important;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .content--reviews-and-ratings--visible{
+        margin: auto;
+    }
+    .content--reviews-and-ratings--visible {
+        display: none;
+    }
+    .trigger--caracteristicas--visible {
+        margin: 0 auto;
+        width: 95% !important;
+        display: flex;
+        text-align: center;
+        height: 54px;
+        margin-top: 11px;
+        padding: 19px !important;
+        border-radius: 0;
+        border: 1px solid #e3e3e3 !important;
+        background: white !important;
+        /* transform: rotate(
+    180deg
+    ); */
+    }
+    .trigger--caracteristicas--hidden {
+        margin: 0 auto;
+        width: 95% !important;
+        display: block;
+        text-align: center;
+        height: 54px;
+        margin-top: 11px;
+        border-radius: 0;
+        border: 1px solid black !important; 
+    }
+    .trigger--caracteristicas--hidden {
+        margin: 0 auto;
+        width: 95% !important;
+        display: flex;
+        text-align: center;
+        height: 54px;
+        padding: 19px !important;
+        margin-top: 11px;
+        border-radius: 0;
+    }
+    .content--product1MMM--hidden {
+        margin: 0 auto;
+        width: 95% !important;
+        display: none;
+    }
+    .content--InformacionBENEFICIOS--visible {
+        margin: 0 auto;
+        width: 95% !important;
+        display: block;
+        padding: 30px;
+        background: white !important;
+    }
+    .content--InformacionRECOMENDADOS--visible {
+        margin: 0 auto;
+        width: 95% !important;
+        display: block;
+        padding: 30px;
+        background: white !important;
+    }
+    .content--product1MMM--visible {
+        margin: 0 auto;
+        width: 95% !important;
+        padding: 30px;
+        background: white !important;
+    }
+    .content--InformacionBENEFICIOS--hidden {
+        margin: 0 auto;
+        width: 95% !important;
+        display: none;
+    }
+    .content--InformacionRECOMENDADOS--hidden {
+        margin: 0 auto;
+        width: 95% !important;
+        display: none;
+    }
+    .content--InformacionBENEFICIOS--visible::before {
+        width: 0;
+        background: transparent;
+    }
+    .content--InformacionRECOMENDADOS::before {
+        width: 0;
+    }
+    .content--InformacionBENEFICIOS::before {
+        width: 0;
+    }
+    .content--product1MMM::before {
+        width: 0;
+    }
+    .trigger--caracteristicas--visible::after {content: "";width: 18px;height: 15px;background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png) no-repeat;display: flex;background-position: center;background-size: 100%;transform: rotate(180deg);}
+    .trigger--caracteristicas--hidden::after {content: "";width: 18px;height: 15px;background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png) no-repeat;display: flex;background-position: center;background-size: 100%;/* transform: rotate(180deg); */}
+    .content--footerMobilePart2--visible::before {
+        width: 0;
+        height: 0;
+    }
+    .content--footerMobilePart2--hidden {
+        display: none;
+    }
+    .trigger--footerMobilePart2--visible {
+        width: 90%!important;
+        margin: 15px auto 0;
+        display: flex;
+        height: 49px;
+        background: transparent!important;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        padding: 18px 10px!important;
+        border: 1px solid white!important;
+    }
+    .trigger--footerMobilePart2--hidden::after {content: "";width: 18px;height: 15px;background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png) no-repeat;display: flex;background-position: center;background-size: 100%;filter: invert(1);/* transform: rotate(180deg); */}
+    .trigger--footerMobilePart2--hidden {display:flex;padding: 17px !important;}
+    .trigger--footerMobilePart2--visible::after {content: "";width: 18px;height: 11px;background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png) no-repeat;display: flex;background-position: center;background-size: 100%;filter: invert(1);transform: rotate(180deg);}
+    .footerMobilePart2--visible {display:flex;padding: 17px !important;}
+    .trigger--footerMobilePart2--hidden {
+        width: 90% !important;
+        margin: 15px auto 0;
+        display: flex;
+        height: 49px;
+        background: transparent !important;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid white !important;
+    }
+    .content--footerMobilePart2--visible {
+        width: 90%;
+        margin: 0 auto;
+        background: transparent;
+        padding: 0;
+    }
+    .content--visible {
+        background: transparent;
+    }
+    .trigger--SubMenuMovilidad--hidden {
+        background: transparent !important;
+    }
+    .content--visible {
+        background: transparent;
+    }
+    .content--lateral-derecha-desk-content--visible {
+        background: white;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "store.custom#about-us": {
+        "path": "/quienes-somos"
+      },
+    "store.custom#datos": {
+        "path": "/Politica-datos"
+    },
+    "store.custom#devoluciones": {
+        "path": "/politica-devoluciones"
+    },
+    "store.custom#faqs": {
+      "path": "/faqs"
+    },
+    "store.storelocator": {
+      "path": "/stores"
+    }
+
+  }

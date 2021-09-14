@@ -1,0 +1,202 @@
+.specificationName {
+    margin-right: 10px;
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #483d3d;
+}
+.specificationName--especificacionesUno::after {
+    content: "";
+    background: #f5b325;
+    width: 20%;
+    height: 2px;
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    border-radius: 3px;
+    font-family: 'ROBOTO';
+}
+.specificationName--especificacionesBENE::after {
+    content: "";
+    background: #f5b325;
+    width: 20%;
+    height: 2px;
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    border-radius: 3px;
+    font-family: 'ROBOTO';
+}
+.specificationName--especificacionesRECO::after {
+    content: "";
+    background: #f5b325;
+    width: 20%;
+    height: 2px;
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    border-radius: 3px;
+    font-family: 'ROBOTO';
+}
+
+.groupName {
+    /*  display: none; */
+      visibility: hidden;
+  }
+  /*
+  .specificationValue--last {color: #373636;line-height: 26px;font-size: 14px;}
+  */
+
+  .specificationItemProperty[data-specification="{Ficha-Tecnica}"] {
+      display: none;
+  }
+  .specificationValue--especificacionesCuatro
+  {
+      display: none;
+  }
+  .specificationName--especificacionesCuatro[data-specification-name="Componentes"],
+  .specificationName--especificacionesCuatro[data-specification-name="Clima"],
+  .specificationName--especificacionesCuatro[data-specification-name="Acabado"],
+  .specificationName--especificacionesCuatro[data-specification-name="Diametro"],
+  .specificationName--especificacionesCuatro[data-specification-name="Ancho"],
+  .specificationName--especificacionesCuatro[data-specification-name="Durabilidad"],
+  .specificationName--especificacionesCuatro[data-specification-name="Visión del conjunto"],
+  .specificationName--especificacionesCuatro[data-specification-name="Detalles del producto"]
+  {
+      display: block;
+      margin-bottom: 0;
+  }
+  .specificationValue--especificacionesCuatro[data-specification-name="Componentes"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Clima"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Acabado"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Diametro"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Ancho"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Durabilidad"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Visión del conjunto"],
+  .specificationValue--especificacionesCuatro[data-specification-name="Detalles del producto"]
+  {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .specificationName--especificacionesCuatro
+  {
+      display: none;
+  }
+  .specificationName--especificacionesUno[data-specification-name="Color"],
+  .specificationName--especificacionesUno[data-specification-name="Cantidad"],
+  .specificationName--especificacionesUno[data-specification-name="Documentos"],
+  .specificationName--especificacionesUno[data-specification-name="Durabilidad"],
+  .specificationName--especificacionesUno[data-specification-name="Garantía"]
+  {
+      display: none;
+  }
+  .specificationValue--especificacionesUno[data-specification-name="Color"],
+  .specificationValue--especificacionesUno[data-specification-name="Cantidad"],
+  .specificationValue--especificacionesUno[data-specification-name="Documentos"],
+  .specificationValue--especificacionesUno[data-specification-name="Durabilidad"],
+  .specificationValue--especificacionesUno[data-specification-name="Garantía"]
+
+  {
+      display: none;
+  }
+
+  .specificationValue--especificacionesBENE
+  {
+      display: none;
+  }
+  .specificationName--especificacionesBENE
+  {
+      display: none;
+  }
+  .specificationName--especificacionesBENE[data-specification-name="Color"],
+  .specificationName--especificacionesBENE[data-specification-name="Cantidad"],
+  .specificationName--especificacionesBENE[data-specification-name="Durabilidad"]
+  {
+    display: block;
+}
+  .specificationValue--especificacionesBENE[data-specification-name="Color"],
+  .specificationValue--especificacionesBENE[data-specification-name="Cantidad"],
+  .specificationValue--especificacionesBENE[data-specification-name="Durabilidad"] 
+  {    display: block;
+}
+.specificationName--especificacionesUno[data-specification-name="Beneficios"] {
+    display: none;
+}
+  .specificationValue--especificacionesUno[data-specification-name="Beneficios"] {
+    display: none;
+}
+
+.specificationValue--especificacionesRECO
+{
+    display: none;
+}
+.specificationName--especificacionesRECO
+{
+    display: none;
+}
+.specificationName--especificacionesRECO[data-specification-name="Documentos"],
+.specificationName--especificacionesRECO[data-specification-name="Garantía"] {
+  display: block;
+}
+.specificationValue--especificacionesRECO[data-specification-name="Documentos"],
+.specificationValue--especificacionesRECO[data-specification-name="Garantía"] {
+  display: block;
+}
+
+.specificationName--especificacionesUno[data-specification-name="Recomendado para"] {
+    display: none;
+  }
+.specificationValue--especificacionesUno[data-specification-name="Recomendado para"] {
+    display: none;
+  }
+  /*
+.specificationValue--last {color: #373636;line-height: 23px;font-size: 13px;}
+*/
+.vtex-product-specifications-1-x-specificationName {
+    font-family: 'KLAVIKA';
+  }
+  
+.specificationValue--especificacionesBENE {
+    font-family: 'Klavika-light';
+  }
+  
+.specificationValue--especificacionesRECO--last {
+    font-family: 'Klavika-light';
+  }
+
+
+
+
+
+
+
+
+  @media (max-width: 600px) {
+    .specificationValue--especificacionesUno {
+        font-size: 12px;
+    }
+    .specificationValue--especificacionesBENE {
+        font-size: 12px;
+    }
+    .specificationValue--especificacionesRECO {
+        font-size: 12px;
+    }
+    .groupName--especificacionesBENE::before {
+        width: 0;
+    }
+    .groupName--especificacionesUno {
+        display: none;
+    }
+    .groupName--especificacionesBENE {
+        display: none;
+    }
+    .groupName--especificacionesRECO {
+        display: none;
+    }
+    .specificationName {
+        font-family: 'KLAVIKA';
+    }
+    .specificationValue--especificacionesUno {
+        font-family: 'Klavika-light';
+    }
+  }

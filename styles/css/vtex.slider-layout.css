@@ -1,0 +1,213 @@
+.imageElement {
+  max-width: inherit;
+}
+.sliderLayoutContainer--carousel1 {
+  margin: 0 0 50px 0;
+}
+.vtex-button__label {
+  display: none !important;
+}
+/* .sliderLayoutContainer--carousel {
+  background: #ffc100;
+  padding-bottom: 30px;
+} */
+/*.sliderLayoutContainer--Cmarca{
+  margin: -135px 100px 40px 100px;
+  background: white;
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+}*/
+.sliderLayoutContainer--Cmarca {
+  /* margin: -130px 0px 40px 0px; */
+  margin: 0;
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+.sliderTrackContainer--Cmarca {
+  padding: 0px 104px 22px 0;
+}
+
+.slide--Cmarca--visible {
+  transform: translateX(-79px);
+  width: 2.8% !important;
+}
+.sliderArrowsContainer--Cmarca {
+  top: 120px;
+  background-color: black;
+}
+.caretIcon--Cmarca {
+  color: #483d3d;
+  width: 60px;
+  height: 60px;
+}
+.sliderLeftArrow--Cmarca {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slide--bannersecun {
+  margin: 35px 0 20px 0;
+}
+.sliderLeftArrow--mediosP .caretIcon--mediosP {
+  margin: 0 0 0 -12px;
+  width: 15px;
+}
+.sliderRightArrow--mediosP .caretIcon--mediosP {
+  margin: 0 -25px 0 0px;
+  width: 15px;
+}
+.slide--mediosP {
+  max-width: 500px;
+}
+.sliderRightArrow--Cmarca::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha-slider.png) no-repeat;
+  background-size: 30%;
+  width: 45px;
+  background-color: #f6f6f6;
+  height: 45px;
+  z-index: -99999999;
+  background-position: center;
+  position: absolute;
+  right: 11px;
+  border-radius: 50%;
+  padding: 12px;
+  top: -100%;
+  box-shadow: 4px 4px 15px 0px rgb(0 0 0 / 18%);
+}
+.sliderLeftArrow--Cmarca::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-izquierda-slider.png) no-repeat;
+  background-size: 30%;
+  width: 45px;
+  background-color: #f6f6f6;
+  height: 45px;
+  z-index: -99999999;
+  background-position: center;
+  position: absolute;
+  left: 11px;
+  border-radius: 50%;
+  padding: 12px;
+  top: -100%;
+  box-shadow: 4px 4px 15px 0px rgb(0 0 0 / 18%);
+}
+.caretIcon--Cmarca {
+  display: none;
+}
+.sliderLeftArrow--Cmarca {
+  z-index: 1;
+}
+.sliderRightArrow--Cmarca {
+  z-index: 1;
+}
+.slide--hidden {
+ 
+  z-index: 99999;
+  opacity: 0.5;
+}
+.slide--Cmarca--hidden {
+  transform: translateX(-79px);
+  width: 2.8%!important;
+}
+.caretIcon--Cmarca::before {
+  content: '';
+  width: auto;
+  height: 100%;
+  position: absolute;
+}
+.sliderLayoutContainer--carouselMobile {
+  display: none;
+}
+.sliderLayoutContainer--carouselhome1M {
+  display: none;
+}
+.sliderLayoutContainer--carouselx4M {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .sliderLayoutContainer--carouselMobile {
+    display: block !important;
+  }
+  .sliderLayoutContainer--carousel {
+    display: none;
+  }
+  .sliderLayoutContainer--Cmarca {
+    width: 100%;
+    padding: 0 0px;
+    border-radius: 5px;
+  }
+  .sliderTrackContainer--Cmarca {
+    padding: 10px 0 0;
+  }
+  .slide--Cmarca--visible {
+    transform: translateX(0px) !important;
+    width: 3.5% !important;
+  }
+  .slide--Cmarca {
+    opacity: 1;
+   /*padding: 0px 3px;*/
+    background-color: transparent;
+  }
+  .slideChildrenContainer--Cmarca {
+    opacity: 0.9;
+  }
+  .sliderLayoutContainer--carouselhome1M {
+    display: block;
+    margin-bottom: 35px;
+  }
+  .sliderLayoutContainer--carouselx4M {
+    display: block;
+  }
+  .slideChildrenContainer--carouselx4M {
+    width: 100%;
+  }
+  .sliderTrackContainer--carouselx4M {
+    height: 690px;
+    padding: 10px;
+    margin: 0 0px 20px 0px;
+  }
+  .paginationDotsContainer--carouselhome1M {
+    bottom: -23px;
+  }
+  .paginationDotsContainer--carouselx4M {
+    bottom: 25px;
+  }
+  .slide--Cmarca--hidden {
+    /* transform: translateX(-79px); */
+    opacity: 0!important;
+    width: 3.5% !important;
+}
+}
+
+@media (min-width: 1735px) {
+  .sliderTrackContainer--Cmarca {
+    padding-top: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1480px) {
+  .sliderTrackContainer--Cmarca {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1050px) {
+  .sliderTrackContainer--Cmarca {
+    padding-right: 0;
+  }
+}

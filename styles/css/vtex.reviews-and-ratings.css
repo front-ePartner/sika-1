@@ -1,0 +1,69 @@
+.stars {
+    color: #ffc100;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.star {
+    margin: 0 1px;
+}
+.writeReviewContainer {
+    text-align: center;
+    margin: 0;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #f5b325;
+    color: #f5b325;
+}
+/* Product Page */
+.reviewsRating {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginLink {
+    color: #f5b325;
+    text-decoration: none;
+}
+.writeReviewContainer :global(.vtex__icon-caret-down){
+    margin-left:40px;
+}
+.reviewComment  .stars {
+    position: relative;
+}
+.reviewsRating .stars{
+    position: relative;
+}
+.formContainer :global(.vtex-button){
+    background-color: #f5b325 !important;
+}
+.reviewsContainer {
+    display: none;
+}
+.reviewsContainer {
+    display: none;
+}
+.loginLink {
+    font-family: 'KLAVIKA';
+  }
+  .review__comment--user {
+    font-family: 'KLAVIKA';
+  }
+
+
+
+
+
+
+@media (min-width: 64rem) {
+    .reviewCommentsContainer {
+      width: 700px;
+    }
+  }
+  @media (max-width: 600px) {
+    .stars {
+        top: -23px;
+    }
+  }

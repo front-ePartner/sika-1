@@ -1,0 +1,148 @@
+.container {
+  margin: 0 72px 8rem;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.title {
+  display: none;
+}
+.shelfContentContainer {
+  padding: 0;
+}
+.sliderContainer {
+  max-width: 100%;
+}
+.arrowLeft {
+  left: -10px;
+}
+.arrowRight {
+  right: -10px;
+}
+.relatedProducts .shelfContentContainer {
+  margin: 0 100px 0 100px;
+}
+.relatedProducts {
+  margin-bottom: 40px;
+}
+.arrowLeft::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-izquierda-slider.png) no-repeat;
+  background-size: 34%;
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-top: 0px;
+  top: -100px;
+  border-radius: 50%;
+  transition: all 40ms;
+  margin-right: 0px;
+  position: absolute;
+  background-position: center;
+  left: 5px;
+  box-shadow: 4px 4px 15px 0px rgb(0 0 0 / 18%);
+  background-color: #f6f6f6;
+}
+.arrowRight::before {
+  content: '';
+  background: url(https://sikaco.vteximg.com.br/arquivos/flecha-derecha-slider.png) no-repeat;
+  background-size: 34%;
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-top: 0px;
+  top: -100px;
+  border-radius: 50%;
+  transition: all 40ms;
+  margin-right: 0px;
+  position: absolute;
+  background-position: center;
+  left: unset;
+  right: 5px;
+  box-shadow: -4px 4px 15px 0px rgb(0 0 0 / 18%);
+  background-color: #f6f6f6;
+}
+.caretIcon {
+  opacity: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0 !important;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  .arrowRight::before {
+    display: none;
+  }
+  .shelfContentContainer {
+    /*  padding: 0px 0 0 15px;*/
+    margin-bottom: 40px;
+  }
+  /*
+  .slide{
+    width:  7.25% !important;
+  }*/
+  .relatedProducts .shelfContentContainer {
+    margin: 0 !important;
+  }
+  /*
+  .slide {
+    width: 12.5%!important;
+  }
+*/
+  .container--vitrinaProduct .shelfContentContainer--vitrinaProduct {
+    padding: 0px 0 0 27px;
+  }
+  .sliderContainer--vitrinasProducts :global(.vtex-slider-0-x-sliderFrame) {
+    width: 538% !important;
+  }
+  .caretIcon {
+    opacity: 1;
+    background: #f6f6f6;
+    padding: 8px;
+    margin: -35px 12px;
+    border-radius: 50%;
+    color: #483d3d;
+    border: 1px solid #e5e5e5;
+    box-shadow: 9px 200px 67px -18px rgb(0 0 0 / 78%);
+  }
+  .arrowLeft::before {
+    display: none;
+  }
+  .shelfContentContainer {
+    padding: 0 10px;
+}
+.arrow {
+  top: 35%;
+  transform: translate(0, -50%);
+}
+}
+
+@media (min-width: 1480px) {
+  .container {
+    margin: 0 72px 4rem;
+  }
+}
+@media (min-width: 1470px) {
+  .container {
+    padding: 0 22px;
+  }
+}
+@media (max-width: 1299px) {
+  .container {
+    margin: 0 102px 2rem;
+  }
+  .arrowLeft::before {
+    left: -30px;
+  }
+
+  .arrowRight::before {
+    right: -30px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .relatedProducts .shelfContentContainer {
+    margin: 0 104px;
+  }
+}

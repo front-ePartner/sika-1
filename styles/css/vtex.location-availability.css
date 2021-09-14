@@ -1,0 +1,16 @@
+.availabilityHeader--localizador-header--modal {    font-size: 0;
+    margin: -10px 0 -15px 6px;
+    display: flex;
+}
+.availabilityHeader--localizador-header--modal::after {content: "SIKA COLOMBIA";font-size: 15px;font-family: 'KLAVIKA';color: #483d3d;}
+.availabilityHeader--localizador-header--modal::before {
+    content: '';
+    background-image: url(https://sikaco.vteximg.com.br/arquivos/localizador.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 26px;
+    top: 1px;
+    font-family: 'KLAVIKA';
+    display: flex;
+}

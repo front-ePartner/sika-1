@@ -1,0 +1,223 @@
+{
+    "store.custom#devoluciones": {
+      "blocks": [
+        "info-card#bannerdevolucionesM",
+        "info-card#bannerdevoluciones",
+        "rich-text#title-devolucionesM",
+        "flex-layout.row#devoluciones",
+        "flex-layout.row#devolucionesMobile"
+      ]
+    },
+  
+    "flex-layout.row#devoluciones": {
+      "children": [
+        "flex-layout.col#text-devoluciones1",
+        "flex-layout.col#text-devoluciones"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+    "flex-layout.col#text-devoluciones1": {
+      "children": [
+        "rich-text#titles-devoluciones1",
+        "rich-text#titles-devoluciones6",
+        "rich-text#titles-devoluciones7",
+        "rich-text#titles-devoluciones2"
+      ],
+      "props": {
+        "blockclass": "textColumn1",
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "rowGap": 0
+      }
+    },
+    "info-card#bannerdevoluciones":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c2.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "info-card#bannerdevolucionesM":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c_mobile2devoluciones.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    "flex-layout.col#text-devoluciones": {
+      "children": [
+        "rich-text#title-devoluciones",
+        "image#devoluciones1",
+        "image#devoluciones2",
+        "image#devoluciones3"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "rich-text#titles-devoluciones1":{
+      "props": {
+        "text":"[POLÍTICA DE COOKIES](/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "image#devoluciones1": {
+      "props": {
+        "src": "https://siempresalud.myvtex.com/arquivos/Pagina 1.JPG"
+      }
+    },
+    "image#devoluciones2": {
+      "props": {
+        "src": "https://siempresalud.myvtex.com/arquivos/Pagina 2.JPG"
+      }
+    },
+    "image#devoluciones3": {
+      "props": {
+        "src": "https://siempresalud.myvtex.com/arquivos/Pagina 3.JPG"
+      }
+    },
+    "rich-text#titles-devoluciones2":{
+      "props": {
+        "text":"[POLÍTICA DE DEVOLUCIÓN](/Politica-devoluciones)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-devoluciones6":{
+      "props": {
+        "text":"[POÍLITCA DE DATOS](/Politica-datos)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-devoluciones7":{
+      "props": {
+        "text":"[QUIENES SOMOS](/quienes-somos)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#title-devoluciones": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE DEVOLUCIÓN",
+        "blockClass": "textoquien"
+      }
+    },
+    "rich-text#title-devolucionesM": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE DEVOLUCIÓN",
+        "blockClass": "textoquienM"
+      }
+    },
+  
+    
+    //Mobile para devoluciones
+    "flex-layout.row#devolucionesMobile": {
+      "children": [
+        "flex-layout.col#text-devolucionesMobile"
+      ],
+      "props":{
+        "blockClass": "FaqsColumnM"
+      }
+    },
+    "flex-layout.col#text-devolucionesMobile": {
+      "children": [
+        "disclosure-layout#devoluciones",
+        "disclosure-layout#devoluciones2",
+        "disclosure-layout#devoluciones3",
+        "disclosure-layout#devoluciones4"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    //desplegables
+    "disclosure-layout#devoluciones": {
+      "children": ["disclosure-trigger#devoluciones", "disclosure-content#devoluciones"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#devoluciones": {
+      "children": ["rich-text#devoluciones"]
+    },
+    "disclosure-content#devoluciones": {
+      "children": ["image#devoluciones1","image#devoluciones2" , "image#devoluciones3"]
+    },
+    "rich-text#devoluciones": {
+      "props": {
+        "text": "devoluciones",
+        "blockClass": "TituloMobile"
+      }
+    },
+    //SEGUNDO DESPLEGABLE
+    "disclosure-layout#devoluciones2": {
+      "children": ["disclosure-trigger#devoluciones2", "disclosure-content#devoluciones2"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#devoluciones2": {
+      "children": ["rich-text#devoluciones2"]
+    },
+    "disclosure-content#devoluciones2": {
+      "children":["image#devoluciones1","image#devoluciones2" , "image#devoluciones3"]
+    },
+    "rich-text#devoluciones2": {
+      "props": {
+        "text": "COMPRAS",
+        "blockClass": "TituloMobile"
+      }
+    },
+    // TERCER DESPLEGABLE
+    "disclosure-layout#devoluciones3": {
+      "children": ["disclosure-trigger#devoluciones3", "disclosure-content#devoluciones3"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#devoluciones3": {
+      "children": ["rich-text#devoluciones3"]
+    },
+    "disclosure-content#devoluciones3": {
+      "children":["image#devoluciones1","image#devoluciones2" , "image#devoluciones3"]
+    },
+    "rich-text#devoluciones3": {
+      "props": {
+        "text": "DEVOLUCIÓN",
+        "blockClass": "TituloMobile"
+      }
+    },
+    //CUARTO DEESPLEGABLE
+    "disclosure-layout#devoluciones4": {
+      "children": ["disclosure-trigger#devoluciones4", "disclosure-content#devoluciones4"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#devoluciones4": {
+      "children": ["rich-text#devoluciones4"]
+    },
+    "disclosure-content#devoluciones4": {
+      "children": ["image#devoluciones1","image#devoluciones2" , "image#devoluciones3"]
+    },
+    "rich-text#devoluciones4": {
+      "props": {
+        "text": "MI CUENTA",
+        "blockClass": "TituloMobile"
+      }
+    }
+}

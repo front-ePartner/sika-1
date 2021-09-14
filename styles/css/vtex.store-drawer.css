@@ -1,0 +1,40 @@
+.menuIcon{
+    color: #ffc100;
+}
+.openIconContainer{
+    margin-left: 5px;
+}
+.menuIcon--menuDrawer {
+    visibility: hidden;
+}
+.openIconContainer--menuDrawer {
+    background: url(https://sikaco.myvtex.com/arquivos/hamburguesa.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    top: 0;
+}
+.closeIcon--menuDrawer::after {content: "< volver";visibility: visible;width: 100px;}
+.closeIconButton--menuDrawer::after {content: "< Volver";visibility: visible;width: 500px;text-align: right;text-decoration: underline;}
+.closeIcon--menuDrawer {
+    color: white;
+}
+.closeIconContainer--menuDrawer {
+    width: 100%;
+    justify-content: flex-end;
+    margin: -5px 0px 0 -19px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .drawerContent--menuDrawer {
+        height: 100%;
+    }
+    .closeIcon--menuDrawer {
+        visibility: hidden;
+    }
+}

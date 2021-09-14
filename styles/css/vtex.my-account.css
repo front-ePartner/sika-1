@@ -1,0 +1,41 @@
+.boxContainerBody :global(.vtex-button){
+    background-color: #140d2e !important;
+    color: white;
+    padding: 10px !important;
+}
+.dataEntryChildren{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.dataEntryLabel{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid;
+}
+.boxContainer{
+    border: 1px solid rgb(130 130 130 / 87%);
+}
+:global(.vtex-account) > div{
+    padding: 20px 85px 20px 55px;
+}
+.userGreeting {
+    margin-top: 10px;
+}
+:global(.vtex-checkbox__inner-container) {
+    border-color: transparent !important;
+    background: transparent;
+
+}
+
+@media (max-width: 600px) {
+    :global(.vtex-account) > div{
+        padding: 20px 15px 20px 15px;
+    }
+    .menu {
+        padding: 0;
+    }
+}

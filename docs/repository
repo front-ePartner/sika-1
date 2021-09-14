@@ -1,0 +1,402 @@
+"slider-layout#text-test": {
+"props": {
+  "itemsPerPage": {
+    "desktop": 1,
+    "tablet": 1,
+    "phone": 1
+  },
+  "infinite": true,
+  "showNavigationArrows": "desktopOnly",
+  "blockClass": "carousel"
+},
+"children": ["rich-text#1", "rich-text#2", "rich-text#3"]
+},
+
+"rich-text#1": {
+"props": {
+  "text": "Test1"
+}
+},
+"rich-text#2": {
+"props": {
+  "text": "Test2"
+}
+},
+"rich-text#3": {
+"props": {
+  "text": "Test3"
+}
+},
+"rich-text#title1": {
+  "props": {
+    "text": "Nuestras Marcas",
+    "textAlignment": "CENTER",
+    "font": "t-heading-3",
+    "textPosition": "CENTER",
+    "blockClass": "textosPrinc"
+  }
+},
+"rich-text#title2": {
+  "props": {
+    "text": "Tenenmos las marcas mas top, descúbrelas!",
+    "textAlignment": "CENTER",
+    "font": "t-heading-6",
+    "textPosition": "CENTER",
+    "blockClass": "textosSec"
+  }
+},
+"rich-text#title3": {
+  "props": {
+    "text": "Nuevos Productos",
+    "textAlignment": "CENTER",
+    "font": "t-heading-3",
+    "textPosition": "CENTER",
+    "blockClass": "textosPrinc"
+  }
+},
+"rich-text#title4": {
+  "props": {
+    "text": "Descúbre los productos que mueven el mercado",
+    "textAlignment": "CENTER",
+    "font": "t-heading-6",
+    "textPosition": "CENTER",
+    "blockClass": "textosSec"
+  }
+},
+"shelf#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+       "maxItems": 15,
+       "itemsPerPage": 4,
+       "minItemsPerPage": 2,
+       "scroll": "BY_PAGE",
+       "arrows": "true",
+       "blockClass": "textosSec"
+      }
+    }
+    },
+  "list-context.image-list#demo": {
+  "children": ["slider-layout#demo-images"],
+  "props": {
+    "height": 650,
+    "images": [
+      {
+        "image": "assets/Stilotex_bannerhome.png",
+        "description": "something something",
+        "blockClass": "bannerprinc"
+      },
+      {
+        "image": "assets/Stilotex_bannerhome.png",
+        "description": "something about",
+        "blockClass": "bannerprinc"
+      }
+    ]
+  }
+  },
+  "list-context.image-list#demo2": {
+  "children": ["slider-layout#demo-images2"],
+  "props": {
+    "height": 650,
+    "blockClass": "marcasprin",
+    "images": [
+      {
+        "image": "assets/BIUM_Mesa de trabajo 1.png",
+        "description": "something something",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/CYBEX_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/DR BROWNS_Mesa de trabajo 1.png",
+        "description": "something something",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/DREAMBABY_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/FISHER PRICE_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/GB_Mesa de trabajo 1.png",
+        "description": "something something",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/JOOVY_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/MACLAREN_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/MUNCHKIN_Mesa de trabajo 1.png",
+        "description": "something something",
+        "maxWidth": 190
+      },
+      {
+        "image": "assets/UPPABABY_Mesa de trabajo 1.png",
+        "description": "something about",
+        "maxWidth": 190
+      }
+    ]
+  }
+  },
+"slider-layout#demo-images2": {
+    "props": {
+      "showPaginationDots": "never",
+      "blockClass": "carousel1",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "children": ["rich-text#1", "rich-text#2", "rich-text#3, rich-text#4", "rich-text#5", "rich-text#6, rich-text#7", "rich-text#8", "rich-text#9"]
+    }
+    },
+  "rich-text#1": {
+    "props": {
+      "text": "Test1"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "Test2"
+    }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "Test3"
+    }
+  },
+  "rich-text#4": {
+    "props": {
+      "text": "Test1"
+    }
+  },
+  "rich-text#5": {
+    "props": {
+      "text": "Test2"
+    }
+  },
+  "rich-text#6": {
+    "props": {
+      "text": "Test3"
+    }
+  },
+  "rich-text#7": {
+    "props": {
+      "text": "Test1"
+    }
+  },
+  "rich-text#8": {
+    "props": {
+      "text": "Test2"
+    }
+  },
+  "rich-text#9": {
+    "props": {
+      "text": "Test3"
+    }
+  },
+  "slider-layout#demo-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true
+        }
+  },
+  "slider-layout#demo-text": {
+      "props": {
+        "showPaginationDots": "never",
+        "blockClass": "carousel1",
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 2
+        },
+        "infinite": true,
+        "children": ["rich-text#1", "rich-text#2", "rich-text#3, rich-text#4", "rich-text#5", "rich-text#6, rich-text#7", "rich-text#8", "rich-text#9"]
+      }
+      },
+    "rich-text#1": {
+      "props": {
+        "text": "Test1"
+      }
+    },
+    "rich-text#2": {
+      "props": {
+        "text": "Test2"
+      }
+    },
+    "rich-text#3": {
+      "props": {
+        "text": "Test3"
+      }
+    },
+    "rich-text#4": {
+      "props": {
+        "text": "Test1"
+      }
+    },
+    "rich-text#5": {
+      "props": {
+        "text": "Test2"
+      }
+    },
+    "rich-text#6": {
+      "props": {
+        "text": "Test3"
+      }
+    },
+    "rich-text#7": {
+      "props": {
+        "text": "Test1"
+      }
+    },
+    "rich-text#8": {
+      "props": {
+        "text": "Test2"
+      }
+    },
+    "rich-text#9": {
+      "props": {
+        "text": "Test3"
+      }
+    },
+"flex-layout.row#home":{
+  "children": [
+    "info-card#col-left",
+    "flex-layout.col#col-rigth"
+  ]
+  },
+"info-card#col-left":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"assets/imagen5.jpg",
+      "headline":"PruebaCa",
+      "subhead": "testing",
+      "callToActionText": "New information",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionMode": "link",
+      "blockClass":"Mio"
+    }
+},
+"flex-layout.col#col-rigth":{
+    "children": [
+      "info-card#col-rigth1",
+      "info-card#col-rigth2"
+    ]
+  },
+  "info-card#col-rigth1":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"assets/imagen3.jpg",
+      "headline":"PruebaCa",
+      "subhead": "testing",
+      "callToActionText": "New information",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionMode": "link",
+      "blockClass":"Mio"
+    }
+  },
+"info-card#col-rigth2":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"assets/imagen4.jpg",
+      "headline":"PruebaCa",
+      "subhead": "testing",
+      "callToActionText": "New information",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionMode": "link",
+      "blockClass":"Mio"
+    }
+},
+"responsive-layout.mobile#mobile":{
+    "children":[
+      "rich-text#mobile",
+      "image#mobile"
+    ]
+},
+"responsive-layout.desktop#desktop":{
+    "children":[
+      "rich-text#desktop",
+      "image#desktop"
+    ]
+},
+"rich-text#mobile":{
+    "props":{
+      "text":"## Hola Mundo ##",
+      "textPosition": "left",
+      "textAlignment": "CENTER"
+    }
+},
+"rich-text#desktop":{
+    "props":{
+      "text":"## Hello Word",
+      "textPosition": "left",
+      "textAlignment": "CENTER"
+    }
+},
+"image#mobile":{
+    "props":{
+      "src": "assets/logostilotex.png",
+      "link":{
+        "url":"#"
+      }
+    }
+},
+"image#desktop":{
+    "props":{
+      "src":"assets/iconocredito.png",
+      "link":{
+        "url":"#"
+      }
+    }
+},
+"modal-trigger#cupon":{
+  "children":[
+    "rich-text#cupon",
+    "modal-layout#cupon"
+  ]
+},
+"rich-text#cupon":{
+  "props": {
+    "text": "Abrite",
+    "textAlignment": "CENTER",
+    "font": "t-heading-5",
+    "textPosition": "CENTER"
+  }
+},
+"modal-layout#cupon":{
+  "children":["image#cupon"]
+},
+"image#cupon":{
+  "props":{
+    "src": "assets/imagen4.jpg",
+    "link":{
+      "url":"#"
+    }
+  }
+}

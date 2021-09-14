@@ -1,0 +1,1300 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footerD", "flex-layout.row#redes", "flex-layout.row#MiniMenu", "rich-text#footerCopy"]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "info-card#logofooterM",
+      "rich-text#footitle0M",
+      "rich-text#foo30M",
+      "rich-text#foo40M",
+      "rich-text#foo410M",
+      "disclosure-layout#SobreNosotros",
+      "disclosure-layout#servicioAlCliente",
+      "disclosure-layout#categoriasDestacadas",
+      "flex-layout.row#redes",
+      "flex-layout.row#MiniMenu",
+      "rich-text#footerCopy"
+    ]
+  },
+  "flex-layout.row#footerM0": {
+    "children": ["flex-layout.col#footer6"],
+    "props": {
+      "blockClass": "footercon"
+    }
+  },
+  "flex-layout.row#footerM2": {
+    "children": ["flex-layout.col#footer1"],
+    "props": {
+      "blockClass": "footercon"
+    }
+  },
+  "flex-layout.row#footerM": {
+    "children": ["flex-layout.col#footer4", "flex-layout.col#footer5"],
+    "props": {
+      "blockClass": "footercon"
+    }
+  },
+  //Inicio decolarado
+  "flex-layout.row#footerD": {
+    "children": [
+      "flex-layout.col#footer0",
+      "flex-layout.col#footer1",
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5"
+      /*
+      "flex-layout.col#footer6"*/
+    ],
+    "props": {
+      "blockClass": "footercon"
+    }
+  },
+
+  //Columna 1
+  "flex-layout.col#footer1": {
+    "children": ["rich-text#footitle", "flex-layout.col#footer1SUB"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "flex-layout.col#footer1SUB": {
+    "children": [
+      "rich-text#foo1-1",
+      "rich-text#foo1-2",
+      "rich-text#foo1-3",
+      "rich-text#foo1-4",
+      "rich-text#foo1-5",
+      "rich-text#foo1-6",
+      "rich-text#foo1-7",
+      "rich-text#foo1-8",
+      "rich-text#foo1-9"
+    ],
+    "props": {
+      "blockClass": "footerCSub"
+    }
+  },
+  "rich-text#footitle": {
+    "props": {
+      "text": "SOBRE NOSOSTROS",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF", "titleLast"]
+    }
+  },
+  "rich-text#foo3": {
+    "props": {
+      "text": "[¿Quienes somos?](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo4": {
+    "props": {
+      "text": "[Nuestra Historia](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo41": {
+    "props": {
+      "text": "[Nuestra Información](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo41A": {
+    "props": {
+      "text": "[Razon Social](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 2
+  "flex-layout.col#footer2": {
+    "children": ["rich-text#footitle1", "rich-text#foo6", "rich-text#foo7", "rich-text#foo8", "rich-text#foo9"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle1": {
+    "props": {
+      "text": "HUB",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo6": {
+    "props": {
+      "text": "[Quienes Somos](https://stilotex.com/nosotros/#historia)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo7": {
+    "props": {
+      "text": "[Identidad corporativa](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo8": {
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo9": {
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 3
+  "flex-layout.col#footer3": {
+    "children": ["rich-text#footitle3", "rich-text#foo10", "rich-text#foo11", "rich-text#foo12"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle3": {
+    "props": {
+      "text": "Por ser parte de nosotros",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo10": {
+    "props": {
+      "text": "[Beneficios](/Beneficios)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo11": {
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo12": {
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 4
+  "flex-layout.col#footer4": {
+    "children": ["rich-text#footitle4", "flex-layout.col#footer4SUB"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "flex-layout.col#footer4SUB": {
+    "children": [
+      "rich-text#foo2-1",
+      "rich-text#foo2-2",
+      "rich-text#foo2-3",
+      "rich-text#foo2-4",
+      "rich-text#foo2-5",
+      "rich-text#foo2-6",
+      "rich-text#foo2-7",
+      "rich-text#foo2-8",
+      "rich-text#foo2-9"
+    ],
+    "props": {
+      "blockClass": "footerCSub"
+    }
+  },
+  "rich-text#footitle4": {
+    "props": {
+      "text": "CATEGORIAS DESTACADAS",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo13": {
+    "props": {
+      "text": "[Profesionales de la salud ](/Profesionales-de-la-salud)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo14": {
+    "props": {
+      "text": "[Protección e Higiene](/proteccion-e-higiene)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo15": {
+    "props": {
+      "text": "[Control y prevención](/control-y-prevencion)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo150": {
+    "props": {
+      "text": "[Movilidad](/movilidad)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo151": {
+    "props": {
+      "text": "[Independencia y cuidado en el hogar](/independencia-y-cuidado-en-el-hogar)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo152": {
+    "props": {
+      "text": "[Terapia respiratoria](/terapia-respiratoria)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo153": {
+    "props": {
+      "text": "[Confort](/confort)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 5
+  "flex-layout.col#footer5": {
+    "children": ["rich-text#footitle5", "flex-layout.col#footer5SUB"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "flex-layout.col#footer5SUB": {
+    "children": ["rich-text#foo3-1", /* "rich-text#foo3-2"*/ "rich-text#foo3-4", "rich-text#foo3-5", "rich-text#foo3-6", "rich-text#foo3-7", "rich-text#foo3-8"],
+    "props": {
+      "blockClass": "footerCSub"
+    }
+  },
+  "rich-text#footitle5": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF", "titleLast"]
+    }
+  },
+  "rich-text#foo16": {
+    "props": {
+      "text": "[Politica de cookies](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo17": {
+    "props": {
+      "text": "[Politica de devoluciones](/politicas-devoluciones)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo18": {
+    "props": {
+      "text": "[Politica de garantias](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo161": {
+    "props": {
+      "text": "[Politica de datos](/politica-datos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo171": {
+    "props": {
+      "text": "[+57 312 7076387](https://wa.link/u6l71l)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo181": {
+    "props": {
+      "text": "[+57 301 4779931](tel:+573014779931)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo162": {
+    "props": {
+      "text": "[e-mail: hola@siempresalud.com.co](mailto:hola@siempresalud.com.co)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooM"
+    }
+  },
+  //Columna 6
+  "flex-layout.col#footer6": {
+    "children": [
+      /*
+      "rich-text#footitle6",
+      */
+      "rich-text#footitle7",
+      "image#BannerPagosD"
+    ],
+    "props": {
+      "blockClass": ["footerC", "ultimaIlera"]
+    }
+  },
+  "image#BannerPagosD": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass": "BannerPagosD"
+    }
+  },
+  "image#BannerPagos": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass": "BannerPagos"
+    }
+  },
+  "rich-text#footitle6": {
+    "props": {
+      "text": "SUSCRÍBASE A NUESTRO NEWSLETTER",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["titleF", "tituloNewsletter"]
+    }
+  },
+  "rich-text#footitle7": {
+    "props": {
+      "text": "Nuestros metodos de pago",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooM"
+    }
+  },
+  "flex-layout.row#form": {
+    "children": ["flex-layout.col#form"]
+  },
+  "flex-layout.col#form": {
+    "children": ["newsletter-form"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": ["inputsNewsletter"]
+    }
+  },
+  "newsletter-form": {
+    "children": ["flex-layout.col#inputs"]
+  },
+  "flex-layout.col#inputs": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "flex-layout.row#inputsphoneyrazon",
+      "newsletter-submit",
+      /*
+      "newsletter-checkbox-confirmation",
+      "link.product#product-page",*/
+      "flex-layout.row#linkyconfirmacion"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": "inputsNewsletter"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Ingrese aquí su correo electrónico",
+      "blockClass": "inputsParaNewsletter"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "ME QUIERO SUSCRIBIR",
+      "blockClass": "inputsParaNewsletter"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Aceptación de términos y condiciones de manejo de datos",
+      "blockClass": "VerificacionParaNewsletter"
+    }
+  },
+  "link.product#product-page": {
+    "props": {
+      "href": "/faqs",
+      "label": "Ver T&C",
+      "target": "_blank",
+      "blockClass": "VerificacionParaNewsletterContainer"
+    }
+  },
+  "flex-layout.row#linkyconfirmacion": {
+    "children": ["newsletter-checkbox-confirmation", "link.product#product-page"],
+    "props": {
+      "blockClass": "VerificacionParaNewsletter"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Ingrese aquí su nombre",
+      "blockClass": "inputsParaNewsletter"
+    }
+  },
+  "newsletter-input-name#razon": {
+    "props": {
+      "placeholderText": "Ingrese aquí su Razón social",
+      "blockClass": "inputsParaNewsletter50",
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#inputsphoneyrazon": {
+    "children": ["newsletter-input-phone", "newsletter-input-name#razon"],
+    "props": {
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "inputsNewsletterx2"
+    }
+  },
+  "newsletter-input-phone": {
+    "props": {
+      "placeholderText": "Ingrese aquí su numero telefonico",
+      "blockClass": "inputsParaNewsletter50",
+      "width": "50%"
+    }
+  },
+
+  //last part footer
+  "flex-layout.row#extrafootM": {
+    "children": ["rich-text#foo1", "info-card#foo2", "info-card#foo3"],
+    "props": {
+      "blockClass": "lastF"
+    }
+  },
+  "flex-layout.row#extrafoot": {
+    "children": ["flex-layout.col#last1", "flex-layout.col#last2", "flex-layout.col#last3"],
+    "props": {
+      "blockClass": "lastF"
+    }
+  },
+  "flex-layout.col#last1": {
+    "children": ["rich-text#foo1"],
+    "props": {
+      "blockClass": "firstCon"
+    }
+  },
+  "flex-layout.col#last2": {
+    "children": ["info-card#foo2"],
+    "props": {
+      "blockClass": "secondCon"
+    }
+  },
+  "flex-layout.col#last3": {
+    "children": ["info-card#foo3"],
+    "props": {
+      "blockClass": "thirdCon"
+    }
+  },
+  "rich-text#foo1": {
+    "props": {
+      "text": "Desarrollado por",
+      "textAlignment": "right",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textfool"
+    }
+  },
+  "info-card#foo2": {
+    "props": {
+      "id": "texto",
+      "imageUrl": "https://pepegangastilotex.vteximg.com.br/arquivos/logoepartner.png",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "blockClass": "textfool2"
+    }
+  },
+  "info-card#foo3": {
+    "props": {
+      "id": "texto",
+      "imageUrl": "https://impormedical.vteximg.com.br/arquivos/logovtexepartnerla.png",
+      "textPosition": "left",
+      "textAlignment": "right",
+      "blockClass": "textfool3"
+    }
+  },
+
+  /*PRIEMRA COLUMNA FOOTER PARTE A*/
+
+  "flex-layout.col#footer0": {
+    "children": ["info-card#logofooter", "rich-text#footitle0", "rich-text#foo30", "rich-text#foo40", "rich-text#foo410"],
+    "props": {
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle0": {
+    "props": {
+      "text": "Sika Colombia S.A.S",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["NOMBRE-RAZON-SOCIAL"]
+    }
+  },
+  "rich-text#foo30": {
+    "props": {
+      "text": "[Vereda Canavita Kn 20.5 - Autopista Norte](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrec"
+    }
+  },
+  "rich-text#foo40": {
+    "props": {
+      "text": "[Tocicancipá, Cundinamarca](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrec"
+    }
+  },
+  "rich-text#foo410": {
+    "props": {
+      "text": "[(1) 8786333](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrec"
+    }
+  },
+  "rich-text#foo41A0": {
+    "props": {
+      "text": "[Colombia](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrec"
+    }
+  },
+  "info-card#logofooter": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/logosikaclaimhorizontal-1.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "LogoFooter"
+    }
+  },
+
+  /*MENU HORIZONTAL FOOTER*/
+
+  "flex-layout.row#MiniMenu": {
+    "children": ["rich-text#menuFoo1", "rich-text#menuFoo2", "rich-text#menuFoo3", "rich-text#menuFoo4", "rich-text#menuFoo5", "rich-text#menuFoo6"],
+    "props": {
+      "blockClass": "footerconMenu",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#menuFoo1": {
+    "props": {
+      "text": "[Imprint](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+  "rich-text#menuFoo2": {
+    "props": {
+      "text": "[Nota Legal](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+  "rich-text#menuFoo3": {
+    "props": {
+      "text": "[Autocontrol y Gestión](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+  "rich-text#menuFoo4": {
+    "props": {
+      "text": "[Condiciones de Venta](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+  "rich-text#menuFoo5": {
+    "props": {
+      "text": "[Condiciones de Compra](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+  "rich-text#menuFoo6": {
+    "props": {
+      "text": "[Aviso de privacidad](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "footerMenuItem"
+    }
+  },
+
+  "rich-text#footerCopy": {
+    "props": {
+      "text": "[copyright @2021 ePartner - Pataforma vtex](#)",
+      "textAlignment": "center",
+      "font": "t-heading-3",
+      "textPosition": "center",
+      "blockClass": "footercopyright"
+    }
+  },
+
+  /**/
+
+  "flex-layout.row#redes": {
+    "children": ["rich-text#footersiguinos", "info-card#logofacebook", "info-card#logofinsta"],
+    "props": {
+      "blockClass": "footerredes"
+    }
+  },
+  "info-card#logofacebook": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/facebook2.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Logored-face",
+      "width": "11%"
+    }
+  },
+  "info-card#logofinsta": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/bx_bxl-instagram-alt.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "Logored-insta",
+      "width": "11%"
+    }
+  },
+  "rich-text#footersiguinos": {
+    "props": {
+      "text": "[Siguenos en:](#)",
+      "textAlignment": "center",
+      "font": "t-heading-3",
+      "textPosition": "center",
+      "blockClass": "footerMenuItemSigueme",
+      "width": "30%"
+    }
+  },
+
+  /*footer mobile logo y dirección*/
+
+  "flex-layout.col#footer0M": {
+    "children": ["info-card#logofooterM", "rich-text#footitle0M", "rich-text#foo30M", "rich-text#foo40M", "rich-text#foo410M"],
+    "props": {
+      "blockClass": "footerCParteAM"
+    }
+  },
+
+  "rich-text#footitle0M": {
+    "props": {
+      "text": "Sika Colombia S.A.S",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": ["NOMBRE-RAZON-SOCIAL"]
+    }
+  },
+  "rich-text#foo30M": {
+    "props": {
+      "text": "[Vereda Canavita Kn 20.5 - Autopista Norte](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrecM"
+    }
+  },
+  "rich-text#foo40M": {
+    "props": {
+      "text": "[Tocicancipá, Cundinamarca](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrecM"
+    }
+  },
+  "rich-text#foo410M": {
+    "props": {
+      "text": "[(1) 8786333](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrecM"
+    }
+  },
+  "rich-text#foo41A0M": {
+    "props": {
+      "text": "[Colombia](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooDIrecM"
+    }
+  },
+  "info-card#logofooterM": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/logosikaclaimhorizontal-1.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "LogoFooterM"
+    }
+  },
+
+  /*TAPS FOOTER MOBILE*/
+
+  "tab-layout#footerM": {
+    "children": ["tab-list.item#footer1", "tab-content.item#fooete1", "tab-list.item#footer2", "tab-content.item#fooete2", "tab-list.item#footer3", "tab-content.item#fooete3"],
+    "props": {
+      "blockClass": "FOOTERM",
+      "defaultActiveTabId": "footer1"
+    }
+  },
+
+  "tab-list.item#footer1": {
+    "props": {
+      "tabId": "footer1",
+      "label": "SOBRE NOSOTROS"
+    }
+  },
+  "tab-list.item#footer2": {
+    "props": {
+      "tabId": "footer2",
+      "label": "SERVICIO AL CLIENTE"
+    }
+  },
+  "tab-list.item#footer3": {
+    "props": {
+      "tabId": "footer3",
+      "label": "CATEGORÍAS DESTACADAS"
+    }
+  },
+
+  /*contenido tab 1*/
+  "tab-content.item#fooete1": {
+    "children": ["flex-layout.row#footertab1"],
+    "props": {
+      "tabId": "footer1"
+    }
+  },
+  "flex-layout.row#footertab1": {
+    "children": ["flex-layout.row#fooMparte1-a", "flex-layout.row#fooMparte1-b"],
+    "props": {
+      "tabId": "footer1",
+      "blockClass": "footerContentTab"
+    }
+  },
+
+  "flex-layout.row#fooMparte1-a": {
+    "children": ["rich-text#foo1-1", "rich-text#foo1-2", "rich-text#foo1-3", "rich-text#foo1-4","rich-text#foo1-6" ],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+  "flex-layout.row#fooMparte1-b": {
+    "children": ["rich-text#foo1-5", "rich-text#foo1-7", "rich-text#foo1-8", "rich-text#foo1-9"],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+
+  /*contenido tab 2*/
+  "tab-content.item#fooete2": {
+    "children": ["flex-layout.row#footertab2"],
+    "props": {
+      "tabId": "footer2"
+    }
+  },
+  "flex-layout.row#footertab2": {
+    "children": ["flex-layout.row#fooMparte2-a", "flex-layout.row#fooMparte2-b"],
+    "props": {
+      "tabId": "footer2",
+      "blockClass": "footerContentTab"
+    }
+  },
+
+  "flex-layout.row#fooMparte2-a": {
+    "children": ["rich-text#foo2-1", "rich-text#foo2-2", "rich-text#foo2-3", "rich-text#foo2-4", "rich-text#foo2-5"],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+  "flex-layout.row#fooMparte2-b": {
+    "children": ["rich-text#foo2-6", "rich-text#foo2-7", "rich-text#foo2-8", "rich-text#foo2-9"],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+
+  /*contenido tab 3*/
+
+  "tab-content.item#fooete3": {
+    "children": ["flex-layout.row#footertab3"],
+    "props": {
+      "tabId": "footer3"
+    }
+  },
+  "flex-layout.row#footertab3": {
+    "children": ["flex-layout.row#fooMparte3-a", "flex-layout.row#fooMparte3-b"],
+    "props": {
+      "tabId": "footer3",
+      "blockClass": "footerContentTab"
+    }
+  },
+
+  "flex-layout.row#fooMparte3-a": {
+    "children": ["rich-text#foo3-1", "rich-text#foo3-2", /* "rich-text#foo3-3", */ "rich-text#foo3-4", "rich-text#foo3-5"],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+  "flex-layout.row#fooMparte3-b": {
+    "children": ["rich-text#foo3-6", "rich-text#foo3-7", "rich-text#foo3-8"],
+    "props": {
+      "blockClass": "footerconCol"
+    }
+  },
+  //-----------------------------------------------MENU COLUMNA 1
+  "rich-text#foo1-1": {
+    "props": {
+      "text": "[Acerca de Sika](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-2": {
+    "props": {
+      "text": "[Remodele su hogar](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-3": {
+    "props": {
+      "text": "[Mapa del sitio](/stores)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-4": {
+    "props": {
+      "text": "[Declaración de conformidad](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-5": {
+    "props": {
+      "text": "[Política de protección de datos personales](/politicas)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-6": {
+    "props": {
+      "text": "[Nota Legal](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-7": {
+    "props": {
+      "text": "[Preguntas frecuentes](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-8": {
+    "props": {
+      "text": "[Mercado Pago](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo1-9": {
+    "props": {
+      "text": "[Superintendencia de industria y comercio](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //-----------------------------------------------MENU COLUMNA 2
+  "rich-text#foo2-1": {
+    "props": {
+      "text": "[Aditivos y curadores](/Aditivos-y-curadores)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-2": {
+    "props": {
+      "text": "[Adhesivos de enchape](/Adhesivos-de-enchape)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-3": {
+    "props": {
+      "text": "[Mamposteria](/Mamposteria)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-4": {
+    "props": {
+      "text": "[Impermeabilización de muros](/Impermeabilización-de-muros)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-5": {
+    "props": {
+      "text": "[Morteros y grouts de Reparación](/Morteros-y-grouts-de-Reparación)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-6": {
+    "props": {
+      "text": "[Sistemas livianos - Drywall](/Sistemas-livianos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-7": {
+    "props": {
+      "text": "[Adhesivos epoxicos y anclajes](/Adhesivos-epoxicos-y-anclajes)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-8": {
+    "props": {
+      "text": "[Estucos y pinturas Decorativas](/Estucos-y-pinturas-Decorativas)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo2-9": {
+    "props": {
+      "text": "[Adhesivos y sellantes](/Adhesivos-y-sellantes)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+
+  //-----------------------------------------------MENU COLUMNA 2
+  "rich-text#foo3-1": {
+    "props": {
+      "text": "[Política de entregas](/Política-de-entregas)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3-2": {
+    "props": {
+      "text": "[Política de devoluciones](/Política-de-devoluciones)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  /* "rich-text#foo3-3": {
+    "props": {
+      "text": "[Nuestra Información](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  }, */
+  "rich-text#foo3-4": {
+    "props": {
+      "text": "[Política de Garantías](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3-5": {
+    "props": {
+      "text": "[Políticas de cancelación](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3-6": {
+    "props": {
+      "text": "[Whatsapp +57 300 123 4567](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3-7": {
+    "props": {
+      "text": "[PBX 01 8000 123 4567](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3-8": {
+    "props": {
+      "text": "[info@paginaepartner.com](#)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  
+//------------------------------------------------------------TABBERS, ESPECIFICACIONES
+  
+       //Tabbers-mobile
+       "disclosure-layout#SobreNosotros": {
+        "children": ["disclosure-trigger#SobreNosotros", "disclosure-content#SobreNosotros"],
+        "props": {
+          "animated": true,
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-trigger#SobreNosotros": {
+        "children": ["rich-text#SobreNosotros"],
+        "props": {
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-content#SobreNosotros": {
+        "children": [
+          "flex-layout.row#footertab1"
+        ],
+        "props": {
+          "blockClass": "footerMobilePart2"
+        }
+      },
+      "rich-text#SobreNosotros": {
+        "props": {
+          "text": "Sobre Nosotros",
+          "blockClass": "footerMobilePart2"
+        }
+      },
+      //Tabbers-mobile2
+      "disclosure-layout#servicioAlCliente": {
+        "children": ["disclosure-trigger#servicioAlCliente", "disclosure-content#servicioAlCliente"],
+        "props": {
+          "animated": true,
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-trigger#servicioAlCliente": {
+        "children": ["rich-text#servicioAlCliente"],
+        "props": {
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-content#servicioAlCliente": {
+        "children": [
+          "flex-layout.row#footertab2"
+        ],
+        "props":{
+          "blockClass": "footerMobilePart2"
+        }
+      },
+      "rich-text#servicioAlCliente": {
+        "props": {
+          "text": "Servivcio Al Cliente",
+          "blockClass": "footerMobilePart2"
+        }
+      },      
+      //Tabbers-mobile3
+      "disclosure-layout#categoriasDestacadas": {
+        "children": ["disclosure-trigger#categoriasDestacadas", "disclosure-content#categoriasDestacadas"],
+        "props": {
+          "animated": true,
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-trigger#categoriasDestacadas": {
+        "children": ["rich-text#categoriasDestacadas"],
+        "props": {
+          "blockClass":"footerMobilePart2"
+        }
+      },
+      "disclosure-content#categoriasDestacadas": {
+        "children": [
+          "flex-layout.row#footertab3"
+        ],
+        "props": {
+          "tabId": "InformacioncategoriasDestacadas",
+          "blockClass": "footerMobilePart2"
+        }
+      },
+      "rich-text#categoriasDestacadas": {
+        "props": {
+          "text": "Recomendados para",
+          "blockClass": "footerMobilePart2"
+        }
+      }
+
+
+}

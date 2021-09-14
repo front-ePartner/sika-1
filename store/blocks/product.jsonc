@@ -1,0 +1,678 @@
+{
+  "store.product": {
+    "children": [
+      "info-card#bannerCP",
+      "info-card#bannerMobileP",
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "tab-layout#product",
+      "flex-layout.row#TAB-MOBILE",
+      /* "flex-layout.row#reviews-and-ratings", */
+      "rich-text#product1",
+      "shelf.relatedProducts#1",
+      "rich-text#product2",
+      "shelf.relatedProducts#2"
+    ]
+  },
+  "breadcrumb": {
+    "props": {
+      "blockClass": "breadCrumbMobileP",
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product"
+    },
+    "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "70%",
+      "rowGap": 0,
+      "blockClass": "imagenesD"
+    },
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-click"
+    }
+  },
+  "flex-layout.col#product-imageM": {
+    "props": {
+      "width": "70%",
+      "rowGap": 0,
+      "blockClass": "imagenesM"
+    },
+    "children": ["product-images#M"]
+  },
+  "product-images#M": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-hover",
+      "thumbnailsOrientation": "horizontal"
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "flex-layout.row#identifier",
+      "product-price#product-details",
+      "product-description",
+      "flex-layout.col#product-imageM",
+      "sku-selector#product",
+      "product-separator",
+      "product-quantity",
+      "flex-layout.col#buy-button",
+      "availability-subscriber",
+      "image#BannerProduct"
+    ]
+  },
+  "flex-layout.row#identifier": {
+    "children": ["product-identifier.product", "product-rating-summary"],
+    "props": {
+      "blockClass": "identifierProduct"
+    }
+  },
+  "product-identifier.product": {},
+  "image#BannerProduct": {
+    "props": {
+      "src": "https://sikaco.myvtex.com/arquivos/banner-producto-promo.png",
+      "blockClass": "BannerProduct"
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 6,
+      "showUnit": true
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.col#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "productbuy"
+    },
+    "children": ["add-to-cart-button#checkout", "add-to-cart-button"]
+  },
+  "add-to-cart-button#checkout": {
+    "props": {
+      "isOneClickBuy": "true",
+      "blockClass": "productcheckout",
+      "text": "comprar producto"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "isOneClickBuy": false,
+      "blockClass": "onpage",
+      "text": "agregar producto"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  //Titulo1
+  "rich-text#product1": {
+    "props": {
+      "text": "# Producto Sugerido #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "shelf.relatedProducts#1": {
+    "props": {
+      "recommendation": "view",
+      "minItemsPerPage": 2,
+      "productList": {
+        "titleText": "Nuestras Marcas",
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2
+      },
+      "blockClass": "vitrinasProductsa"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "shelf.relatedProducts#2": {
+    "props": {
+      "recommendation": "view",
+      "minItemsPerPage": 2,
+      "productList": {
+        "titleText": "Nuestras Marcas",
+        "itemsPerPage": 4,
+        "minItemsPerPage": 2
+      },
+      "blockClass": "vitrinasProductsa"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "shelf#Product": {
+    "props": {
+      "productList": {
+        "titleText": "Nuestras Marcas",
+        "itemsPerPage": 4,
+        "maxItems": 10,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "blockClass": "textosSec",
+        "showPaginationDots": "never"
+      },
+      "autoplay": {
+        "speed": 500,
+        "delay": 3000
+      },
+      "blockClass": "vitrinaProduct"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "rich-text#product2": {
+    "props": {
+      "text": "# Producto Complementario #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  //taps descriopcion
+  "tab-layout#product": {
+    "children": ["tab-list#product", "tab-content#product"],
+    "props": {
+      "blockClass": "product",
+      "defaultActiveTabId": "product1"
+    }
+  },
+  "tab-layout#productM": {
+    "children": [
+      "tab-list.item#product1",
+      "tab-content.item#product1",
+      "tab-list.item#product2",
+      "tab-content.item#product2",
+      "tab-list.item#product5",
+      "tab-content.item#product5"
+    ],
+    "props": {
+      "blockClass": "productM",
+      "defaultActiveTabId": "product1"
+    }
+  },
+  "tab-list#product": {
+    "children": ["tab-list.item#product1", "tab-list.item#product2", "tab-list.item#product5"]
+  },
+  "tab-list.item#product1": {
+    "props": {
+      "tabId": "product1",
+      "label": "Especificaciones",
+      "blockClass": "tab--left"
+    }
+  },
+  "tab-list.item#product2": {
+    "props": {
+      "tabId": "product2",
+      "label": "Caracteristicas",
+      "blockClass": "tab--center"
+    }
+  },
+  "tab-list.item#product4": {
+    "props": {
+      "tabId": "product4",
+      "label": "Adicional"
+    }
+  },
+  "tab-list.item#product5": {
+    "props": {
+      "tabId": "product5",
+      "label": "Adicional",
+      "blockClass": "tab--right"
+    }
+  },
+  //contenido de los tabbers
+  "tab-content#product": {
+    "children": ["tab-content.item#product1", "tab-content.item#product2", "tab-content.item#product5"],
+    "props": {
+      "blocblockClass": "productContent"
+    }
+  },
+  //contenido del tabber 1
+  "tab-content.item#product1": {
+    "children": ["flex-layout.row#product1"],
+    "props": {
+      "tabId": "product1"
+    }
+  },
+  "flex-layout.row#product1": {
+    "children": ["flex-layout.col#productEsepecificacion", "flex-layout.col#productEsepecificacionImage"],
+    "props": {
+      "tabId": "product1",
+      "blockClass": "InformacionDos"
+    }
+  },
+  "flex-layout.col#productEsepecificacion": {
+    "children": ["product-specification-group#tap1"],
+    "props": {
+      "blockClass": "InformacionDOCUMENTOS",
+      "width": "50%"
+    }
+  },
+  "product-specification-group#tap1": {
+    "children": ["product-specification-text#group", "product-specification"],
+    "props": {
+      "blockClass": "producttap1",
+      "zoomFactor": "1"
+    }
+  },
+  "product-specification": {
+    "children": ["product-specification-text#specification", "product-specification-values"]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "especificacionesUno"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesUno"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "especificacionesUno"
+    }
+  },
+  "flex-layout.col#productEsepecificacionImage": {
+    "props": {
+      "blockClass": "image_container",
+      "width": "50%"
+    },
+    "children": ["product-images#especificaciones"]
+  },
+  "product-images#especificaciones": {
+    "props": {
+      "blockClass": "product__image--especificaciones"
+    }
+  },
+
+  //Contenido del segundo tabber
+  "tab-content.item#product2": {
+    "children": ["flex-layout.row#product2"],
+    "props": {
+      "tabId": "product2"
+    }
+  },
+  "flex-layout.row#product2": {
+    "children": ["flex-layout.col#productEsepecificacion2"],
+    "props": {
+      "tabId": "product2",
+      "blockClass": "InformacionDos"
+    }
+  },
+  "flex-layout.col#productEsepecificacion2": {
+    "children": ["product-specification-group#tap2"],
+    "props": {
+      "blockClass": "InformacionBENEFICIOS"
+    }
+  },
+  "product-specification-group#tap2": {
+    "children": ["product-specification-text#group2", "product-specification#2"],
+    "props": {
+      "blockClass": "producttap1"
+    }
+  },
+  "product-specification#2": {
+    "children": ["product-specification-text#specification2", "product-specification-values#2"]
+  },
+  "product-specification-values#2": {
+    "children": ["product-specification-text#value2"]
+  },
+  "product-specification-text#group2": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+  "product-specification-text#specification2": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+  "product-specification-text#value2": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+  //Contenido del ultimo tabber
+  "tab-content.item#product5": {
+    "children": ["flex-layout.row#product5"],
+    "props": {
+      "tabId": "product5"
+    }
+  },
+  "flex-layout.row#product5": {
+    "children": ["flex-layout.col#productEsepecificacion5"],
+    "props": {
+      "tabId": "product5",
+      "blockClass": "InformacionDos"
+    }
+  },
+  "flex-layout.col#productEsepecificacion5": {
+    "children": ["product-specification-group#tap5"],
+    "props": {
+      "blockClass": "InformacionRECOMENDADOS"
+    }
+  },
+  "product-specification-group#tap5": {
+    "children": ["product-specification-text#group5", "product-specification#5"],
+    "props": {
+      "blockClass": "producttap5"
+    }
+  },
+  "product-specification#5": {
+    "children": ["product-specification-text#specification5", "product-specification-values#5"]
+  },
+  "product-specification-values#5": {
+    "children": ["product-specification-text#value5"]
+  },
+  "product-specification-text#group5": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "especificacionesRECO"
+    }
+  },
+  "product-specification-text#specification5": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesRECO"
+    }
+  },
+  "product-specification-text#value5": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "especificacionesRECO"
+    }
+  },
+  //RATING EN PRODUCTO
+  "flex-layout.row#reviews-and-ratings": {
+    "children": ["flex-layout.col#reviews-and-ratings"],
+    "props": {
+      "blockClass": "reviews-and-ratings"
+    }
+  },
+
+  "flex-layout.col#reviews-and-ratings": {
+    "children": ["disclosure-layout#reviews-and-ratings"],
+    "props": {
+      "blockClass": "reviews-and-ratings",
+      "width": "100%"
+    }
+  },
+
+  "disclosure-layout#reviews-and-ratings": {
+    "children": ["disclosure-trigger#reviews-and-ratings", "disclosure-content#reviews-and-ratings"],
+    "props": {
+      "initialVisibility": "visible"
+    }
+  },
+
+  "disclosure-trigger#reviews-and-ratings": {
+    "children": ["flex-layout.row#disclosure-trigger-reviews"],
+    "props": {
+      "as": "div"
+    }
+  },
+
+  "flex-layout.row#disclosure-trigger-reviews": {
+    "children": ["flex-layout.col#spacer", "disclosure-state-indicator"],
+    "props": {
+      "blockClass": ["items-end", "disclosure-trigger-reviews"],
+      "colGap": 8,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "disclosure-content#reviews-and-ratings": {
+    "children": ["flex-layout.row#reviews"],
+    "props": {
+      "blockClass": "reviews-and-ratings"
+    }
+  },
+
+  "flex-layout.row#reviews": {
+    "children": ["flex-layout.col#reviews"]
+  },
+
+  "flex-layout.col#reviews": {
+    "children": ["flex-layout.row#reviews-content"]
+  },
+
+  "flex-layout.row#reviews-content": {
+    "children": [
+      "flex-layout.col#ratings-only",
+      "flex-layout.col#reviews-only"
+      /* "flex-layout.col#spacer" */
+    ],
+    "props": {
+      "colGap": 0,
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "rowRatings"
+    }
+  },
+
+  // This is a nasty workaround because `product-reviews.vtex` doesn't have composability
+  // and it doesn't respect `blockClass` either.
+
+  "flex-layout.col#ratings-only": {
+    "children": ["product-reviews"],
+    "props": {
+      "blockClass": ["ratings-only"]
+    }
+  },
+  "rich-text#ratings": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "REVIEWS"
+    }
+  },
+  "flex-layout.col#reviews-only": {
+    "children": ["product-reviews"],
+    "props": {
+      "blockClass": ["reviews-only"]
+    }
+  },
+
+  /* "product-images#especificaciones": {
+    "props": {
+      "displayThumbnailsArrows": false,
+      "zoomMode": "disabled",
+      "blockClass": "imagenesEspecificaciones",
+      "displayMode": "list"
+    }
+  }, */
+
+  //-----------------------------Banner principal Productor
+  "info-card#bannerCP": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/banner-producto-superior-desk.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "bannerC"
+    }
+  },
+  "info-card#bannerMobileP": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://sikaco.vteximg.com.br/arquivos/banner-producto-superior-mobile.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "bannerM"
+    }
+  },
+
+  //----------------------------------------------------------SELECTOR DE SKUS
+
+  "sku-selector#product": {
+    "props": {
+      "hideImpossibleCombinations": true,
+      /*  "showVariationsLabels": "variationAndItemValue",*/
+      "visibility": "always",
+      "displayMode": "sliderDisplayThreshold",
+      "disableUnavailableSelectOptions": true,
+      "showValueForVariation": "all"
+    }
+  },
+
+
+//------------------------------------------------------------TABBERS, ESPECIFICACIONES
+  
+       //Tabbers-mobile
+       "disclosure-layout#caracteristicas": {
+        "children": ["disclosure-trigger#caracteristicas", "disclosure-content#caracteristicas"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#caracteristicas": {
+        "children": ["rich-text#caracteristicas"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#caracteristicas": {
+        "children": [
+          "product-specification-group#tap1"
+        ],
+        "props": {
+          "tabId": "product1MMM",
+          "blockClass": "product1MMM"
+        }
+      },
+      "rich-text#caracteristicas": {
+        "props": {
+          "text": "Caracteristicas",
+          "blockClass": "productMOBILE1"
+        }
+      },
+      //Tabbers-mobile2
+      "disclosure-layout#beneficios": {
+        "children": ["disclosure-trigger#beneficios", "disclosure-content#beneficios"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#beneficios": {
+        "children": ["rich-text#beneficios"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#beneficios": {
+        "children": [
+          "product-specification-group#tap2"
+        ],
+        "props":{
+          "blockClass": "InformacionBENEFICIOS"
+        }
+      },
+      "rich-text#beneficios": {
+        "props": {
+          "text": "Beneficios",
+          "blockClass": "productMOBILE1"
+        }
+      },      
+      //Tabbers-mobile3
+      "disclosure-layout#recomendados": {
+        "children": ["disclosure-trigger#recomendados", "disclosure-content#recomendados"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#recomendados": {
+        "children": ["rich-text#recomendados"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#recomendados": {
+        "children": [
+          "product-specification-group#tap5"
+        ],
+        "props": {
+          "tabId": "InformacionRECOMENDADOS",
+          "blockClass": "InformacionRECOMENDADOS"
+        }
+      },
+      "rich-text#recomendados": {
+        "props": {
+          "text": "Recomendados para",
+          "blockClass": "productMOBILE1"
+        }
+      },
+
+
+
+      //--------------------------------------------------------------------
+      "flex-layout.row#TAB-MOBILE": {
+        "children": [
+          "disclosure-layout#caracteristicas",
+          "disclosure-layout#beneficios",
+          "disclosure-layout#recomendados"
+        ],
+        "props": {
+          "blockClass": "TAB-MOBILE"
+        }
+      }
+ 
+}

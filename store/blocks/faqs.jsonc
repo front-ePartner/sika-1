@@ -1,0 +1,448 @@
+{
+    "store.custom#faqs": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+
+        "flex-layout.row#ESTATICAS-AYUDA",
+        "flex-layout.row#faqs"
+      ]
+    },
+  
+    "flex-layout.row#faqs": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-faqs"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+    "flex-layout.col#text-faqs1": {
+      "children": [
+        "disclosure-layout#DESK",
+        "disclosure-layout#DESK2",
+        "disclosure-layout#DESK3",
+        "disclosure-layout#DESK4",
+        "disclosure-layout#DESK5"
+      ],
+      "props": {
+        "blockclass": "textColumn1",
+        "preventVerticalStretch": true,
+        "width": "20%",
+        "rowGap": 0
+      }
+    },
+    "info-card#bannerFaqs":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-faq-desk.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "info-card#bannerFaqsM":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/banner-estaticas-faq-mobile.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    "flex-layout.col#text-faqs": {
+      "children": [
+        "rich-text#title-faqs",
+        "rich-text#faqs"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "rich-text#titles-faqs1":{
+      "props": {
+        "text":"[POLÍTICA DE COOKIES](/faqs)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+
+    "rich-text#titles-faqs2":{
+      "props": {
+        "text":"[POLÍTICA DE DEVOLUCIÓN](/politica-devoluciones)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs6":{
+      "props": {
+        "text":"[POÍLITCA DE DATOS](/Politica-datos)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#titles-faqs7":{
+      "props": {
+        "text":"[QUIENES SOMOS](/quienes-somos)",
+        "blockClass": "tituloEstaticos"
+      }
+    },
+    "rich-text#title-faqs": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE COMPRA FAQ SIKA",
+        "blockClass": "textoquien"
+      }
+    },
+    "rich-text#title-faqsM": {
+      "props": {
+        "text":
+        "# POLÍTICAS DE COMPRA FAQ SIKA",
+        "blockClass": "textoquienM"
+      }
+    },
+  
+    "rich-text#faqs": {
+      "props": {
+        "text": 
+    "AUTORIZACIÓN EXPRESA DE USO DE COOKIES: \n I.M. MEDICALS.A.S necesita implementar cookies propias y de terceros, para ofrecer sus servicios web y adicionalmente prestar un servicio de calidad a todos los usuarios que utilicen dichos servicios, tenga en cuenta que, si decide no utilizar algunas cookies, este sitio web puede no funcionar adecuadamente, presentar fallas o impedir la operación de algunas de sus características, afectando la experiencia del usuario. \n 2.DEFINICIÓN Y TIPOS DE COOKIES \n Una cookie es un pequeño fragmento de texto que se almacena en su navegador cuando visita casi cualquier página web. Su utilidad es que la web sea capaz de recordar su visita cuando vuelva a navegar por esa página. Las cookies suelen almacenar información de carácter técnico, preferencias personales, personalización de contenidos, estadísticas de uso, enlaces a redes sociales, acceso a cuentas de usuario, etc. Las cookies permiten a esa página, entre otras cosas, almacenar y recuperar información sobre sus hábitos de navegación o de su equipo, y dependiendo de la información que contengan y de la forma de uso del equipo, pueden utilizarse para reconocer al usuario y facilitar su navegación en la página web. \n El navegador del usuario almacena cookies en el disco duro ocupando un espacio de memoria mínimo y sin perjudicar al ordenador. La mayoría de las cookies se borran del disco duro al finalizar la sesión de navegador (las denominadas cookies de sesión). Los navegadores más conocidos (como Google Chrome, Mozilla Firefox o Internet Explorer) usan constantemente las cookies para garantizar una mejor y más eficiente experiencia de usuario. Típicamente, los navegadores ofrecen la posibilidad de ser configurados para permitir o impedir la recolección de ciertos tipos de cookies. Los datos que guardan son de carácter técnico, estadísticos, preferencias personales, personalización de contenidos, etc. \n I.M. MEDICALS.A.S podrá compartir información obtenida a través de las cookies con personas externas o terceros (aliados, clientes, proveedores o empresas vinculadas a I.M. MEDICALS.A.S), con el fin de mejorar los servicios al usuario. Así mismo, la información que se recibe a través de las cookies será utilizada por I.M. MEDICALS.A.S y los anteriores terceros, para los fines descritos en el presente documento, y cualquiera de sus actualizaciones. \n Existen diferentes tipos de cookies, las cuales pueden ser clasificadas en función a quien las ha creado, cuanto tiempo duran y, finalmente, que finalidad tienen. A saber: \n Cookies Técnicas: Son aquellas que permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de videos o sonido o compartir contenidos a través de redes sociales. \n Cookies de personalización: Son aquellas que permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma, el tipo de navegador a través del cual accede al servicio, la configuración regional desde donde accede al servicio, etc. \n Cookies de análisis: Son aquellas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que le ofrecemos. \nCookies publicitarias: Son aquellas que, bien tratadas por nosotros o por terceros, nos permiten gestionar de la forma más eficaz posible la oferta de los espacios publicitarios que hay en la página web, adecuando el contenido del anuncio al contenido del servicio solicitado o al uso que realice de nuestra página web. Para ello podemos analizar sus hábitos de navegación en Internet y podemos mostrarle publicidad relacionada con su perfil de navegación. \n Cookies de publicidad comportamental: Son aquellas que permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios que, en su caso, el editor haya incluido en una página web, aplicación o plataforma desde la que presta el servicio solicitado. Estas cookies almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función del mismo. \n Cookies de terceros: Esta web puede utilizar servicios de terceros que, recopilarán información con fines estadísticos, de uso del sitio por parte del usuario y para la prestación de otros servicios relacionados con la actividad del sitio web y otros servicios de Internet. \n 3.TIPOS DE COOKIES QUE SE UTILIZAN EN I.M. MEDICAL S.A.S \n En I.M. MEDICALS.A.S se utilizan las siguientes Cookies: \n Estrictamente necesarias: Para la prestación de determinados servicios solicitados expresamente por el usuario. Si se desactivan estas cookies, no podrá recibir correctamente nuestros contenidos y servicios. \n Analíticas: Para el seguimiento y análisis estadístico del comportamiento del conjunto de los usuarios. \n Publicitarias y comportamentales: Para la gestión de los espacios publicitarios y el contenido del sitio web según el perfil específico del usuario. \n 4.APLICACIÓN Y MARCO REGULATORIO \n En Colombia, no existen cuerpos normativos que hayan definido las cookies o su regulación. No obstante, dentro de nuestras buenas prácticas corporativas y atendiendo a la aplicación de los deberes consagrados en la normativa colombiana de protección de datos (que incluyen la Ley Estatutaria 1581 de 2012, el Decreto 1377 de 2013, entre otras) hemos desarrollado la presente política, en especial atención con los principios de finalidad, libertad, transparencia y veracidad de los datos. \n 5.ACEPTACIÓN DEL USO DE COOKIES \n Si el usuario ha manifestado mediante el botón de (Aceptar y continuar), que se encuentra en la notificación desplegable en el sitio web, que está conforme con el tratamiento de cookies y en ese sentido, permanece en el mismo y/o no deshabilita en su navegador el uso de cookies, entendemos que ha consentido su uso. No obstante, en cualquier momento, podrá revocarlo y desactivar las cookies, eliminando las almacenadas en su equipo, a través de los ajustes y configuraciones de su navegador. \n 6.ALMANCENAMIENTO DE LAS COOKIES \n I.M. MEDICALS.A.S podrá contratar terceras personas encargadas de almacenar y obtener la información a través de las cookies, o que incluyan cookies dentro de los portales de la empresa, personas que podrán estar localizadas dentro de Colombia o en el exterior. \n 7.DESACTIVACIÓN O ELIMINACIÓN DE COOKIES \n Puede desactivar las cookies utilizadas en este sitio web sin que afecte al funcionamiento del mismo; sin embargo, la información captada por estas cookies sobre el uso de nuestra web y sobre el éxito de los anuncios mostrados en ella permite mejorar nuestros servicios y obtener ingresos que nos permiten ofrecerle de forma gratuita muchos contenidos. \n El usuario puede deshabilitar tanto la instalación de las cookies como el uso de las mismas. Para deshabilitar la instalación y uso de cookies el usuario deberá realizar el procedimiento por navegador tal como se indica a continuación: \n Internet Explorer: Herramientas -> Opciones de Internet -> Privacidad -> Configuración. \n Para más información, puede consultar el Soporte de Microsoft o la Ayuda del navegador. \n Firefox: Herramientas -> Opciones -> Privacidad -> Historial -> Configuración Personalizada. Para más información, puede consultar el Soporte de Mozilla o la Ayuda del navegador. \n Chrome: Configuración -> Mostrar opciones avanzadas -> Privacidad -> Configuración de contenido. Para más información, puede consultar el Soporte de Google o la Ayuda del navegador. \n Safari: Preferencias -> Seguridad. Para más información, puede consultar el Soporte de Apple o la Ayuda del navegador. \n También puede modificar la configuración de las cookies dando click en el siguiente botón: \n Configuración de Cookies \n  8.VIGENCIA DE LA POLITICA DE USO DE COOKIES \n La presente política rige a partir de la suscripción por parte del Representante Legal de la empresa con fecha del 11 de Junio de 2021 que la aprueba, y se encontrará a disposición de los titulares por medio de la página web: www.siempresalud.com.co \n Cualquier cambio sustancial en la política será comunicada de forma oportuna a los titulares de los datos a través de los medios habituales de contacto y/o a través del sitio web: www.siempresalud.com.co y/o correo electrónico enviado a los titulares. \n Las modificaciones sustanciales de la presente política se comunicarán con mínimo diez (10) días antes de implementarlas.",
+        "blockClass": "textostilo"
+      }
+    },
+    //Mobile para faqs
+    "flex-layout.row#faqsMobile": {
+      "children": [
+        "flex-layout.col#text-faqsMobile"
+      ],
+      "props":{
+        "blockClass": "FaqsColumnM"
+      }
+    },
+    "flex-layout.col#text-faqsMobile": {
+      "children": [
+        "disclosure-layout#simple",
+        "disclosure-layout#simple2",
+        "disclosure-layout#simple3"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },  
+    
+    //-----------------------------------------------------------LATERAL PREGUNTAS FRECUENTES
+    "flex-layout.row#faqsLATERAL": {
+      "children": [
+        "flex-layout.col#text-faqsDESK"
+      ],
+      "props":{
+        "blockClass": "FaqsColumnM"
+      }
+    },
+    "flex-layout.col#text-faqsDESK": {
+      "children": [
+        "disclosure-layout#DESK",
+        "disclosure-layout#DESK2",
+        "disclosure-layout#DESK3",
+        "disclosure-layout#DESK4",
+        "disclosure-layout#DESK5"
+
+      ],
+      "props": {
+        "blockclass": "Menu-lateral-desk",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+
+
+    //----------------------------desplegables-1-dessk
+    
+    "disclosure-layout#DESK": {
+      "children": ["disclosure-trigger#DESK", "disclosure-content#DESK"],
+      "props": {
+        "blockClass": "lateral-derecha-desk"
+      }
+    },
+    "disclosure-trigger#DESK": {
+      "children": ["rich-text#ITEM1"]
+    },
+    "disclosure-content#DESK": {
+      "children": [
+        "rich-text#ITEM1-1",
+        "rich-text#ITEM1-2",
+        "rich-text#ITEM1-3"
+      ],
+      "props": {
+        "blockClass": "lateral-derecha-desk-content"
+      }
+    },
+    "rich-text#ITEM1": {
+      "props": {
+        "text": "FAQ",
+        "blockClass": "lateral-derecha-desk-titulo"
+      }
+    },
+    "rich-text#ITEM1-1": {
+      "props": {
+        "text": "Comó devolver",
+        "blockClass": "lateral-derecha-desk-item-subtitulo"
+      }
+    },
+    "rich-text#ITEM1-2": {
+      "props": {
+        "text": "Cambios",
+        "blockClass": "lateral-derecha-desk-item-subtitulo"
+      }
+    },
+    "rich-text#ITEM1-3": {
+      "props": {
+        "text": "Reembolsos",
+        "blockClass": "lateral-derecha-desk-item-subtitulo"
+      }
+    },
+
+    //----------------------------desplegables-2-dessk
+    
+    "disclosure-layout#DESK2": {
+      "children": ["disclosure-trigger#DESK2", "disclosure-content#DESK2"],
+      "props": {
+        "blockClass": "lateral-derecha-desk"
+      }
+    },
+    "disclosure-trigger#DESK2": {
+      "children": ["rich-text#ITEM2"]
+    },
+    "disclosure-content#DESK2": {
+      "children": [
+        "rich-text#ITEM1-1",
+        "rich-text#ITEM1-2",
+        "rich-text#ITEM1-3"
+      ],
+      "props": {
+        "blockClass": "lateral-derecha-desk-content"
+      }
+    },
+    "rich-text#ITEM2": {
+      "props": {
+        "text": "Compra",
+        "blockClass": "lateral-derecha-desk-titulo"
+      }
+    },
+
+    //----------------------------desplegables-3-dessk
+    
+    "disclosure-layout#DESK3": {
+      "children": ["disclosure-trigger#DESK3", "disclosure-content#DESK3"],
+      "props": {
+        "blockClass": "lateral-derecha-desk"
+      }
+    },
+    "disclosure-trigger#DESK3": {
+      "children": ["rich-text#ITEM3"]
+    },
+    "disclosure-content#DESK3": {
+      "children": [
+        "rich-text#ITEM1-1",
+        "rich-text#ITEM1-2",
+        "rich-text#ITEM1-3"
+      ],
+      "props": {
+        "blockClass": "lateral-derecha-desk-content"
+      }
+    },
+    "rich-text#ITEM3": {
+      "props": {
+        "text": "Presentación",
+        "blockClass": "lateral-derecha-desk-titulo"
+      }
+    },
+
+        //----------------------------desplegables-4-dessk
+    
+        "disclosure-layout#DESK4": {
+          "children": ["disclosure-trigger#DESK4", "disclosure-content#DESK4"],
+          "props": {
+            "blockClass": "lateral-derecha-desk"
+          }
+        },
+        "disclosure-trigger#DESK4": {
+          "children": ["rich-text#ITEM4"]
+        },
+        "disclosure-content#DESK4": {
+          "children": [
+            "rich-text#ITEM1-1",
+            "rich-text#ITEM1-2",
+            "rich-text#ITEM1-3"
+          ],
+          "props": {
+            "blockClass": "lateral-derecha-desk-content"
+          }
+        },
+        "rich-text#ITEM4": {
+          "props": {
+            "text": "Mi cuenta",
+            "blockClass": "lateral-derecha-desk-titulo"
+          }
+        },
+
+      //----------------------------desplegables-5-dessk
+    
+    "disclosure-layout#DESK5": {
+      "children": ["disclosure-trigger#DESK5", "disclosure-content#DESK5"],
+      "props": {
+        "blockClass": "lateral-derecha-desk"
+      }
+    },
+    "disclosure-trigger#DESK5": {
+      "children": ["rich-text#ITEM5"]
+    },
+    "disclosure-content#DESK5": {
+      "children": [
+        "rich-text#ITEM1-1",
+        "rich-text#ITEM1-2",
+        "rich-text#ITEM1-3"
+      ],
+      "props": {
+        "blockClass": "lateral-derecha-desk-content"
+      }
+    },
+    "rich-text#ITEM5": {
+      "props": {
+        "text": "Devolución",
+        "blockClass": "lateral-derecha-desk-titulo"
+      }
+    },
+
+
+
+
+
+
+// ----------------------------------------------------------------------------------- DESPLEGABLE MOBILE
+    //desplegables
+    
+      "disclosure-layout#simple": {
+        "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+      },
+      "disclosure-trigger#simple": {
+        "children": ["rich-text#question"]
+      },
+      "disclosure-content#simple": {
+        "children": ["rich-text#answer"]
+      },
+      "rich-text#question": {
+        "props": {
+          "text": "FAQ"
+        }
+      },
+      "rich-text#answer": {
+        "props": {
+          "text": "Call us at the number (212) 1234-1234"
+        }
+      },
+    
+    //SEGUNDO DESPLEGABLE
+    "disclosure-layout#simple2": {
+      "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#simple2": {
+      "children": ["rich-text#question2"]
+    },
+    "disclosure-content#simple2": {
+      "children": ["image#devoluciones1",
+        "image#devoluciones2",
+        "image#devoluciones3"]
+    },
+    "rich-text#question2": {
+      "props": {
+        "text": "Politica de devoluciones",
+        "blockClass": "TituloMobile"
+      }
+    },
+    // TERCER DESPLEGABLE
+    "disclosure-layout#simple3": {
+      "children": ["disclosure-trigger#simple3", "disclosure-content#simple3"],
+      "props": {
+        "animated": true
+      }
+    },
+    "disclosure-trigger#simple3": {
+      "children": ["rich-text#question3"]
+    },
+    "disclosure-content#simple3": {
+      "children": ["rich-text#Datos"]
+    },
+    "rich-text#question3": {
+      "props": {
+        "text": "Politica de datos",
+        "blockClass": "TituloMobile"
+      }
+    },
+
+
+
+    //---------------------------------------------------------------------------IINFO POST HEADER
+    "flex-layout.row#ESTATICAS-AYUDA":{
+      "children": [
+        "rich-text#title-faqsM",
+        "info-card#columsx4-1-ESTATICA",
+        "info-card#columsx4-2-ESTATICA",
+        "info-card#columsx4-3-ESTATICA"
+      ],
+      "props":{
+        "blockClass": "BannerDosMosaicox4-ESTATICA"
+      }
+    },
+    "info-card#columsx4-1-ESTATICA":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2024.png",
+        "headline": "¿Necesitas personal?",
+        "callToActionText": "Buscar contratista",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",          
+        "callToActionMode": "link",
+        "blockClass": "bannerInformativo-ESTATICA"
+      }
+    },
+    "info-card#columsx4-2-ESTATICA":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2025.png",
+        "headline": "Preguntas frecuentes",
+        "callToActionText": "Buscar contratista",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",          
+        "callToActionMode": "link",
+        "blockClass":"bannerInformativo2-ESTATICA"
+      }
+    },
+    "info-card#columsx4-3-ESTATICA":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2026.png",
+        "headline": "¿Buscar donde comprar?",
+        "callToActionText": "Buscar contratista",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",          
+        "callToActionMode": "link",
+        "blockClass":"bannerInformativo3-ESTATICA"
+      }
+    }
+}

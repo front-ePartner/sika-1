@@ -1,0 +1,19 @@
+.label--VerificacionParaNewsletterContainer {
+    font-size: 12px;
+    color: black;
+}
+.link--VerificacionParaNewsletterContainer {
+    padding: 5px 0;
+    font-family: 'ROBOTO';
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .link--VerificacionParaNewsletterContainer {
+        text-align: center;
+    }
+}

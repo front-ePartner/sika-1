@@ -1,0 +1,3245 @@
+.autoCompleteOuterContainer {
+  /* background: #ffc100;
+  border: 2px solid #191531;*/
+  border-radius: 3px;
+  margin: 1px;
+  font-size: 12px;
+  text-indent: 15px;
+  text-align: inherit;
+}
+:global(.vtex-store__template) {
+  background-color: #f6f6f6;
+}
+.c-muted-2 {
+  display: none !important;
+}
+.installmentsPrice {
+  display: none;
+}
+.vtex-button__label {
+  padding: 0 !important;
+}
+.infoCardImage--Mio {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  background-size: 100%;
+  z-index: 1;
+  width: 100%;
+}
+.infoCardContainer--Mio {
+  width: 100%;
+  min-height: 0;
+  height: 100%;
+  background: #f6f6f6;
+}
+@media only screen and (min-width: 1500px) {
+  .infoCardContainer--Mio {
+    width: 100%;
+    /* min-height: 615px !important; */
+    min-height: 615px;
+  }
+}
+.infoCardTextContainer--Mio {
+  z-index: 2;
+  padding: 0;
+}
+.infoCardSubhead--Mio {
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+}
+.infoCardHeadline--Mio {
+  font-size: 14px;
+}
+.infoCardCallActionText--Mio {
+  background: #ffc100;
+  color: #3c3c3c;
+  padding: 1rem 6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s !important;
+}
+.infoCardCallActionText--Mio:hover {
+  color: white;
+  background: #3c3c3c;
+}
+.infoCardCallActionContainer--Mio {
+  text-decoration: none;
+}
+.infoCardContainer--marcas,
+.infoCardContainer--marcas-icon1,
+.infoCardContainer--marcas-icon2,
+.infoCardContainer--marcas-icon3,
+.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5,
+.infoCardContainer--marcas-icon6,
+.infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8,
+.infoCardContainer--marcas-icon9,
+.infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11,
+.infoCardContainer--marcas-icon12,
+.infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14 {
+  display: block;
+  position: relative;
+}
+.infoCardTextContainer--marcas,
+.infoCardImageContainer--marcas,
+.infoCardTextContainer--marcas-icon1,
+.infoCardTextContainer--marcas-icon2,
+.infoCardTextContainer--marcas-icon3,
+.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5,
+.infoCardTextContainer--marcas-icon6,
+.infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8,
+.infoCardTextContainer--marcas-icon9,
+.infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11,
+.infoCardTextContainer--marcas-icon12,
+.infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14,
+.infoCardImageContainer--marcas-icon1,
+.infoCardImageContainer--marcas-icon2,
+.infoCardImageContainer--marcas-icon3,
+.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5,
+.infoCardImageContainer--marcas-icon6,
+.infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8,
+.infoCardImageContainer--marcas-icon9,
+.infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11,
+.infoCardImageContainer--marcas-icon12,
+.infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14 {
+  width: 100%;
+}
+.infoCardImageContainer--marcas-icon1,
+.infoCardImageContainer--marcas-icon2,
+.infoCardImageContainer--marcas-icon3,
+.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5,
+.infoCardImageContainer--marcas-icon6,
+.infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8,
+.infoCardImageContainer--marcas-icon9,
+.infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11,
+.infoCardImageContainer--marcas-icon12,
+.infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14 {
+  padding-bottom: 50px;
+}
+.infoCardContainer--marcas,
+.infoCardContainer--marcas-icon1,
+.infoCardContainer--marcas-icon2,
+.infoCardContainer--marcas-icon3,
+.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5,
+.infoCardContainer--marcas-icon6,
+.infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8,
+.infoCardContainer--marcas-icon9,
+.infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11,
+.infoCardContainer--marcas-icon12,
+.infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14 {
+  position: relative;
+  width: 95%;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--marcas,
+.infoCardCallActionContainer--marcas-icon1,
+.infoCardCallActionContainer--marcas-icon2,
+.infoCardCallActionContainer--marcas-icon3,
+.infoCardCallActionContainer--marcas-icon4,
+.infoCardCallActionContainer--marcas-icon5,
+.infoCardCallActionContainer--marcas-icon6,
+.infoCardCallActionContainer--marcas-icon7,
+.infoCardCallActionContainer--marcas-icon8,
+.infoCardCallActionContainer--marcas-icon9,
+.infoCardCallActionContainer--marcas-icon10,
+.infoCardCallActionContainer--marcas-icon11,
+.infoCardCallActionContainer--marcas-icon12,
+.infoCardCallActionContainer--marcas-icon13,
+.infoCardCallActionContainer--marcas-icon14 {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  padding-top: 216px;
+  z-index: 99999;
+}
+.infoCardTextContainer--marcas,
+.infoCardTextContainer--marcas-icon1,
+.infoCardTextContainer--marcas-icon2,
+.infoCardTextContainer--marcas-icon3,
+.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5,
+.infoCardTextContainer--marcas-icon6,
+.infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8,
+.infoCardTextContainer--marcas-icon9,
+.infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11,
+.infoCardTextContainer--marcas-icon12,
+.infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14 {
+  position: absolute;
+  bottom: 25px;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+.infoCardCallActionText--marcas-icon1,
+.infoCardCallActionText--marcas-icon2,
+.infoCardCallActionText--marcas-icon3,
+.infoCardCallActionText--marcas-icon4,
+.infoCardCallActionText--marcas-icon5,
+.infoCardCallActionText--marcas-icon6,
+.infoCardCallActionText--marcas-icon7,
+.infoCardCallActionText--marcas-icon8,
+.infoCardCallActionText--marcas-icon9,
+.infoCardCallActionText--marcas-icon10,
+.infoCardCallActionText--marcas-icon11,
+.infoCardCallActionText--marcas-icon12,
+.infoCardCallActionText--marcas-icon13,
+.infoCardCallActionText--marcas-icon14 {
+  color: #3c3c3c;
+  text-align: center;
+  position: absolute;
+  top: 95%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  font-weight: 400;
+  text-decoration: none;
+  background: white;
+  margin: -5% 0 0 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Klavika-light';
+  font-size: 20px;
+  transition: 0.5s;
+}
+.infoCardImage--marcas {
+  max-width: 175px;
+  padding: 0 0 32px 0;
+}
+.vtex-button__label {
+  display: none !important;
+}
+.listPriceLabel,
+.sellingPriceLabel {
+  display: none;
+}
+.infoCardHeadline--segundo {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin-top: 70px;
+  letter-spacing: 1px;
+}
+.infoCardCallActionText--segundo {
+  background: #00ff99;
+  color: black;
+  padding: 15px 15px;
+  font-weight: 500;
+}
+.infoCardCallActionText--segundo:hover {
+  background: black;
+  color: white;
+  padding: 15px 15px;
+  font-weight: 300;
+}
+.infoCardContainer--segundo {
+  background: #e3e3e3;
+  /*  position: absolute; */
+  width: 100%;
+  margin-top: -100px;
+}
+.infoCardImageContainer--marcas {
+  text-align: center;
+}
+.infoCardCallActionText--marcas:hover {
+  text-decoration: underline;
+}
+.flexColChild--textosIcno .imageElement {
+  display: none;
+}
+.imageElement {
+  margin: 0 20px 0 13px;
+}
+.imageElementLink {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+}
+.imageElement {
+  transition: all 400ms;
+  width: 100%;
+}
+.infoCardHeadline--textfool,
+.infoCardHeadline--textfool2,
+.infoCardHeadline--textfool3 {
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #00ff9d;
+  background: transparent;
+}
+.infoCardContainer--textfool,
+.infoCardContainer--textfool2 {
+  background: transparent;
+  color: #00ff9d;
+  justify-content: center;
+}
+.infoCardCallActionContainer--textfool2 {
+  display: none;
+}
+.infoCardCallActionContainer--textfool3 {
+  display: none;
+}
+.infoCardTextContainer--textfool2 {
+  width: 60%;
+}
+.infoCardHeadline--textfool2,
+.infoCardHeadline--textfool3 {
+  margin: 0;
+  display: none;
+}
+.infoCardTextContainer--textfool2,
+.infoCardTextContainer--textfool3 {
+  display: none;
+}
+.infoCardContainer--textfool3,
+.infoCardHeadline--textfool3 {
+  color: white;
+  background: transparent;
+}
+.infoCardImage--textfool3 {
+  width: 25%;
+  position: absolute;
+  left: -104px;
+  top: -14px;
+}
+.infoCardTextContainer--textfool3 {
+  width: 70%;
+}
+.infoCardImageContainer--textfool3 {
+  width: 30%;
+}
+.infoCardTextContainer--bannerC {
+  display: none;
+}
+.infoCardImageContainer--bannerC {
+  width: 100%;
+}
+.infoCardContainer--bannerC {
+  margin: 0px;
+  padding: 0;
+}
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+.searchBarContainer {
+  width: 100%;
+}
+.productBrand {
+  color: #483d3d;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.productDescriptionTitle {
+  display: none;
+}
+.currencyFraction,
+.currencyDecimal {
+  display: none;
+}
+.currencyContainer {
+  color: #3e3e3e;
+  font-size: 21px;
+  font-weight: 700;
+}
+.content {
+  font-size: 18px;
+  line-height: 21.27px;
+  font-weight: 300;
+  color: #3c3c3c;
+}
+.frameAround {
+  background-color: #fff;
+}
+.imageElementLink--bannerLateralDerecho::before {
+  content: 'AYUDARTE A MOVILIZAR';
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+  width: 70%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico1::before {
+  content: 'PARA EL CUIDADO DEL CORAZÓN';
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 43%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico2::before {
+  content: 'COMPLETA TU ESTILO';
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  z-index: 9;
+  bottom: 10px;
+  right: 20px;
+  width: 71%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico3::before {
+  content: 'CUIDA TU SISTEMA RESPIRATORIO';
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 65%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico4::before {
+  content: 'AQUÍ ENCONTRARÁS LOS MEJORES INSTRUMENTOS';
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 9;
+  width: 100%;
+  text-align: right;
+}
+@media (min-width: 1800px) {
+  .imageElementLink--bannerLateralDerecho::before {
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico1::before {
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico2::before {
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico3::before {
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico4::before {
+    right: 35px;
+  }
+}
+.thumbImg {
+  width: 94%;
+  margin-top: 4px;
+}
+.carouselGaleryCursor {
+  margin-right: 1%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.carouselGaleryThumbs--product__image--especificaciones {
+  display: none !important;
+}
+
+.carouselContainer--product__image--especificaciones .carouselGaleryCursor {
+  margin-left: 0;
+  margin-right: 20%;
+  margin-top: 2rem;
+}
+.shareLabel {
+  color: black;
+  font-weight: 700;
+  margin: 10px 0 16px 0;
+}
+.discountContainer {
+  width: 100%;
+}
+.discountInsideContainer {
+  color: black;
+  font-weight: 500;
+}
+.shippingContainer :global(.vtex-button__label) {
+  background: #00ff99;
+  color: black;
+  border-radius: 6px;
+  padding: 20px 20px;
+  display: flex;
+}
+.infoCardHeadline--textfool2 {
+  color: white;
+}
+
+.infoCardHeadline--inicio {
+  font-weight: 700;
+  color: #00ff99;
+  padding: 0;
+  font-size: 45px;
+  margin: 0;
+}
+.infoCardSubhead--inicio {
+  font-size: 19px;
+  font-weight: 100;
+  color: black;
+  line-height: 26px;
+}
+.infoCardImageContainer--inicio:last-child {
+  width: 30%;
+  text-align: center;
+}
+.infoCardTextContainer--inicio:first-child {
+  width: 70%;
+  padding: 0 10%;
+}
+.infoCardContainer--inicio {
+  margin: 0 100px 0 100px;
+}
+.infoCardImage--inicio {
+  margin: 69px 0 -123px 0;
+  width: 100%;
+  padding: 0 13%;
+  position: relative;
+  z-index: 9;
+}
+.container {
+  max-width: 100%;
+}
+.infoCardImage--bannerC {
+  width: 100%;
+}
+.skuSelectorItemTextValue {
+  width: 100%;
+}
+
+.skuSelectorItemTextValue {
+  padding: 6px 6px;
+  /*  font-size: 0;*/
+  margin: 0 0 0 0;
+}
+.skuSelectorSubcontainer {
+  margin-bottom: 0;
+}
+/*
+.skuSelectorItem--selected .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+  background: black;
+}
+.skuSelectorItem .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+}
+*/
+.skuSelectorItem--unidad {
+  width: 70%;
+  margin: 0;
+}
+
+.skuSelectorItem {
+  padding: 0;
+  margin: 10px;
+}
+
+.skuSelectorOptionsList {
+  margin: 0;
+}
+.skuSelectorName {
+  color: #3c3c3c;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Klavika';
+}
+.skuSelectorTextContainer {
+  padding: 15px 0 10px;
+}
+.sellingPriceValue {
+  margin: 0px 0 0 10px;
+  padding: 0;
+}
+.skuSelectorSubcontainer--caja {
+  margin: 0;
+}
+.infoCardContainer--BannerDos {
+  padding: 20px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 10px;
+  height: 490px;
+  width: 100% !important;
+  position: relative;
+}
+.infoCardCallActionContainer--BannerDos {
+  background-color: #f5b325;
+  width: 55%;
+  border-radius: 5px;
+  height: 50px;
+  margin: 1rem 0;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+}
+.infoCardCallActionText--BannerDos {
+  color: #191531;
+  text-decoration: none;
+  padding-top: 6px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.infoCardHeadline--BannerDos {
+  color: black;
+  /* position: absolute; */
+  background: white;
+  width: 73%;
+  bottom: 59%;
+  left: 21px;
+  font-weight: 900;
+  font-size: 27px;
+  padding: 25px 8px 25px 26px;
+}
+.logoImage {
+  width: 95px;
+}
+.infoCardImage--textfool2 {
+  width: 66%;
+}
+/*Ctegoria 3*/
+/*
+.infoCardImageContainer--marcas-icon3::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/3_icontapabocasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 100px;
+  height: 77px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 30%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardImage--marcas-icon3,
+.infoCardImage--marcas-icon4,
+.infoCardImage--marcas-icon1,
+.infoCardImage--marcas-icon2,
+.infoCardImage--marcas-icon4,
+.infoCardImage--marcas-icon5,
+.infoCardImage--marcas-icon6,
+.infoCardImage--marcas-icon7,
+.infoCardImage--marcas-icon8,
+.infoCardImage--marcas-icon9,
+.infoCardImage--marcas-icon10,
+.infoCardImage--marcas-icon11,
+.infoCardImage--marcas-icon12,
+.infoCardImage--marcas-icon13,
+.infoCardImage--marcas-icon14 {
+  transition: all 400ms;
+  cursor: pointer;
+  min-width: 100%;
+  padding: 0;
+}
+.infoCardContainer--marcas-icon3:hover .infoCardImageContainer--marcas-icon3::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 4*/
+/*
+.infoCardImageContainer--marcas-icon4::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/4_iconsillaruedasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon4:hover .infoCardImageContainer--marcas-icon4::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 1*/
+/*
+.infoCardImageContainer--marcas-icon1::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/1_iconrespiratoriaDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 42%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon1:hover .infoCardImageContainer--marcas-icon1::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 2*/
+/*
+.infoCardImageContainer--marcas-icon2::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/2_iconobañoDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+  transition: all 40ms;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon2:hover .infoCardImageContainer--marcas-icon2::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 5*/
+/*
+.infoCardImageContainer--marcas-icon5::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/5_iconayudasDesk.png)no-repeat;
+  background-size: 32%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left:41%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon5:hover .infoCardImageContainer--marcas-icon5::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 6*/
+/*
+.infoCardImageContainer--marcas-icon6::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/6_iconhabitacionDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 31%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon6:hover .infoCardImageContainer--marcas-icon6::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 7*/
+/*
+.infoCardImageContainer--marcas-icon7::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/7_iconmonitoreoDESK.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 101px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon7:hover .infoCardImageContainer--marcas-icon7::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 8*/
+/*
+.infoCardImageContainer--marcas-icon8::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/8_iconlesionDesk.png)no-repeat;
+    background-size: 57%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 14%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon8:hover .infoCardImageContainer--marcas-icon8::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 9*/
+/*
+.infoCardImageContainer--marcas-icon9::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/9_iconcaretaDesk.png)no-repeat;
+  background-size: 78%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 40%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon9:hover .infoCardImageContainer--marcas-icon9::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 10*/
+/*
+.infoCardImageContainer--marcas-icon10::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/10_icongelDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon10:hover .infoCardImageContainer--marcas-icon10::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 11*/
+/*
+.infoCardImageContainer--marcas-icon11::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/11_iconalcoholesk.png)no-repeat;
+    background-size: 71%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 43%;
+    opacity: 0;
+    cursor: pointer;
+}*/
+.infoCardContainer--marcas-icon11:hover .infoCardImageContainer--marcas-icon11::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 12*/
+/*
+.infoCardImageContainer--marcas-icon12::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/12_iconotrosDesk.png)no-repeat;
+    background-size: 84%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon12:hover .infoCardImageContainer--marcas-icon12::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 13*/
+/*
+.infoCardImageContainer--marcas-icon13::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/13_iconsentidosDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon13:hover .infoCardImageContainer--marcas-icon13::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*Ctegoria 13*/
+/*
+.infoCardImageContainer--marcas-icon14::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/14_icontijerasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+.infoCardContainer--marcas-icon14:hover .infoCardImageContainer--marcas-icon14::before {
+  opacity: 1;
+  z-index: 9;
+}
+/*
+.infoCardContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
+  filter: brightness(0.7);
+}*/
+/*Hover*/
+/*
+.infoCardImageContainer--marcas-icon1:hover .infoCardImage--marcas-icon1{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon2:hover .infoCardImage--marcas-icon2{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon3:hover .infoCardImage--marcas-icon3{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon4:hover .infoCardImage--marcas-icon4{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon5:hover .infoCardImage--marcas-icon5{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon6:hover .infoCardImage--marcas-icon6{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon7:hover .infoCardImage--marcas-icon7{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon8:hover .infoCardImage--marcas-icon8{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon9:hover .infoCardImage--marcas-icon9{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon10:hover .infoCardImage--marcas-icon10{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon11:hover .infoCardImage--marcas-icon11{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon12:hover .infoCardImage--marcas-icon12{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon13:hover .infoCardImage--marcas-icon13{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
+  filter: brightness(0.7);
+}
+*/
+.searchIcon {
+  transition: all 400ms;
+  color: white;
+}
+.searchIcon {
+  transition: all 400ms;
+}
+.searchIcon:hover {
+  color: white;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 55px;
+  border: none;
+}
+.autoCompleteOuterContainer:global(.vtex-input-prefix__group) {
+  border-color: white;
+}
+.logoContainer--logoImg {
+  padding-left: 0;
+}
+.infoCardTextContainer--segundo {
+  height: 311px;
+  padding-left: 0;
+  width: 40%;
+}
+.price_sellingPrice {
+  position: relative !important;
+  margin: 0;
+}
+.price_sellingPrice::after {
+  content: 'IVA Incluido';
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  margin-left: 5px;
+}
+.swiperCaretNext {
+  display: none;
+}
+.swiperCaretPrev {
+  display: none;
+}
+.infoCardImageContainer--bannerC {
+  background-color: transparent;
+}
+.currencyContainer {
+  color: black;
+}
+.sellingPrice {
+  padding: 2px 0;
+  height: auto;
+  font-weight: bold;
+  margin-left: 0;
+}
+.imageElement--BannerProduct {
+  margin-top: 10px;
+  width: 94%;
+}
+.productImagesThumbActive .thumbImg {
+  border: 1px solid;
+}
+.infoCardContainer--descripcionEspec {
+  background: transparent;
+}
+.infoCardSubhead--descripcionEspec {
+  margin-top: 2px;
+  line-height: 20px;
+  margin-left: -11px;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
+.infoCardCallActionContainer--descripcionEspec {
+  height: auto !important;
+  margin: -18px 0 0 69%;
+}
+.infoCardTextContainer--QuienesSomos {
+  width: 100%;
+}
+.infoCardCallActionContainer--QuienesSomos {
+  border-radius: 5px;
+  background: #ffc100;
+  width: 50%;
+  justify-content: center;
+  text-decoration: none;
+  margin: 10px auto;
+}
+.infoCardContainer--QuienesSomos {
+  background: #140d2e;
+}
+.imageElement--QuienesSomosImg2 {
+  padding: 55px 0;
+  margin: -27px 60px;
+  width: 80%;
+  max-height: 100%;
+}
+.infoCardHeadline--QuienesSomos {
+  text-align: center;
+  color: white;
+}
+.infoCardSubhead--QuienesSomos {
+  text-align: justify;
+  color: white;
+  font-weight: 100;
+  line-height: 26px;
+  font-size: 15px;
+}
+.imageElement--QuienesSomosImg {
+  margin: 0;
+  width: 100%;
+}
+.infoCardCallActionText--BannerDos:hover {
+  text-decoration-color: #140d2e;
+  text-decoration: underline;
+}
+.infoCardCallActionText--QuienesSomos {
+  color: black;
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.infoCardCallActionText--descripcionEspec {
+  margin: 0;
+  color: black;
+}
+.infoCardTextContainer--descripcionEspec {
+  display: flex;
+}
+.infoCardContainer--bannerM {
+  display: none;
+}
+.newsletter .label {
+  display: none;
+}
+.newsletter--newsletter {
+  width: 278%;
+}
+.container--newsletter {
+  margin-top: -15px;
+}
+.buttonContainer--newsletter :global(.vtex-button) {
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #ffc100 !important;
+  color: #191531;
+}
+.infoCardTextContainer--QuienesSomos2 {
+  width: 100%;
+}
+.imageElement--BannerPagos {
+  margin: 0 -10px 0 0;
+}
+.infoCardContainer--inicio {
+  display: none;
+}
+.infoCardHeadline--QuienesSomos2 {
+  color: #140d2e;
+}
+.infoCardHeadline {
+  font-family: 'KLAVIKA', 'ROBOTO';
+}
+.infoCardContainer--marcas-icon1 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon2 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon3 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon4 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon5 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon6 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon7 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon8 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon9 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon10 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon11 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon12 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon13 {
+  background: transparent;
+}
+.infoCardContainer--marcas-icon14 {
+  background: transparent;
+}
+.infoCardTextContainer--marcas-icon4 {
+  padding: 0;
+}
+.infoCardCallActionContainer--marcas-icon1:hover .infoCardCallActionText--marcas-icon1 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon2:hover .infoCardCallActionText--marcas-icon2 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon3:hover .infoCardCallActionText--marcas-icon3 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon4:hover .infoCardCallActionText--marcas-icon4 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon5:hover .infoCardCallActionText--marcas-icon5 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon6:hover .infoCardCallActionText--marcas-icon6 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon7:hover .infoCardCallActionText--marcas-icon7 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon8:hover .infoCardCallActionText--marcas-icon8 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon9:hover .infoCardCallActionText--marcas-icon9 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon10:hover .infoCardCallActionText--marcas-icon10 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon11:hover .infoCardCallActionText--marcas-icon11 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon12:hover .infoCardCallActionText--marcas-icon12 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon13:hover .infoCardCallActionText--marcas-icon13 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.infoCardCallActionContainer--marcas-icon14:hover .infoCardCallActionText--marcas-icon14 {
+  background: #f5b325;
+  font-family: 'Klavika';
+}
+.searchBarContainer {
+  padding: 2px 0 0 0;
+}
+.suffixWrapper {
+  background: #483d3d;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  margin: auto auto auto -25px;
+  border-radius: 30px;
+  justify-content: center;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.suffixWrapper:hover {
+  background: #d8282f;
+}
+.searchBarContainer {
+  height: 32px;
+  border-radius: 36px;
+  margin: auto;
+}
+.infoCardSubhead--Mio {
+  font-size: 15px;
+  padding: 0 0 0 0;
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+}
+.infoCardTextContainer--Mio {
+  margin: 5rem 40px;
+  background: rgba(60, 60, 60, 50%);
+  padding: 0 0 0 60px;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.infoCardHeadline--Mio {
+  font-size: 70px;
+  color: white;
+  font-size: 80px;
+  line-height: 96px;
+}
+.infoCardTextContainer--Mio::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 74%;
+  background: #f5b325;
+  top: 15%;
+  right: -1.5%;
+  z-index: 9999;
+  border-radius: 0.3rem;
+}
+
+.infoCardTextContainer--BannerDos {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.infoCardContainer--bannerInformativo {
+  height: 30rem;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-help.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  border-radius: 4px;
+}
+.infoCardHeadline--bannerInformativo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo::after {
+  content: '';
+  background: #f5b325;
+  width: 74%;
+  position: absolute;
+  height: 3px;
+  top: 100%;
+  border-radius: 5px;
+}
+.infoCardCallActionText--bannerInformativo {
+  background: #3c3c3c;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo2 {
+  height: 30rem;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo2 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo2::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-tabla.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  border-radius: 4px;
+}
+.infoCardHeadline--bannerInformativo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo2::after {
+  content: '';
+  background: #f5b325;
+  width: 74%;
+  position: absolute;
+  height: 3px;
+  top: 100%;
+  border-radius: 5px;
+}
+.infoCardCallActionText--bannerInformativo2 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo2 {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo3 {
+  height: 30rem;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo3 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo3::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-loca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  border-radius: 4px;
+}
+.infoCardHeadline--bannerInformativo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo3::after {
+  content: '';
+  background: #f5b325;
+  width: 74%;
+  position: absolute;
+  height: 3px;
+  top: 100%;
+  border-radius: 5px;
+}
+.infoCardCallActionText--bannerInformativo3 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo3 {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo4 {
+  height: 30rem;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo4 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo4::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-ask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  border-radius: 4px;
+}
+.infoCardHeadline--bannerInformativo4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo4::after {
+  content: '';
+  background: #f5b325;
+  width: 74%;
+  position: absolute;
+  height: 3px;
+  top: 100%;
+  border-radius: 5px;
+}
+.infoCardCallActionText--bannerInformativo4 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo4 {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo5 {
+  height: 30rem;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.infoCardTextContainer--bannerInformativo5 {
+  width: 97%;
+  background: #ffffff;
+  margin: 0 auto;
+  top: 100%;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 14px 10px;
+  left: 0;
+}
+.infoCardHeadline--bannerInformativo5::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-libro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  border-radius: 4px;
+}
+.infoCardHeadline--bannerInformativo5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px 5px 3px;
+  position: relative;
+  margin: 0;
+}
+.infoCardHeadline--bannerInformativo5::after {
+  content: '';
+  background: #f5b325;
+  width: 74%;
+  position: absolute;
+  height: 3px;
+  top: 100%;
+  border-radius: 5px;
+}
+.infoCardCallActionText--bannerInformativo5 {
+  background: #616161;
+  width: 82%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 13px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.infoCardCallActionContainer--bannerInformativo5 {
+  width: 100%;
+}
+
+.infoCardContainer--bannerInformativo:hover .infoCardTextContainer--bannerInformativo {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardTextContainer--bannerInformativo2 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardTextContainer--bannerInformativo3 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardTextContainer--bannerInformativo4 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardTextContainer--bannerInformativo5 {
+  background: #f5b325;
+}
+
+.infoCardCallActionText--bannerInformativo {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo2 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo2 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo3 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo3 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo4 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo4 {
+  margin: 10px auto;
+}
+.infoCardCallActionText--bannerInformativo5 {
+  display: none;
+  margin: 0 auto;
+}
+.infoCardCallActionContainer--bannerInformativo5 {
+  margin: 10px auto;
+}
+
+.infoCardContainer--bannerInformativo:hover .infoCardCallActionText--bannerInformativo {
+  display: block;
+  font-family: 'KLAVIKA';
+  font-size: 18px;
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardCallActionText--bannerInformativo2 {
+  display: block;
+  font-family: 'KLAVIKA';
+  font-size: 18px;
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardCallActionText--bannerInformativo3 {
+  display: block;
+  font-family: 'KLAVIKA';
+  font-size: 18px;
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardCallActionText--bannerInformativo4 {
+  display: block;
+  font-family: 'KLAVIKA';
+  font-size: 18px;
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardCallActionText--bannerInformativo5 {
+  display: block;
+  font-family: 'KLAVIKA';
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.infoCardContainer--bannerInformativo:hover .infoCardHeadline--bannerInformativo::after {
+  background: white;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardHeadline--bannerInformativo2::after {
+  background: white;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardHeadline--bannerInformativo3::after {
+  background: white;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardHeadline--bannerInformativo4::after {
+  background: white;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardHeadline--bannerInformativo5::after {
+  background: white;
+}
+
+.infoCardContainer--bannerInformativo::before {
+  content: '';
+  position: absolute;
+  width: 93%;
+  height: 7px;
+  background: #f5b325;
+  top: -7px;
+  left: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+.infoCardContainer--bannerInformativo2::before {
+  content: '';
+  position: absolute;
+  width: 93%;
+  height: 7px;
+  background: #f5b325;
+  top: -7px;
+  left: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+.infoCardContainer--bannerInformativo3::before {
+  content: '';
+  position: absolute;
+  width: 93%;
+  height: 7px;
+  background: #f5b325;
+  top: -7px;
+  left: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+.infoCardContainer--bannerInformativo4::before {
+  content: '';
+  position: absolute;
+  width: 93%;
+  height: 7px;
+  background: #f5b325;
+  top: -7px;
+  left: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+.infoCardContainer--bannerInformativo5::before {
+  content: '';
+  position: absolute;
+  width: 93%;
+  height: 7px;
+  background: #f5b325;
+  top: -7px;
+  left: 4%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.infoCardContainer--segundo {
+  padding: 0 0 0 108px;
+  /* padding-left: 108px;
+  padding-right: 110px; */
+}
+.infoCardHeadline--segundo {
+  width: 100%;
+  text-align: left;
+}
+.infoCardSubhead--segundo {
+  text-align: inherit;
+  width: 80%;
+  margin: 0 auto 0 0;
+}
+.infoCardSubhead--segundo::before {
+  content: '';
+  position: relative;
+  background: #f5b325;
+  width: 100px;
+  height: 6px;
+  display: block;
+  margin: 15px 0;
+}
+.infoCardImageContainer--segundo::before {
+  content: '';
+  position: absolute;
+  background: #f5b325;
+  width: 8px;
+  height: 27%;
+  display: block;
+  margin: 10px 0 0 -8px;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.infoCardImageContainer--segundo {
+  display: flex;
+  width: 60%;
+  padding: 3rem 0;
+}
+
+.infoCardTextContainer--BannerDosUno {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.infoCardHeadline--BannerDos.infoCardHeadline--BannerDosUno {
+  text-align: start;
+}
+
+.infoCardHeadline--BannerDos.infoCardHeadline--BannerDosUno::after {
+  content: '';
+  background: #f5b325;
+  width: 10rem;
+  position: absolute;
+  height: 3px;
+  display: block;
+  margin: 0 35px;
+  border-radius: 18px;
+  right: unset;
+  left: 0;
+}
+
+.infoCardCallActionContainer--BannerDosUno {
+  margin-left: 0;
+}
+
+.infoCardCallActionText--BannerDos::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-entrada.png);
+  display: block;
+  position: absolute;
+  left: 36px;
+  margin: -5px -5px;
+  background-size: 100%;
+}
+.infoCardHeadline--BannerDos {
+  width: 70%;
+  margin: 0;
+  text-align: end;
+  /* position: relative; */
+  padding: 1rem;
+}
+.infoCardHeadline--BannerDos::after {
+  content: '';
+  background: #f5b325;
+  width: 10rem;
+  position: absolute;
+  height: 3px;
+  display: block;
+  margin: 0 35px;
+  border-radius: 18px;
+  right: 0px;
+  left: unset;
+}
+/* .infoCardHeadline--BannerDos::after {
+  content: '';
+  background: #f5b325;
+  width: 128px;
+  position: relative;
+  height: 6px;
+  display: block;
+  margin: 12px 0 0;
+  border-radius: 18px;
+} */
+.infoCardHeadline--bannernewws {
+  color: white;
+  font-weight: 400;
+}
+.infoCardHeadline--bannernewws::after {
+  content: '';
+  background: #f5b325;
+  position: relative;
+  width: 135px;
+  height: 4px;
+  display: block;
+  top: 10px;
+  border-radius: 12px;
+}
+.infoCardContainer--LogoFooter {
+  height: 116px;
+  /* margin: 0 auto 0 -32px; */
+  width: 58%;
+}
+.infoCardContainer--Logored {
+  background-size: 50% !important;
+  background-position: center;
+  margin: 10px 0 0 -39px;
+}
+.infoCardContainer--bannernewws {
+  border-radius: 7px;
+}
+
+.productImage--imagenesEspecificaciones:last-child {
+  display: block;
+}
+.productImage--imagenesEspecificaciones {
+  display: none;
+}
+.productImage--imagenesEspecificaciones:last-child {
+  display: flex;
+  justify-content: end;
+  margin: 0 0 0 auto;
+}
+
+.productImage--imagenesEspecificaciones::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 391px;
+  background: #f5b325;
+  position: absolute;
+  margin: 16% 0 0px 2%;
+  border-radius: 3px;
+}
+.imageElement--quieNESSOMOS-IMG2 {
+  width: 501px !important;
+  max-width: 500%;
+  position: absolute;
+  z-index: 9;
+  top: -15%;
+}
+.infoCardContainer--mosaicoquienesSomos {
+  margin: 10px;
+  border-radius: 5px;
+  height: 179px;
+}
+.infoCardCallActionContainer--mosaicoquienesSomos {
+  background: #f5b325;
+  text-decoration: none;
+  padding: 0 22px;
+  margin: 85px 0 0;
+  border-radius: 5px;
+  width: 130%;
+  text-align: center;
+}
+.infoCardCallActionText--mosaicoquienesSomos {
+  text-decoration: none;
+  color: white;
+}
+.imageElement--quieNESSOMOS-redes-IMG1 {
+  width: 15%;
+  background: #f6f6f6;
+  padding: 10px 87px;
+  border-radius: 6px;
+}
+.infoCardTextContainer--bannerInformativo-ESTATICA {
+  width: 114%;
+  background: white;
+  height: 163px;
+  margin: 0 18px;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+}
+.infoCardHeadline--bannerInformativo-ESTATICA {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoCardCallActionContainer--bannerInformativo-ESTATICA {
+  width: 100%;
+  background: #3c3c3c;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 11px;
+  transition: 0.5s;
+}
+.infoCardCallActionContainer--bannerInformativo-ESTATICA:hover {
+  background-color: #a46903;
+}
+.infoCardCallActionText--bannerInformativo-ESTATICA {
+  color: white;
+  text-decoration: none;
+  font-family: 'Klavika-light';
+  font-weight: 100;
+  transition: 0.5s;
+}
+.infoCardCallActionText--bannerInformativo-ESTATICA:hover {
+  font-weight: bold;
+  font-family: 'KLAVIKA';
+}
+.infoCardHeadline--bannerInformativo-ESTATICA::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-help.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  display: block;
+  border-radius: 4px;
+}
+.infoCardContainer--bannerInformativo2-ESTATICA {
+  margin: 10px;
+  height: 97%;
+  border-radius: 12px;
+  width: 82%;
+}
+.infoCardContainer--bannerInformativo-ESTATICA {
+  margin: 10px;
+  border-radius: 12px;
+  /* margin: 10px; */
+  height: 98%;
+  /* border-radius: 12px; */
+  width: 82%;
+}
+.infoCardContainer--bannerInformativo3-ESTATICA {
+  margin: 10px;
+  border-radius: 12px;
+}
+.infoCardTextContainer--bannerInformativo2-ESTATICA {
+  width: 114%;
+  background: white;
+  height: 163px;
+  margin: 0 18px;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+}
+.infoCardHeadline--bannerInformativo2-ESTATICA {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.infoCardCallActionContainer--bannerInformativo2-ESTATICA {
+  width: 100%;
+  background: #3c3c3c;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 11px;
+  transition: 0.5s;
+}
+.infoCardCallActionContainer--bannerInformativo2-ESTATICA:hover {
+  background-color: #a46903;
+}
+.infoCardCallActionText--bannerInformativo2-ESTATICA {
+  color: white;
+  text-decoration: none;
+  font-family: 'Klavika-light';
+  font-weight: 100;
+  transition: 0.5s;
+}
+.infoCardCallActionText--bannerInformativo2-ESTATICA:hover {
+  font-weight: bold;
+  font-family: 'KLAVIKA';
+}
+.infoCardHeadline--bannerInformativo2-ESTATICA::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-help.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  display: block;
+  border-radius: 4px;
+}
+.infoCardTextContainer--bannerInformativo3-ESTATICA {
+  width: 114%;
+  background: white;
+  height: 163px;
+  margin: 0 18px;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+}
+.infoCardHeadline--bannerInformativo3-ESTATICA {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.infoCardCallActionContainer--bannerInformativo3-ESTATICA {
+  width: 100%;
+  background: #3c3c3c;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 11px;
+  transition: 0.5s;
+}
+.infoCardCallActionContainer--bannerInformativo3-ESTATICA:hover {
+  background: #a46903;
+}
+.infoCardCallActionText--bannerInformativo3-ESTATICA {
+  color: white;
+  text-decoration: none;
+  font-family: 'Klavika-light';
+  font-weight: 100;
+  transition: 0.5s;
+}
+.infoCardCallActionText--bannerInformativo3-ESTATICA:hover {
+  font-family: 'KLAVIKA';
+  font-weight: bold;
+}
+.infoCardHeadline--bannerInformativo3-ESTATICA::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: url(https://sikaco.vteximg.com.br/arquivos/icon-help.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+  margin: 6px;
+  display: block;
+  border-radius: 4px;
+}
+.infoCardContainer--bannerInformativo3-ESTATICA {
+  margin: 10px;
+  height: 97%;
+  border-radius: 12px;
+  width: 82%;
+}
+.infoCardHeadline--bannerInformativo-ESTATICA::after {
+  content: '';
+  width: 108px;
+  height: 3px;
+  background: #f5b325;
+  position: absolute;
+  top: 100px;
+  left: 15%;
+}
+.infoCardHeadline--bannerInformativo2-ESTATICA::after {
+  content: '';
+  width: 108px;
+  height: 3px;
+  background: #f5b325;
+  position: absolute;
+  top: 100px;
+  left: 15%;
+}
+.infoCardHeadline--bannerInformativo3-ESTATICA::after {
+  content: '';
+  width: 108px;
+  height: 3px;
+  background: #f5b325;
+  position: absolute;
+  top: 100px;
+  left: 15%;
+}
+
+.pointerEventsAuto.transparent .showMoreButton {
+  color: transparent;
+  position: relative;
+}
+.pointerEventsAuto.transparent .showMoreButton::after {
+  content: 'Ocultar';
+  color: black;
+  position: absolute;
+  left: 0;
+}
+
+.infoCardSubhead--Mio {
+  font-family: klavika;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Klavika-light';
+}
+.infoCardHeadline--BannerDos {
+  font-family: 'KLAVIKA';
+}
+.infoCardCallActionText--BannerDos {
+  font-family: 'KLAVIKA';
+  position: relative;
+}
+.infoCardHeadline--bannernewws {
+  font-family: 'Klavika-light';
+  font-size: 45px;
+  line-height: 40px;
+}
+.infoCardSubhead--segundo {
+  font-family: 'Klavika-light';
+}
+.productBrand {
+  font-family: 'KLAVIKA';
+}
+.currencyContainer {
+  font-family: 'KLAVIKA';
+}
+.price_sellingPrice {
+  font-family: 'KLAVIKA';
+}
+.content {
+  font-family: 'Klavika';
+}
+.showMoreButton {
+  font-family: 'KLAVIKA';
+}
+.infoCardCallActionContainer--bannerInformativo {
+  text-decoration: none;
+}
+.infoCardCallActionContainer--bannerInformativo2 {
+  text-decoration: none;
+}
+.infoCardCallActionContainer--bannerInformativo3 {
+  text-decoration: none;
+}
+.infoCardCallActionContainer--bannerInformativo4 {
+  text-decoration: none;
+}
+.infoCardCallActionContainer--bannerInformativo5 {
+  text-decoration: none;
+}
+.infoCardCallActionContainer--BannerDosUno:hover {
+  background: #616161;
+}
+.infoCardCallActionContainer--BannerDosUno:hover .infoCardCallActionText--BannerDosUno {
+  color: white;
+}
+.infoCardCallActionContainer--BannerDos:hover .infoCardCallActionText--BannerDos {
+  color: white;
+  text-decoration: none;
+}
+.infoCardCallActionContainer--BannerDos:hover {
+  background: #616161;
+}
+.infoCardHeadline--bannernewwsMdola {
+  color: white;
+  font-weight: 100;
+}
+.infoCardHeadline--bannernewwsMdola::after {
+  content: 'ENTÉRATE DE NUESTROS PRODUCTOS';
+  display: block;
+  font-size: 15px;
+}
+.infoCardContainer--bannernewwsMdola {
+  border-radius: 9px;
+}
+.infoCardContainer--bannernewwsMdola::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 88%;
+  height: 7px;
+  background: #f5b325;
+  border-radius: 0 0 10px 10px;
+  top: 50%;
+  left: 6%;
+}
+.infoCardContainer--Logored-face {
+  background-size: 58% !important;
+  margin-left: -52px;
+}
+.infoCardContainer--Logored-insta {
+  background-size: 79% !important;
+  margin-left: -55px;
+}
+.closeIcon {
+  color: white;
+}
+
+.infoCardContainer--bannernewws {
+  background: none !important;
+}
+.infoCardTextContainer--bannernewws {
+  margin: 5% 0 0 auto;
+}
+
+@media (max-width: 600px) {
+.infoCardContainer--bannernewws {
+  background: url("https://sikaco.vteximg.com.br/arquivos/Rectangle%20105.png") !important;
+}
+.infoCardTextContainer--bannernewws {
+  margin: 6%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px)  {
+  .imageElement--BannerPagosD {
+    display: none;
+  }
+  .infoCardContainer--bannerM {
+    display: block !important;
+    background-color: transparent;
+  }
+  .infoCardTextContainer--bannerM {
+    display: none;
+  }
+  .logoImage {
+    max-width: 84%;
+    /* margin-top: 20px;*/
+    margin-left: 10px;
+    width: 57%;
+  }
+  .logoContainer--logoImg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .infoCardContainer--bannerC {
+    display: none;
+  }
+  .infoCardContainer--Mio {
+    min-height: 343px !important;
+  }
+  :global(.vtex-store__template) {
+    overflow: hidden;
+  }
+  .infoCardHeadline--segundo {
+    font-size: 33px;
+    font-family: 'KLAVIKA';
+  }
+  /*Ctegoria 3*/
+  .infoCardImageContainer--marcas-icon3::before {
+    opacity: 1;
+    left: 24%;
+    top: 13%;
+    z-index: 999999;
+  }
+  /*Ctegoria 4*/
+  .infoCardImageContainer--marcas-icon4::before {
+    opacity: 1;
+    z-index: 999999;
+    width: 70px;
+  }
+  /*Ctegoria 1*/
+  .infoCardImageContainer--marcas-icon1::before {
+    opacity: 1;
+    left: 32%;
+    width: 53px;
+    z-index: 999999;
+  }
+  /*Ctegoria 2*/
+  .infoCardImageContainer--marcas-icon2::before {
+    opacity: 1;
+    top: 26%;
+    z-index: 999999;
+    left: 21%;
+  }
+  /*Ctegoria 5*/
+  .infoCardImageContainer--marcas-icon5::before {
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 6*/
+  .infoCardImageContainer--marcas-icon6::before {
+    opacity: 1;
+    width: 70px;
+    top: 19%;
+    left: 31%;
+    z-index: 999999;
+  }
+  /*Ctegoria 7*/
+  .infoCardImageContainer--marcas-icon7::before {
+    opacity: 1;
+    width: 70px;
+    left: 32%;
+    z-index: 999999;
+  }
+  /*Ctegoria 8*/
+  .infoCardImageContainer--marcas-icon8::before {
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    z-index: 999999;
+  }
+  /*Ctegoria 9*/
+  .infoCardImageContainer--marcas-icon9::before {
+    opacity: 1;
+    width: 70px;
+    top: 15%;
+    z-index: 999999;
+  }
+  /*Ctegoria 10*/
+  .infoCardImageContainer--marcas-icon10::before {
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    left: 29%;
+    z-index: 999999;
+  }
+  /*Ctegoria 11*/
+  .infoCardImageContainer--marcas-icon11::before {
+    opacity: 1;
+    width: 70px;
+    top: 17%;
+    left: 42%;
+    z-index: 999999;
+  }
+  /*Ctegoria 12*/
+  .infoCardImageContainer--marcas-icon12::before {
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    top: 18%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon13::before {
+    opacity: 1;
+    width: 60px;
+    left: 33%;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon14::before {
+    opacity: 1;
+    width: 70px;
+    left: 29%;
+    top: 16%;
+    z-index: 999999;
+  }
+  .infoCardCallActionContainer--Mio {
+    z-index: 9999;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .infoCardHeadline--BannerDos {
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 83px;
+    left: 15px;
+    width: 89%;
+  }
+  .infoCardCallActionContainer--BannerDos {
+    width: 89%;
+    height: 63px;
+  }
+  .infoCardCallActionText--BannerDos {
+    font-size: 18px;
+  }
+  .infoCardContainer--BannerDos {
+    height: 387px;
+  }
+  .infoCardContainer--BannerDos {
+    margin: 0;
+    margin-left: 5px;
+  }
+  .autoCompleteOuterContainer {
+    border-radius: 6px;
+  }
+  .infoCardImage--textfool3 {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 18px;
+  }
+  .infoCardImageContainer--textfool3 {
+    width: 48%;
+  }
+  .infoCardImageContainer--textfool2 {
+    display: flex;
+    justify-content: center;
+  }
+  .productImagesGallerySlide {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .carouselGaleryThumbs {
+    display: block !important;
+  }
+  .carouselGaleryThumbs--product__image--especificaciones {
+    display: none;
+  }
+
+  .imageElement--BannerProduct {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .infoCardCallActionContainer--descripcionEspec {
+    margin: -18px 0 0 60% !important;
+  }
+  .productDescriptionContainer {
+    margin-top: 10px;
+  }
+  .productImagesThumbActive {
+    height: auto !important;
+  }
+  .form--newsletter {
+    margin: 0px -12px;
+    padding: 0;
+    width: 38%;
+  }
+  .infoCardSubhead--QuienesSomos {
+    margin: 10px 15px;
+  }
+  .imageElement--QuienesSomosImg2 {
+    padding: 55px 0;
+    margin: -27px 20px;
+    width: 90%;
+    max-height: 100%;
+  }
+  .productImagesThumb {
+    height: auto !important;
+    margin-bottom: 0;
+    margin-left: 6px;
+  }
+  .productImagesThumb:first-child {
+    margin-left: 0px;
+  }
+  .productBrand {
+    color: #483d3d;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'KLAVIKA';
+    line-height: 24px;
+  }
+  .infoCardContainer--textfool2 {
+    margin: 0 0 0 -13px;
+  }
+  .infoCardContainer--BannerDosUno {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  .infoCardCallActionText--Mio {
+    font-weight: 400;
+  }
+  .infoCardContainer--segundo :global(.vtex-shelf-1-x-shelfContentContainer) {
+    margin-bottom: 10px;
+  }
+
+  /*Estilos de los textos en los banners del home*/
+  .imageElementLink--imagencomp1primera::before {
+    content: 'COMPLETA TU ESTILO';
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1primera::before {
+    content: 'COMPLETA TU ESTILO';
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1segunda::before {
+    content: 'CUIDA TU SISTEMA RESPIRATORIO';
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 165%;
+    align-items: center;
+  }
+  .imageElementLink--bannerLateralDerecho::before {
+    content: 'AYUDARTE A MOVILIZAR';
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 94%;
+    align-items: flex-end;
+  }
+  .inputGroup--newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .newsletter--newsletter {
+    width: 100%;
+  }
+  .form--newsletter {
+    width: auto !important;
+  }
+  .searchBarContainer {
+    width: 97%;
+  }
+  .buttonContainer--newsletter {
+    width: 100%;
+  }
+  .searchBarInnerContainer {
+    position: relative;
+    top: -15px;
+  }
+  .infoCardTextContainer--Mio {
+    margin: 20% 0 0 -30px;
+    padding: 10px 0 0 30px;
+    background: #f5b325;
+    height: 140px;
+    margin-top: 100px
+  }
+  .infoCardHeadline--Mio {
+    font-size: 26px;
+    margin: 9px 0 0 0;
+  }
+  .infoCardContainer--Mio {
+    width: 80%;
+  }
+  .infoCardSubhead--Mio {
+    font-size: 12px;
+    margin: 2px;
+  }
+  .infoCardCallActionText--Mio {
+    color: white;
+    background: #483d3d;
+    padding: 11px;
+    font-size: 13px;
+  }
+  .infoCardTextContainer--Mio::after {
+    background: #483d3d;
+    width: 10px;
+  }
+  .infoCardCallActionText {
+    font-size: 13px;
+  }
+  .infoCardContainer--bannerInformativo {
+    width: 100%;
+  }
+  .infoCardContainer--bannerInformativo2 {
+    width: 100%;
+  }
+  .infoCardContainer--bannerInformativo3 {
+    width: 100%;
+  }
+  .infoCardContainer--bannerInformativo4 {
+    width: 100%;
+  }
+  .infoCardContainer--bannerInformativo5 {
+    width: 100%;
+  }
+  .infoCardContainer--segundo {
+    padding: 0 15px;
+    display: block;
+  }
+  .infoCardContainer--segundo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 14px;
+  }
+  .infoCardImageContainer--segundo {
+    order: 1;
+    margin: 0 0 -20% 0;
+  }
+  .infoCardTextContainer--segundo {
+    order: 2;
+  }
+  .infoCardImageContainer--segundo::before {
+    content: '';
+    width: 90%;
+    height: 7px !important;
+    margin: 23% 0 0 4px;
+  }
+  .infoCardHeadline--BannerDos {
+    top: 0;
+    bottom: auto;
+  }
+
+  .infoCardCallActionContainer--BannerDosUno {
+    bottom: 14px;
+    height: 47px;
+  }
+
+  .infoCardCallActionContainer--BannerDos {
+    bottom: 8px;
+    height: 50px;
+  }
+  .infoCardContainer--bannernewws::before {
+    content: '';
+    background: #f5b325;
+    width: 90%;
+    position: absolute;
+    height: 10px;
+    top: -10px;
+    left: 15px;
+    border-radius: 20px 20px 0 0;
+  }
+  .infoCardHeadline--bannernewws {
+    font-size: 25px;
+  }
+  .infoCardContainer--LogoFooterM {
+    width: 100%;
+    height: 108px;
+    background-size: 76% !important;
+  }
+  .productImage--imagenesEspecificaciones::before {
+    width: 95%;
+    height: 7px;
+    bottom: -3px;
+  }
+  .productImageTag--imagenesEspecificaciones--main {
+    margin: 15px auto 0;
+  }
+  .imageElement--quieNESSOMOS-IMG2 {
+    width: 228% !important;
+    top: -40%;
+  }
+  .imageElement--quieNESSOMOS-IMG1 {
+    width: 138px !important;
+  }
+  .imageElement--quieNESSOMOS-redes-IMG1 {
+    padding: 7px 28px;
+    width: 32%;
+  }
+  .infoCardTextContainer--bannerInformativo-ESTATICA {
+    display: contents;
+  }
+  .infoCardTextContainer--bannerInformativo2-ESTATICA {
+    display: contents;
+  }
+  .infoCardTextContainer--bannerInformativo3-ESTATICA {
+    display: contents;
+  }
+  .infoCardContainer--bannerInformativo-ESTATICA {
+    background: white !important;
+    padding: 10px;
+  }
+  .infoCardContainer--bannerInformativo2-ESTATICA {
+    background: white !important;
+    padding: 10px;
+  }
+  .infoCardContainer--bannerInformativo3-ESTATICA {
+    background: white !important;
+    padding: 10px;
+  }
+  .infoCardHeadline--bannerInformativo-ESTATICA {
+    margin: 0;
+    font-size: 15px;
+  }
+  .infoCardHeadline--bannerInformativo2-ESTATICA {
+    margin: 0;
+    font-size: 15px;
+  }
+  .infoCardHeadline--bannerInformativo3-ESTATICA {
+    margin: 0;
+    font-size: 15px;
+  }
+  .infoCardHeadline--bannerInformativo-ESTATICA::after {
+    display: none;
+  }
+  .infoCardHeadline--bannerInformativo2-ESTATICA::after {
+    display: none;
+  }
+  .infoCardHeadline--bannerInformativo3-ESTATICA::after {
+    display: none;
+  }
+  .infoCardContainer--Logored {
+    background-size: 30% !important;
+  }
+  .infoCardContainer--bannernewwsMdola::after {
+    top: 27%;
+  }
+  .infoCardHeadline--bannernewwsMdola {
+    font-size: 14px;
+  }
+  .infoCardHeadline--bannernewwsMdola::after {
+    font-size: 10px;
+  }
+  .infoCardContainer--Logored-face {
+    background-size: 37% !important;
+    margin-left: -52px;
+  }
+  .infoCardContainer--Logored-insta {
+    background-size: 50% !important;
+    margin-left: -125px;
+  }
+  .resultsList {
+    margin: -4px 0 0 0;
+    max-height: 100%;
+    height: 100%;
+  }
+  .infoCardTextContainer--Mio {
+    margin-top: 100px !important;
+}
+ .infoCardTextContainer--BannerDosUno {
+    text-align: center;
+    /* justify-content: center; */
+}
+ .infoCardCallActionContainer--BannerDosUno {
+    text-align: center;
+}
+ .infoCardCallActionContainer--BannerDosUno {
+    text-align: center;
+}
+  .infoCardCallActionText--BannerDos {
+    text-align: center;
+}
+.infoCardContainer--bannerInformativo:hover .infoCardCallActionText--bannerInformativo {
+  font-size: 12px !important;
+}
+.infoCardContainer--bannerInformativo1:hover .infoCardCallActionText--bannerInformativo1 {
+  font-size: 12px !important;
+}
+.infoCardContainer--bannerInformativo2:hover .infoCardCallActionText--bannerInformativo2 {
+  font-size: 12px !important;
+}
+.infoCardContainer--bannerInformativo3:hover .infoCardCallActionText--bannerInformativo3 {
+  font-size: 12px !important;
+}
+.infoCardContainer--bannerInformativo4:hover .infoCardCallActionText--bannerInformativo4 {
+  font-size: 12px !important;
+}
+.infoCardContainer--bannerInformativo5:hover .infoCardCallActionText--bannerInformativo5 {
+  font-size: 12px !important;
+}
+.infoCardImageContainer--segundo {
+  width: 100%;
+}
+.infoCardSubhead--segundo {
+  width: 100%;
+}
+.infoCardTextContainer--segundo {
+  width: 100%;
+}
+.infoCardHeadline--Mio {
+  line-height: 19px;
+}
+.infoCardTextContainer--segundo {
+  height: 266px;
+}
+/*
+.suffixWrapper {
+  margin: auto -3px auto -17px;
+}*/
+.infoCardCallActionText--marcas-icon1, .infoCardCallActionText--marcas-icon2, .infoCardCallActionText--marcas-icon3, .infoCardCallActionText--marcas-icon4, .infoCardCallActionText--marcas-icon5, .infoCardCallActionText--marcas-icon6, .infoCardCallActionText--marcas-icon7, .infoCardCallActionText--marcas-icon8, .infoCardCallActionText--marcas-icon9, .infoCardCallActionText--marcas-icon10, .infoCardCallActionText--marcas-icon11, .infoCardCallActionText--marcas-icon12, .infoCardCallActionText--marcas-icon13, .infoCardCallActionText--marcas-icon14 {
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+
+.infoCardContainer--bannerInformativo .infoCardTextContainer--bannerInformativo {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo .infoCardCallActionText--bannerInformativo {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo1 .infoCardTextContainer--bannerInformativo1 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo1 .infoCardCallActionText--bannerInformativo1 {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+
+.infoCardContainer--bannerInformativo2 .infoCardTextContainer--bannerInformativo2 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo2 .infoCardCallActionText--bannerInformativo2 {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+
+.infoCardContainer--bannerInformativo3 .infoCardTextContainer--bannerInformativo3 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo3 .infoCardCallActionText--bannerInformativo3 {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+
+.infoCardContainer--bannerInformativo4 .infoCardTextContainer--bannerInformativo4 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo4 .infoCardCallActionText--bannerInformativo4 {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+.infoCardContainer--bannerInformativo5 .infoCardTextContainer--bannerInformativo5 {
+  background: #f5b325;
+}
+.infoCardContainer--bannerInformativo5 .infoCardCallActionText--bannerInformativo5 {
+  display: block;
+  font-family: 'KLAVIKA';
+  line-height: 21px;
+}
+.infoCardTextContainer--bannerInformativo {
+  width: 94%;
+}
+.infoCardTextContainer--bannerInformativo1 {
+  width: 94%;
+}
+.infoCardTextContainer--bannerInformativo2 {
+  width: 94%;
+}
+.infoCardTextContainer--bannerInformativo3 {
+  width: 94%;
+}
+.infoCardTextContainer--bannerInformativo4 {
+  width: 94%;
+}
+.infoCardTextContainer--bannerInformativo5 {
+  width: 94%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infoCardImage--segundo {
+  width: 100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@media (min-width: 1594px) {
+  /*
+  .infoCardContainer--marcas-icon1,
+  .infoCardContainer--marcas-icon2,
+  .infoCardContainer--marcas-icon3,
+  .infoCardContainer--marcas-icon4,
+  .infoCardContainer--marcas-icon5,
+  .infoCardContainer--marcas-icon6,
+  .infoCardContainer--marcas-icon7,
+  .infoCardContainer--marcas-icon8,
+  .infoCardContainer--marcas-icon9,
+  .infoCardContainer--marcas-icon10,
+  .infoCardContainer--marcas-icon11,
+  .infoCardContainer--marcas-icon12,
+  .infoCardContainer--marcas-icon13,
+  .infoCardContainer--marcas-icon14 {
+    padding: 1rem;
+  }
+*/
+  .infoCardCallActionText--marcas-icon1,
+  .infoCardCallActionText--marcas-icon2,
+  .infoCardCallActionText--marcas-icon3,
+  .infoCardCallActionText--marcas-icon4,
+  .infoCardCallActionText--marcas-icon5,
+  .infoCardCallActionText--marcas-icon6,
+  .infoCardCallActionText--marcas-icon7,
+  .infoCardCallActionText--marcas-icon8,
+  .infoCardCallActionText--marcas-icon9,
+  .infoCardCallActionText--marcas-icon10,
+  .infoCardCallActionText--marcas-icon11,
+  .infoCardCallActionText--marcas-icon12,
+  .infoCardCallActionText--marcas-icon13,
+  .infoCardCallActionText--marcas-icon14 {
+    width: 100%;
+  }
+
+  .infoCardContainer--Mio {
+    min-height: 550px !important;
+  }
+
+  .infoCardContainer--LogoFooter {
+    width: 71%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .infoCardContainer--Mio {
+    min-height: 520px;
+  }
+
+  .infoCardTextContainer--Mio {
+    margin-top: 1rem;
+  }
+
+  .infoCardCallActionText--marcas-icon1,
+  .infoCardCallActionText--marcas-icon2,
+  .infoCardCallActionText--marcas-icon3,
+  .infoCardCallActionText--marcas-icon4,
+  .infoCardCallActionText--marcas-icon5,
+  .infoCardCallActionText--marcas-icon6,
+  .infoCardCallActionText--marcas-icon7,
+  .infoCardCallActionText--marcas-icon8,
+  .infoCardCallActionText--marcas-icon9,
+  .infoCardCallActionText--marcas-icon10,
+  .infoCardCallActionText--marcas-icon11,
+  .infoCardCallActionText--marcas-icon12,
+  .infoCardCallActionText--marcas-icon13,
+  .infoCardCallActionText--marcas-icon14 {
+    width: 98%;
+    margin: 0 auto
+  }
+  .infoCardContainer--LogoFooter {
+    width: 76%;
+  }
+}
+
+@media (max-width: 1299px) {
+  .infoCardContainer--Mio {
+    min-height: 440px;
+  }
+
+  .infoCardTextContainer--Mio {
+    margin-top: 0rem;
+  }
+  .infoCardCallActionText--marcas-icon1,
+  .infoCardCallActionText--marcas-icon2,
+  .infoCardCallActionText--marcas-icon3,
+  .infoCardCallActionText--marcas-icon4,
+  .infoCardCallActionText--marcas-icon5,
+  .infoCardCallActionText--marcas-icon6,
+  .infoCardCallActionText--marcas-icon7,
+  .infoCardCallActionText--marcas-icon8,
+  .infoCardCallActionText--marcas-icon9,
+  .infoCardCallActionText--marcas-icon10,
+  .infoCardCallActionText--marcas-icon11,
+  .infoCardCallActionText--marcas-icon12,
+  .infoCardCallActionText--marcas-icon13,
+  .infoCardCallActionText--marcas-icon14 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .infoCardContainer--LogoFooter {
+    width: 89%;
+  }
+  .infoCardCallActionText--BannerDos::before {
+    left: 15px;
+  }
+  .infoCardImageContainer--segundo::before {
+    height: 21%;
+  }
+}
+
+@media (max-width: 1185px) {
+  .infoCardImage--Mio {
+    height: 100%;
+  }
+
+  .infoCardTextContainer--Mio {
+    width: 90%;
+  }
+
+  .infoCardImageContainer--segundo::before {
+    height: 19%;
+  }
+
+  .infoCardCallActionText--BannerDosUno {
+    font-size: 12px;
+    text-align: end;
+    padding-right: 25px;
+  }
+
+  .infoCardCallActionText--BannerDos {
+    font-size: 12px;
+    text-align: end;
+    padding-right: 20px;
+  }
+
+  .infoCardContainer--LogoFooter {
+    width: 84%;
+  }
+}
+
+@media (min-width: 1050px) {
+  .infoCardImageContainer--segundo::before {
+    height: 16%;
+  }
+
+  .infoCardCallActionContainer--BannerDos {
+    width: 55%;
+  }
+
+  .infoCardContainer--LogoFooter {
+    background-size: contain !important;
+    width: 85% !important;
+  }
+
+  .imageElement--BannerProduct {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .imageElement--quieNESSOMOS-IMG2 {
+    width: 150% !important;
+  }
+
+  .imageElement--quieNESSOMOS-redes-IMG1 {
+    width: 20%;
+    padding: 1rem 4rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .infoCardImageContainer--segundo::before {
+    height: 25%;
+  }
+}
+
+@media (min-width: 1735px) {
+  .infoCardContainer--LogoFooter {
+    width: 63%;
+  }
+  .imageElement--quieNESSOMOS-redes-IMG1 {
+    width: 10%;
+  }
+  .infoCardImageContainer--segundo::before {
+    height: 30%;
+  }
+  .infoCardCallActionText--marcas-icon1,
+  .infoCardCallActionText--marcas-icon2,
+  .infoCardCallActionText--marcas-icon3,
+  .infoCardCallActionText--marcas-icon4,
+  .infoCardCallActionText--marcas-icon5,
+  .infoCardCallActionText--marcas-icon6,
+  .infoCardCallActionText--marcas-icon7,
+  .infoCardCallActionText--marcas-icon8,
+  .infoCardCallActionText--marcas-icon9,
+  .infoCardCallActionText--marcas-icon10,
+  .infoCardCallActionText--marcas-icon11,
+  .infoCardCallActionText--marcas-icon12,
+  .infoCardCallActionText--marcas-icon13,
+  .infoCardCallActionText--marcas-icon14 {
+    width: 90%;
+    margin-left: 15px;
+  }
+}
+
+.showMoreButton {
+  margin: 2px;
+  font-family: 'Klavika-light';
+}
+
+.content {
+  font-family: 'Klavika-Light';
+  font-size: 16px;
+}
+
+.infoCardHeadline--BannerDos {
+  border-radius: 10px;
+  color: #3c3c3c;
+}
+
+.infoCardCallActionContainer--BannerDos:hover .infoCardCallActionText--BannerDos:hover::before {
+  filter: invert(1);
+}
