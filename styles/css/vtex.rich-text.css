@@ -377,7 +377,6 @@
   height: 26px;
   top: 1px;
   display: flex;
-  
 }
 .link--localizador {
   display: flex;
@@ -774,29 +773,6 @@
   font-size: 27px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px) {
   .container--textFooM {
     justify-content: center;
@@ -970,63 +946,52 @@
     color: white;
     text-align: center;
     font-size: 12px;
-}
-.link--numerodecontacto-pbx {
-  color: white;
-  text-align: center;
-  font-size: 12px;
-}
+  }
+  .link--numerodecontacto-pbx {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
   .container--numerodecontacto-pbx {
     justify-content: center;
+  }
+  .container--textosPrinc {
+    margin-top: 80px;
+  }
+  .container--productMOBILE1 {
+    text-align: center;
+    justify-content: center;
+  }
+  .paragraph--productMOBILE1 {
+    text-align: center;
+  }
+  .container--productMOBILE1 {
+    width: 100%;
+  }
+  .paragraph--productMOBILE1 {
+    font-family: 'KLAVIKA';
+    font-size: 19px;
+  }
+  .container--footerMobilePart2 {
+    width: 100%;
+    padding: 0 22px;
+    font-family: 'KLAVIKA';
+    text-transform: uppercase;
+    display: flex;
+  }
+  .wrapper--footerMobilePart2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+  }
+  .link--quienes-somosBOTONCOMPRAR {
+    font-size: 17px;
+  }
+  .paragraph--filtroseleccionado {
+    font-family: 'KLAVIKA';
+    text-transform: uppercase;
+  }
 }
-.container--textosPrinc {
-  margin-top: 80px;
-}
-.container--productMOBILE1 {
-  text-align: center;
-  justify-content: center;
-}
-.paragraph--productMOBILE1 {
-  text-align: center;
-}
-.container--productMOBILE1 {
-  width: 100%;
-}
-.paragraph--productMOBILE1 {
-  font-family: 'KLAVIKA';
-  font-size: 19px;
-}
-.container--footerMobilePart2 {
-  width: 100%;
-  padding: 0 22px;
-  font-family: 'KLAVIKA';
-  text-transform: uppercase;
-  display: flex;
-}
-.wrapper--footerMobilePart2 {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: white;
-}
-.link--quienes-somosBOTONCOMPRAR {
-  font-size: 17px;
-}
-.paragraph--filtroseleccionado {
-  font-family: 'KLAVIKA';
-  text-transform: uppercase;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
 
 .link--textFooM {
   color: white;
@@ -1201,4 +1166,8 @@
 
 .headingLevel1--textosPrinc {
   color: #3c3c3c;
+}
+
+.heading-level-3 {
+  font-family: 'KLAVIKA';
 }

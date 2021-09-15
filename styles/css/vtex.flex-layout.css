@@ -424,29 +424,10 @@
 }
 
 @media (max-width: 600px) {
-.flexRowContent--seccionNewletter {
-  background: none;
+  .flexRowContent--seccionNewletter {
+    background: none;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 600px) {
   .flexRow--contenedorC {
@@ -457,9 +438,9 @@
     padding: 0 0px;
   }
   .flexRow--barra-Ordenar {
-    background-color: transparent!important;
+    background-color: transparent !important;
     margin: 0 auto;
-    width: 95%!important;
+    width: 95% !important;
   }
   .flexRowContent--Pre-header {
     padding: 0 0px !important;
@@ -635,7 +616,7 @@
     display: block !important;
     column-count: unset !important;
   }
-/*  .flexRowContent--barra-Ordenar .flexCol--orderby {
+  /*  .flexRowContent--barra-Ordenar .flexCol--orderby {
     margin-right: 8px;
   }*/
   .flexRowContent--inputsNewsletter {
@@ -794,40 +775,30 @@
   }
   .flexCol--productbuy {
     padding-left: 0;
+  }
+  .flexRow--TAB-MOBILE .stretchChildrenWidth {
+    flex-wrap: wrap;
+  }
+  .flexRow--TAB-MOBILE {
+    display: block;
+  }
+  .gallery {
+    margin: 0 auto;
+  }
+  .flexCol--buyc :global(.vtex-button__label) {
+    width: 100% !important;
+    padding: 0 !important;
+    min-height: 25px;
+    /*  margin: 0px 0 0 11px;*/
+  }
+  .flexRowContent--filtroseleccionado {
+    background: white;
+    margin: 5px auto;
+    width: 92%;
+    border-radius: 10px;
+    padding: 18px;
+  }
 }
-.flexRow--TAB-MOBILE .stretchChildrenWidth {
-  flex-wrap: wrap;
-}
-.flexRow--TAB-MOBILE {
-  display: block;
-}
-.gallery {
-  margin: 0 auto;
-}
-.flexCol--buyc :global(.vtex-button__label) {
-  width: 100%!important;
-  padding: 0!important;
-  min-height: 25px;
-/*  margin: 0px 0 0 11px;*/
-}
-.flexRowContent--filtroseleccionado {
-  background: white;
-  margin: 5px auto;
-  width: 92%;
-  border-radius: 10px;
-  padding: 18px;
-}
-}
-
-
-
-
-
-
-
-
-
-
 
 .flexRow--identifierProduct .stretchChildrenWidth {
   padding: 0;
@@ -968,4 +939,8 @@
 
 .flexColChild--productbuy :global(.vtex-button) {
   width: 100% !important;
+}
+
+.flexCol--titulo-localizador-header--modal {
+  padding-left: 2.5rem;
 }

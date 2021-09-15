@@ -1,24 +1,33 @@
 .changeLocationSubmitContainer :global(.vtex-button__label) {
-    background-color: #f5b325;
-    font-size: 0;
-    border-radius: 5px;
-    font-family: 'KLAVIKA';
+  background-color: #f5b325;
+  font-size: 0;
+  border-radius: 5px;
+  font-family: 'KLAVIKA';
+  color: #3c3c3c;
 }
 .changeLocationSubmitContainer :global(.vtex-button__label)::after {
-    content: "Guardar";
-    font-size: 18px;
-    font-family: 'KLAVIKA';
-    padding: 10px;
+  content: 'Guardar';
+  font-size: 18px;
+  font-family: 'KLAVIKA';
+  padding: 10px;
 }
 .changeLocationGeoContainer :global(.vtex-button__label) {
-    background-color: #f5b325;
-    border-radius: 5px;
-    font-family: 'KLAVIKA';
-    padding: 30px;
+  background-color: #f5b325;
+  border-radius: 5px;
+  font-family: 'KLAVIKA';
+  padding: 13px 40px !important;
 }
-.changeLocationGeoContainer {
-    display: none;
+.changeLocationFormContainer {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .changeLocationMapContainer {
-    border: 1px solid;
+  border: 1px dashed;
+  background-color: #9999991a;
+}
+.addressInputContainer :global(.vtex-input__label) {
+  font-family: 'Klavika-light';
+}
+.addressInputContainer :global(.vtex-dropdown__label) {
+  font-family: 'Klavika-light';
 }

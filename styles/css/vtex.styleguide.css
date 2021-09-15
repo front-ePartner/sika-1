@@ -54,5 +54,8 @@
   .hideDecorators:last-child {
     width: 265px !important;
   }
+}
 
+.dropdown :global(.vtex-dropdown__label) {
+  font-family: 'Klavika-light';
 }
