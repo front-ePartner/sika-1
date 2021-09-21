@@ -198,6 +198,10 @@
     padding-top: 0;
     padding-right: 0;
   }
+
+  .sliderLayoutContainer--carousel {
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 1480px) {
