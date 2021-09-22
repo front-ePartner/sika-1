@@ -1110,7 +1110,7 @@
     "children": [/*"flex-layout.row#contactoM",*/ "flex-layout.row#mobile", "flex-layout.row#PreMobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["logo", "login", "rich-text#misPedidos", "minicart.v2"],
+    "children": ["logo", "modal-trigger#1localizador", "login", "rich-text#misPedidos", "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "verticalAlign": "center",
