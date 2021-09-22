@@ -14,3 +14,25 @@
     font-family: 'KLAVIKA';
     display: flex;
 }
+@media (max-width: 600px) {
+.availabilityHeader--localizador-header--modal::after {
+    display: none !important;
+}
+.availabilityHeader--localizador-header--modal::before {
+    display: flex !important;
+    margin: 31px 0 0 -10px !important;
+    align-items: center !important;
+    background-size: 100% !important;
+    width: 15px;
+}
+.availabilityHeader--localizador-header--modal::before {    
+    display: flex !important;
+    margin: 31px 0 0 -10px !important;
+    align-items: center !important;
+    background-size: 100% !important;
+    width: 15px;
+    }
+.availabilityHeader--localizador-header--modal::after { 
+    display: none !important;
+}
+}
